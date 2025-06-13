@@ -1,0 +1,51 @@
+## ⚙️ INITIAL SETUP: Local & Core Tools Installation
+
+> **Tech Stack:**
+
+
+Frontend:** Next.js + TailwindCSS + TypeScript
+    npx create-next-app@latest  (https://nextjs.org/docs/app/getting-started/installation)
+    npm install axios swr tanstack/react-query shadcn
+
+
+Backend:** Python (FastAPI and Django)
+    start venv 
+        C:\Users\hp\AppData\Local\Programs\Python\Python313\python.exe -m venv .venv
+
+        activate venv
+        .\.venv\Scripts\Activate.ps1
+
+    pip install "fastapi[standard]" (https://fastapi.tiangolo.com/)
+    python -m pip install Django (https://docs.djangoproject.com/en/5.2/topics/install/#installing-official-release)
+
+
+
+
+AI Layer:** (for prompt-to-vendor discovery)
+    DeepSeek = (https://openrouter.ai/deepseek/deepseek-r1-0528:free/api)
+    LangChain = pip install -qU "langchain[google-genai]" (https://python.langchain.com/docs/introduction/)
+
+
+
+Database:** PostgreSQL
+
+
+
+Vector DB:** ChromaDB (for prompt memory)  
+    pip install chromadb
+
+
+
+Scraping Tools:** Instaloader + Selenium + Requests + BeautifulSoup  
+    pip install instaloader selenium requests beautifulsoup4
+    
+
+npm install motion
+
+
+
+summery
+pip install fastapi uvicorn requests bs4 langchain chromadb
+npm create next-app@latest frontend ; cd frontend
+   npm install tailwindcss postcss autoprefixer
+   npx tailwindcss init -p

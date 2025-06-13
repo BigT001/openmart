@@ -1,0 +1,142 @@
+Perfect — let’s fully restructure **OpenMart** around **DeepSeek AI** as the core LLM and organize the project from scratch with a clean, production-grade architecture.
+
+---
+
+## 🚀 OpenMart (AI-Powered Marketplace) – **Updated Project Architecture with DeepSeek**
+
+---
+
+### 🎯 **Core Features Recap**
+
+1. Natural language product search (e.g., "Red Toyota in Lagos under ₦5M")
+2. AI extracts structured data → fetches from vendor networks (online/social)
+3. Vendor verification and product listing system
+4. Cart + Checkout (with secure payment)
+5. User and order management
+6. AI-enhanced vendor/product search and ranking
+7. Scalable, fast, and secure system
+
+---
+
+## 🧱 **Updated Tech Stack (2025)**
+
+### 🖥️ Frontend (Client-Facing UI)
+
+| Tool                          | Purpose                                      |
+| ----------------------------- | -------------------------------------------- |
+| **Next.js (v14+ App Router)** | React framework for fast, scalable UI        |
+| **TypeScript**                | Type safety across app                       |
+| **Tailwind CSS**              | Utility-first responsive styling             |
+| **ShadCN/UI**                 | Clean, accessible UI components              |
+| **Axios or SWR**              | Data fetching from backend APIs              |
+| **Framer Motion**             | Smooth UI animations (for cart, transitions) |
+| **React Hook Form + Zod**     | Forms & validation (checkout, search, etc.)  |
+
+---
+
+### ⚙️ Backend (API & Services)
+
+| Tool                        | Purpose                                                      |
+| --------------------------- | ------------------------------------------------------------ |
+| **Django + DRF**            | Core backend: user auth, vendors, orders, products, admin    |
+| **PostgreSQL**              | Relational DB for all structured data                        |
+| **FastAPI (Microservice)**  | AI search service (handles DeepSeek, scraping, async search) |
+| **DeepSeek AI**             | LLM used for natural language search parsing                 |
+| **LangChain (Optional)**    | For chaining prompts or tools around DeepSeek                |
+| **ChromaDB**                | Vector database for semantic search of product/vendor data   |
+| **Celery + Redis**          | Background tasks (e.g., scrape vendors, send emails/SMS)     |
+| **Stripe/Paystack**         | Payment gateway (depends on global/Nigerian users)           |
+| **Docker + Docker Compose** | Containerization for local/dev environments                  |
+| **NGINX + Gunicorn**        | Production-ready serving stack                               |
+
+---
+
+### 🔐 Authentication & Authorization
+
+| Tool                                   | Purpose                              |
+| -------------------------------------- | ------------------------------------ |
+| **Django AllAuth or Django REST Auth** | User login, registration, email auth |
+| **JWT or Session Auth**                | Secure API requests                  |
+| **Role-based Access**                  | Vendor vs. Buyer management          |
+
+---
+
+### 🧠 AI & Search Layer (DeepSeek-powered)
+
+| Component                | Purpose                                                    |
+| ------------------------ | ---------------------------------------------------------- |
+| **FastAPI app**          | Accepts user prompts from frontend                         |
+| **DeepSeek AI**          | Converts user prompts to structured search terms           |
+| **LangChain (optional)** | Prompt chaining, tool calling, result ranking              |
+| **ChromaDB**             | Embedding-based product and vendor search                  |
+| **Scraper module**       | Async scraping of verified vendor sources (Jiji, IG, etc.) |
+
+---
+
+### 📦 Deployment & DevOps
+
+| Tool                     | Purpose                             |
+| ------------------------ | ----------------------------------- |
+| **Docker + Compose**     | Local development                   |
+| **GitHub Actions**       | CI/CD pipelines                     |
+| **Terraform (optional)** | Infra-as-code for provisioning      |
+| **AWS / GCP / Azure**    | Hosting infrastructure              |
+| **Cloudflare**           | CDN + security (DDoS, routing, SSL) |
+| **Sentry or LogRocket**  | Error monitoring                    |
+| **PostHog or Plausible** | Analytics (privacy-conscious)       |
+
+---
+
+## 🧩 Modular Architecture Overview
+
+```plaintext
+📦 openmart/
+├── frontend/                     # Next.js frontend
+│   ├── components/
+│   ├── pages/ (or app/ with App Router)
+│   ├── lib/ (API utils, form validation)
+│   └── public/
+│
+├── backend/
+│   ├── core_api/                # Django + DRF
+│   │   ├── products/
+│   │   ├── vendors/
+│   │   ├── orders/
+│   │   ├── users/
+│   │   └── settings.py
+│   └── manage.py
+│
+├── ai_service/                  # FastAPI service
+│   ├── main.py                  # FastAPI app
+│   ├── search_engine/           # DeepSeek integrations
+│   ├── chromadb/                # Vector search
+│   └── prompts/                 # Prompt templates for DeepSeek
+│
+├── docker-compose.yml
+├── Dockerfile (for Django)
+├── Dockerfile.fastapi
+└── README.md
+```
+
+---
+
+## 🔄 Workflow Example
+
+1. **User** types: “I want a black iPhone 13 Pro under ₦500k in Abuja”
+2. **Next.js frontend** → sends prompt to **FastAPI service**
+3. **FastAPI + DeepSeek** → parses prompt → returns structured filter
+4. **Django backend** → queries DB or external APIs/vendors
+5. **Product list** → returned to user with cart options
+6. **Checkout** via Stripe/Paystack → Order logged in backend
+7. **Vendor** gets notified → ships product directly to buyer
+
+---
+
+Would you like next:
+
+* 🛠️ Full GitHub repo structure with setup commands?
+* 📐 Database schema (ERD) for vendors, orders, products, users?
+* 🧠 Sample DeepSeek prompt templates and how to call it in code?
+* ⚡ Ready-to-run FastAPI + DeepSeek search service?
+
+Let me know how deep you want to go next.

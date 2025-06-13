@@ -1,0 +1,56 @@
+2025-06-13 13:39:57,917 - INFO - DeepSeek service initialized
+2025-06-13 13:40:05,125 - ERROR - Instagram login failed: Login error: "fail" status, message "".
+2025-06-13 13:40:05,126 - INFO - ScrapingService initialized
+2025-06-13 14:12:29,341 - INFO - DeepSeek service initialized
+2025-06-13 14:12:32,573 - ERROR - Instagram login failed: Login error: "fail" status, message "".
+2025-06-13 14:12:32,573 - INFO - ScrapingService initialized
+2025-06-13 14:17:57,227 - INFO - DeepSeek service initialized
+2025-06-13 14:18:01,178 - ERROR - Instagram login failed: Login error: "fail" status, message "".
+2025-06-13 14:18:01,178 - INFO - ScrapingService initialized
+2025-06-13 14:18:01,178 - INFO - Processing prompt: black shirt under 30k
+2025-06-13 14:18:01,239 - INFO - Making API call to DeepSeek with messages: [{'role': 'system', 'content': 'You are a smart shopping assistant that helps understand user shopping requests.\n        Extract structured information from the shopping query.\n        \n        Guidelines:\n        1. Price ranges should be exact numbers when specified\n        2. Product type should be specific but general enough for categorization\n        3. Specifications should include all important details\n        4. Consider Nigerian market context and currency (NGN/\u20a6)\n        \n        Always return a JSON object with the following fields:\n        {\n            "product_type": "string - Main product category or type",\n            "specifications": ["list of key features or requirements"],\n            "price_range": {\n                "minimum": float or null,\n                "maximum": float or null,\n                "target": float or null\n            },\n            "brands": ["list of mentioned brands"],\n            "colors": ["list of color preferences"],\n            "condition": "string - new/used/any",\n            "urgency": "string - delivery timing if mentioned",\n            "location": "string - location preferences if mentioned",\n            "style": "string - style preferences if mentioned",\n            "size": "string - size requirements if mentioned"\n        }\n        '}, {'role': 'user', 'content': 'black shirt under 30k'}]
+2025-06-13 14:18:03,416 - ERROR - DeepSeek API error: Status 401, Response: {"error":{"message":"Authentication Fails, Your api key: ****5741 is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2025-06-13 14:18:03,417 - ERROR - Error calling DeepSeek API: DeepSeek API error: {"error":{"message":"Authentication Fails, Your api key: ****5741 is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2025-06-13 14:18:03,433 - ERROR - Error in process_prompt: DeepSeek API error: {"error":{"message":"Authentication Fails, Your api key: ****5741 is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2025-06-13 14:20:04,262 - INFO - DeepSeek service initialized
+2025-06-13 14:20:11,497 - ERROR - Instagram login failed: Login error: "fail" status, message "".
+2025-06-13 14:20:11,498 - INFO - ScrapingService initialized
+2025-06-13 14:20:11,498 - INFO - Processing prompt: black shirt under 30k
+2025-06-13 14:20:11,498 - INFO - Making API call to DeepSeek with messages: [{'role': 'system', 'content': 'You are a smart shopping assistant that helps understand user shopping requests.\n        Extract structured information from the shopping query.\n        \n        Guidelines:\n        1. Price ranges should be exact numbers when specified\n        2. Product type should be specific but general enough for categorization\n        3. Specifications should include all important details\n        4. Consider Nigerian market context and currency (NGN/\u20a6)\n        \n        Always return a JSON object with the following fields:\n        {\n            "product_type": "string - Main product category or type",\n            "specifications": ["list of key features or requirements"],\n            "price_range": {\n                "minimum": float or null,\n                "maximum": float or null,\n                "target": float or null\n            },\n            "brands": ["list of mentioned brands"],\n            "colors": ["list of color preferences"],\n            "condition": "string - new/used/any",\n            "urgency": "string - delivery timing if mentioned",\n            "location": "string - location preferences if mentioned",\n            "style": "string - style preferences if mentioned",\n            "size": "string - size requirements if mentioned"\n        }\n        '}, {'role': 'user', 'content': 'black shirt under 30k'}]
+2025-06-13 14:20:12,210 - ERROR - DeepSeek API error: Status 401, Response: {"error":{"message":"Authentication Fails, Your api key: ****5741 is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2025-06-13 14:20:12,210 - ERROR - Error calling DeepSeek API: DeepSeek API error: {"error":{"message":"Authentication Fails, Your api key: ****5741 is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2025-06-13 14:20:12,211 - ERROR - Error in process_prompt: DeepSeek API error: {"error":{"message":"Authentication Fails, Your api key: ****5741 is invalid","type":"authentication_error","param":null,"code":"invalid_request_error"}}
+2025-06-13 14:52:49,107 - INFO - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-06-13 14:52:52,056 - ERROR - Instagram login failed: Login error: "fail" status, message "".
+2025-06-13 14:52:52,057 - INFO - ScrapingService initialized
+2025-06-13 14:53:47,480 - INFO - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-06-13 14:53:51,714 - ERROR - Instagram login failed: Login error: "fail" status, message "".
+2025-06-13 14:53:51,715 - INFO - ScrapingService initialized
+2025-06-13 14:53:51,715 - INFO - Processing prompt: black shirt under 30k
+2025-06-13 14:53:51,715 - INFO - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-06-13 14:53:52,436 - ERROR - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-06-13 14:53:52,436 - ERROR - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-06-13 14:53:52,438 - ERROR - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-06-13 15:13:04,157 - INFO - Registering API routes...
+2025-06-13 15:13:04,161 - INFO - \u2705 Successfully registered search router
+2025-06-13 15:13:04,161 - INFO - \u2705 Successfully registered products router
+2025-06-13 15:14:32,760 - INFO - Registering API routes...
+2025-06-13 15:14:32,763 - INFO - \u2705 Successfully registered search router
+2025-06-13 15:14:32,768 - INFO - \u2705 Successfully registered products router
+2025-06-13 15:16:16,368 - INFO - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-06-13 15:16:16,368 - INFO - Initializing ScrapingService...
+2025-06-13 15:16:16,369 - INFO - Attempting Instagram login with username: smmmm_mmmy
+2025-06-13 15:16:21,297 - ERROR - \u274c Instagram login failed: Login error: "fail" status, message "".
+2025-06-13 15:16:21,297 - ERROR - Please check your Instagram credentials in .env file
+2025-06-13 15:16:21,298 - INFO - ScrapingService initialization completed
+2025-06-13 15:37:20,177 - INFO - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-06-13 15:37:20,177 - INFO - Initializing ScrapingService...
+2025-06-13 15:37:20,178 - INFO - Attempting Instagram login with username: smmmm_mmmy
+2025-06-13 15:37:23,731 - ERROR - \u274c Instagram login failed: Login error: "fail" status, message "".
+2025-06-13 15:37:23,731 - ERROR - Please check your Instagram credentials in .env file
+2025-06-13 15:37:23,731 - INFO - ScrapingService initialization completed
+2025-06-13 15:37:23,731 - INFO - Processing prompt: red sweater 
+2025-06-13 15:37:23,731 - INFO - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-06-13 15:37:24,406 - ERROR - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-06-13 15:37:24,406 - ERROR - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-06-13 15:37:24,408 - ERROR - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}

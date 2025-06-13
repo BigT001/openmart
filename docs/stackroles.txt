@@ -1,0 +1,130 @@
+🔧 **Full Project Stack Breakdown with Functional Roles**
+
+---
+
+### 🖥️ **Frontend (User Interface)**
+
+**Tech: Next.js + TailwindCSS + TypeScript + TanStack Query + ShadCN**
+
+| Tool                             | Role in the Project                                                                                                                                                                                                                                    |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Next.js**                      | React-based framework used to build a performant, SEO-optimized, and scalable frontend. Enables server-side rendering and routing for the app. It powers the buyer interface (product search, browse, cart, checkout) and any admin-facing dashboards. |
+| **TypeScript**                   | Adds static typing to JavaScript for safer and cleaner code. Helps prevent bugs and improve developer productivity.                                                                                                                                    |
+| **TailwindCSS**                  | Utility-first CSS framework for styling UI components rapidly and responsively. Ensures your marketplace looks clean and is mobile-ready.                                                                                                              |
+| **TanStack Query (React Query)** | Handles client-side data fetching and caching. Automatically updates product listings, cart data, vendor feeds, etc., in real time without over-fetching.                                                                                              |
+| **Axios/SWR**                    | Axios helps send HTTP requests to your backend; SWR (optional) is great for auto-fetching and caching simpler API data like profile info.                                                                                                              |
+| **ShadCN/UI**                    | UI component library built on top of TailwindCSS + Radix UI. Provides prebuilt clean, accessible components like modals, buttons, inputs — helps build fast, modern UIs.                                                                               |
+
+---
+
+### 🧠 **AI Layer (Prompt-to-Product Discovery)**
+
+**Tech: DeepSeek, LangChain**
+
+| Tool          | Role in the Project                                                                                                                                                                       |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **DeepSeek**  | Powerful AI model used to process user prompts like: “I need iPhone 13 under 500K” or “I’m looking for red heels in Lagos.” It interprets intent and queries relevant vendor data.        |
+| **LangChain** | Framework that wraps LLMs like DeepSeek or Gemini and gives them tools like memory, chaining, search, and integrations with ChromaDB, scraping, or APIs. It orchestrates AI tasks like:\\ |
+
+* Understanding buyer prompts\\
+* Querying vendor data\\
+* Filtering based on price/location\\
+* Generating product summaries and replies |
+
+---
+
+### ⚙️ **Backend (Application Logic + API Layer)**
+
+**Tech: FastAPI + Django**
+
+| Tool        | Role in the Project                                                                              |
+| ----------- | ------------------------------------------------------------------------------------------------ |
+| **FastAPI** | Lightning-fast API framework ideal for building REST or async APIs. Used for the core app API:\\ |
+
+* Prompt handling\\
+* Search requests\\
+* Cart/order handling\\
+* AI interaction endpoints\\
+* Serving vendor/product results |
+  \| **Django** | Can be used optionally for future admin panels, advanced authentication, user dashboards, CMS-style control. Django ORM could power user management and staff tools.
+  You may choose **either FastAPI OR Django**, not both. Prefer FastAPI for this use case. |
+
+---
+
+### 🗃️ **Database (Data Storage Layer)**
+
+**Tech: PostgreSQL**
+
+| Tool           | Role in the Project                                     |
+| -------------- | ------------------------------------------------------- |
+| **PostgreSQL** | Main relational database for storing structured data:\\ |
+
+* Users, sessions, carts\\
+* Product metadata\\
+* Order history\\
+* Vendor details (fetched and indexed)\\
+* Payment tracking |
+
+---
+
+### 🧠 **Vector Store (Semantic Memory for Prompts)**
+
+**Tech: ChromaDB**
+
+| Tool                                                                                                                          | Role in the Project                                                                                                                                                  |
+| ----------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **ChromaDB**                                                                                                                  | Stores AI prompts and vendor/product embeddings to allow **semantic search**. Helps DeepSeek + LangChain find relevant results even if query wording is non-exact.\\ |
+| Example: “Phone under 500K with good camera” might still fetch “Infinix Zero Ultra” even if the phrase doesn't match exactly. |                                                                                                                                                                      |
+
+---
+
+### 🔍 **Scraping + Vendor Product Extraction Layer**
+
+**Tech: Instaloader, Selenium, Requests, BeautifulSoup**
+
+| Tool                                                     | Role in the Project                                                                                                                                      |
+| -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Instaloader**                                          | Scrapes public Instagram profiles and hashtags to collect vendor posts.\\                                                                                |
+| Used to fetch image, caption, date, and possible prices. |                                                                                                                                                          |
+| **Selenium**                                             | Automates browser to load dynamic content (like Instagram scrolling, pop-ups, hidden prices). Essential for JS-heavy pages.                              |
+| **Requests**                                             | Simple HTTP library to fetch pages, APIs, or JSON endpoints (Instagram Graph, TikTok vendor bios, etc).                                                  |
+| **BeautifulSoup**                                        | Parses HTML responses to extract text, images, and metadata from vendor posts. Example: extract caption like “Red heels for 15k” from an Instagram post. |
+
+---
+
+### 📦 **Other Tools / Ecosystem Dependencies**
+
+| Tool                             | Purpose                                                             |
+| -------------------------------- | ------------------------------------------------------------------- |
+| **Vite / Webpack (via Next.js)** | Bundles and compiles frontend code.                                 |
+| **Uvicorn**                      | ASGI server for running FastAPI in production or local development. |
+| **Python venv**                  | Isolates Python dependencies locally.                               |
+| **Node.js**                      | Required for running Next.js frontend.                              |
+
+---
+
+### 🛠️ Example Summary of CLI Setup Flow
+
+```bash
+# Frontend
+npx create-next-app frontend
+cd frontend
+npm install tailwindcss postcss autoprefixer axios @tanstack/react-query shadcn
+npx tailwindcss init -p
+
+# Backend
+python -m venv .venv
+source .venv/bin/activate   # or .\.venv\Scripts\activate.ps1 on Windows
+pip install fastapi uvicorn langchain chromadb selenium requests bs4
+
+# PostgreSQL setup (Docker preferred or local installation)
+
+# AI layer
+# Sign up for DeepSeek and get API Key
+# Configure LangChain with DeepSeek model wrapper
+
+# Vector DB
+# ChromaDB setup and persistence storage
+```
+
+---

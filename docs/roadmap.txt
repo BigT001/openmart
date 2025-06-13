@@ -1,0 +1,130 @@
+
+
+# 🚧 **Full Development Roadmap for OpenMart**
+
+
+
+3. **Setup GitHub repo + CI**
+
+   * `.github/workflows/deploy.yml` for CI/CD
+   * `Dockerfile` for backend containerization
+   * Use **Railway**, **Render**, or **Fly.io** for hosting MVP
+
+---
+
+
+
+---
+
+## 🔁 Phase 2 – Marketplace Core & Logistics
+
+> 🔑 Goal: Build a real buyer experience with checkout and simplified vendor mapping
+
+### 🔧 Features
+
+| Feature                    | Description                           |
+| -------------------------- | ------------------------------------- |
+| User Account               | Login, saved carts, history           |
+| Order Flow                 | Place order, set delivery/pickup      |
+| Vendor abstraction         | Buyer doesn’t see vendor directly     |
+| Admin vendor management    | Approve, deactivate, score vendors    |
+| Basic Delivery Integration | Local delivery estimation or status   |
+| Analytics dashboard        | Buyer conversion rates, prompt trends |
+
+### 🔐 Security & Trust
+
+* Vendor verification via IG/WA business API
+* Backup checks via NIN/BVN API (if needed)
+
+---
+
+## 🚀 Phase 3 – Vendor Platform + Monetization
+
+> 🔑 Goal: Build the **vendor-facing dashboard**, grow inventory, introduce commissions
+
+### 🔧 Features
+
+| Feature                      | Description                                   |
+| ---------------------------- | --------------------------------------------- |
+| Vendor Signup & Verification | Manual + automated checks                     |
+| Vendor Dashboard             | Add/edit products, view orders, stats         |
+| Commission Engine            | 3–10% on every successful order               |
+| Wallet/Withdrawal System     | Vendors withdraw weekly/monthly               |
+| Review Engine                | Rate vendors internally (optional to show)    |
+| Notifications                | Order alerts for vendors/buyers via email/SMS |
+
+---
+
+## 🧱 Optional Add-Ons (Post Launch)
+
+| Feature                          | Notes                                       |
+| -------------------------------- | ------------------------------------------- |
+| AI product match                 | Suggest similar products from other vendors |
+| Vendor-to-Vendor chat            | Cross promotion and discovery               |
+| Native Mobile App (React Native) | Later after solidified web UX               |
+| Subscription tiers for vendors   | Premium visibility/boosts, no commission    |
+
+---
+
+## 📊 Dev Timeline Suggestion
+
+| Phase         | Duration  | Milestone                         |
+| ------------- | --------- | --------------------------------- |
+| Phase 1 (MVP) | 3–5 weeks | Prompt search, cart, IG scraping  |
+| Phase 2       | 4–6 weeks | Checkout, vendor logic, dashboard |
+| Phase 3       | 5–7 weeks | Vendor portal, payouts, reviews   |
+
+---
+
+## 🛠️ Tools You'll Need
+
+| Tool/Service    | Purpose                             |
+| --------------- | ----------------------------------- |
+| GitHub + CI/CD  | DevOps and team collaboration       |
+| Railway/Render  | Backend hosting                     |
+| Vercel          | Next.js hosting                     |
+| DeepSeek AI     | Prompt understanding/classification |
+| ChromaDB        | Store prompt + vendor memory        |
+| Notion/Airtable | Manage vendor onboarding + CRM      |
+
+---
+
+Would you like:
+
+* A visual system architecture diagram next?
+* GitHub repo starter template?
+* Trello/Notion task board to manage this roadmap?
+
+Let me know and I’ll build it out.
+
+
+
+
+
+
+Hybrid Option (Best of Both)
+Use Django for core admin + vendor/order management, and FastAPI for AI/search layer.
+
+Django:
+
+Admin panel for internal ops
+
+User management
+
+Escrow logic
+
+Vendor KYC & orders
+
+
+
+FastAPI:
+
+Conversational search API (e.g., “red bag under 20k”)
+
+AI-based product parsing
+
+Social media content ingestion
+
+Async background jobs (Celery or RQ)
+
+This lets you move fast, scale well, and keep the project clean.

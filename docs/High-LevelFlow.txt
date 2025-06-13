@@ -1,0 +1,157 @@
+# 🧠 OpenMart: End-to-End System Workflow Documentation
+
+## 🔧 Project Overview
+
+**OpenMart** is a smart, AI-powered social commerce platform that lets users search for products posted by vendors on social media platforms. Users can enter natural language prompts (e.g., "Red bag under 20k"), and the system will fetch, filter, and display matching items posted on Instagram, TikTok, etc., allowing users to shop directly through OpenMart.
+
+---
+
+## 🧱 Tech Stack Summary
+
+### ⚙️ Frontend
+
+* **Next.js + TailwindCSS + TypeScript**
+* State/Data Layer: React Query (TanStack)
+* UI Library: ShadCN
+
+### ⚙️ Backend
+
+* **FastAPI (Main) / Django (Optional for admin CMS)**
+
+### 📦 Database
+
+* **PostgreSQL** (Structured Data)
+* **ChromaDB** (Vector DB for semantic search and memory)
+
+### 🧠 AI/LLM Layer
+
+* **DeepSeek API** – For interpreting user prompts
+* **LangChain** – Orchestration layer for tools, prompt routing, and memory
+
+### 📄 Scraping Layer
+
+* **Instaloader + Selenium + Requests + BeautifulSoup** – For scraping product data from vendors' social media accounts
+
+---
+
+## 🧭 Prompt-to-Feedback Flow (End-to-End)
+
+### 🔹 Step 1: User Enters Prompt
+
+User types a prompt:
+
+> "I need an iPhone 13 under 500k"
+
+### 🔹 Step 2: Request Sent to FastAPI Backend
+
+The frontend sends this request to the FastAPI backend:
+
+```ts
+POST /api/search
+{
+  "prompt": "iPhone 13 under 500k"
+}
+```
+
+### 🔹 Step 3: FastAPI Routes Request to LangChain
+
+* LangChain handles prompt interpretation via DeepSeek or Gemini.
+* The prompt is transformed into structured parameters:
+
+```json
+{
+  "product": "iPhone 13",
+  "max_price": 500000,
+  "tags": ["iPhone", "Apple"]
+}
+```
+
+### 🔹 Step 4: Product Discovery Pipeline Begins
+
+LangChain triggers scraping/searching tools:
+
+* 🕵️‍♀️ Uses **ChromaDB** to look for semantically matched past product posts.
+* 🔍 Triggers **scrapers** (Instaloader, Selenium, etc.) to fetch fresh Instagram/TikTok posts tagged with iPhones.
+
+### 🔹 Step 5: Extracted Data Is Cleaned & Enriched
+
+* Caption, price, image, link, and seller info are extracted.
+* AI auto-tags and auto-categorizes the data.
+* The product listing is stored in **PostgreSQL** for structure and in **ChromaDB** for semantic recall.
+
+### 🔹 Step 6: Products Are Filtered & Ranked
+
+* Filtered by budget, keywords, category, recency.
+* Sorted by AI relevance or trending products.
+
+### 🔹 Step 7: Results Sent Back to Frontend
+
+FastAPI sends a structured response back to the frontend:
+
+```json
+[
+  {
+    "title": "iPhone 13 - ₦485,000",
+    "image": "https://...",
+    "seller": "@techsource",
+    "source": "Instagram",
+    "post_url": "https://instagram.com/...",
+    "add_to_cart": true
+  },
+  ...
+]
+```
+
+### 🔹 Step 8: User Views, Adds to Cart, and Orders
+
+* Products are displayed using **React Query** + **ShadCN** components.
+* User adds to cart and proceeds to order.
+* Order details are saved in **PostgreSQL**.
+* Vendor is notified (via DM or webhook depending on future automation).
+
+---
+
+## 🔄 Feedback Loop and Memory
+
+* All prompts are logged.
+* Frequently asked prompts are stored.
+* ChromaDB helps the AI remember user patterns/preferences.
+
+---
+
+## 🛠️ Admin / Vendor Dashboard (Optional Phase)
+
+* View orders by vendor
+* Review scraped posts
+* Manage flagged listings
+
+Built optionally using Django or a custom FastAPI dashboard.
+
+---
+
+## 🔐 Authentication & Onboarding
+
+* Users and vendors sign in via **social login** (e.g., Instagram, TikTok).
+* OAuth tokens are used to fetch public posts for scraping.
+
+---
+
+## 🌍 External APIs Used
+
+* **DeepSeek** – Prompt interpretation (LLM)
+* **LangChain** – Agent orchestration
+* **Gemini** (optional) – Alternate LLM for fallback or co-processing
+* **Social Media APIs** (optional) – For structured vendor post access in future
+
+---
+
+## 🔚 Summary
+
+This architecture creates a seamless AI-powered social commerce engine:
+
+* **Prompt in → Products out**
+* No product listing needed by vendors
+* AI + scraping powers discovery
+* PostgreSQL + ChromaDB manage structured and semantic data
+
+Would you like this exported as a PDF or Notion page?
