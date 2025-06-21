@@ -4,6 +4,7 @@ import React from 'react'
 import Link from 'next/link'
 import { Button } from './ui/button'
 import { motion, Variants } from 'framer-motion'
+import { useSession, signIn, signOut } from 'next-auth/react'
 
 const navVariants: Variants = {
   hidden: { y: -100, opacity: 0 },
@@ -46,7 +47,9 @@ const buttonVariants: Variants = {
   }
 }
 
-export function Navbar(): JSX.Element {
+export function Navbar() {
+  const { data: session } = useSession();
+
   return (
     <motion.header 
       variants={navVariants}
@@ -55,6 +58,7 @@ export function Navbar(): JSX.Element {
       className="fixed top-0 w-full z-50 border-b backdrop-blur-[6px] bg-white/40 dark:bg-gray-950/40"
     >
       <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
+        {/* Logo on the left */}
         <Link href="/" className="flex items-center space-x-2">
           <motion.span 
             className="text-2xl font-bold bg-gradient-to-r from-indigo-500 to-indigo-600 bg-clip-text text-transparent"
@@ -68,41 +72,38 @@ export function Navbar(): JSX.Element {
           </motion.span>
         </Link>
 
-        <div className="hidden md:flex items-center space-x-6">
-          {["Categories", "Vendors", "How it Works"].map((item) => (
-            <motion.div
-              key={item}
-              variants={itemVariants}
+        {/* Centered Blog link */}
+        <div className="flex-1 flex justify-center">
+          <motion.div variants={itemVariants}>
+            <Link 
+              href="/blog" 
+              className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-colors duration-200 text-lg font-semibold"
             >
-              <Link 
-                href={`/${item.toLowerCase().replace(" ", "-")}`} 
-                className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-colors duration-200"
-              >
-                {item}
-              </Link>
-            </motion.div>
-          ))}
+              Blog
+            </Link>
+          </motion.div>
         </div>
 
-        <div className="flex items-center space-x-4">
-          <motion.div
-            variants={itemVariants}
-          >
-            <Button 
-              variant="ghost" 
-              className="hidden md:flex hover:bg-indigo-50 dark:hover:bg-indigo-950 transition-colors duration-200"
-            >
-              Sign In
-            </Button>
-          </motion.div>
-          <motion.div
-            variants={itemVariants}
-            whileHover="hover"
-            whileTap="tap"
-          >
-            <Button className="bg-indigo-600 hover:bg-indigo-700 text-white transition-colors duration-200">
-              Get Started
-            </Button>
+        {/* Auth button on the right */}
+        <div className="flex items-center">
+          <motion.div variants={itemVariants}>
+            {session ? (
+              <Button 
+                variant="ghost" 
+                className="hover:bg-green-50 dark:hover:bg-green-950 transition-colors duration-200"
+                onClick={() => window.location.href = '/dashboard'}
+              >
+                Sell Your Product
+              </Button>
+            ) : (
+              <Button 
+                variant="ghost" 
+                className="hover:bg-indigo-50 dark:hover:bg-indigo-950 transition-colors duration-200"
+                onClick={() => signIn('google')}
+              >
+                Sign In
+              </Button>
+            )}
           </motion.div>
         </div>
       </nav>

@@ -53,12 +53,9 @@ export default function Home() {
   const router = useRouter()
 
   useEffect(() => {
-    // Check if user is logged in - we'll implement proper auth check later
-    const isLoggedIn = localStorage.getItem('openmart_auth')
-    if (!isLoggedIn) {
-      router.push('/auth')
-    }
-  }, [router])
+    // Remove forced redirect to /auth so landing page is always visible
+    // Auth logic can be handled elsewhere (e.g., dashboard route protection)
+  }, [])
 
   const handleExampleClick = (query: string) => {
     if (searchFormRef.current) {

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { inter } from "@/lib/fonts";
 import "./globals.css";
+import NextAuthSessionProvider from "@/components/session-provider";
 
 export const metadata: Metadata = {
   title: "OpenMart - AI-Powered Shopping",
@@ -15,7 +16,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable}`}>
       <body className={`${inter.className} antialiased bg-white dark:bg-gray-950`}>
-        {children}
+        <NextAuthSessionProvider>
+          {children}
+        </NextAuthSessionProvider>
       </body>
     </html>
   );

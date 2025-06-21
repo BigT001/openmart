@@ -1,20 +1,9 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { useRouter } from 'next/navigation'
+import { signIn } from 'next-auth/react'
 
 export default function AuthPage() {
-  const router = useRouter()
-
-  const handleEmailLogin = () => {
-    router.push('/dashboard')
-  }
-
-  const handleInstagramLogin = () => {
-    // We'll implement this with actual Instagram OAuth later
-    router.push('/dashboard')
-  }
-
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-950 flex items-center justify-center p-4">
       <motion.div 
@@ -34,17 +23,10 @@ export default function AuthPage() {
 
         <div className="space-y-4">
           <button
-            onClick={handleEmailLogin}
+            onClick={() => signIn('google', { callbackUrl: '/' })}
             className="w-full flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-colors duration-200"
           >
-            Continue with Email
-          </button>
-
-          <button
-            onClick={handleInstagramLogin}
-            className="w-full flex items-center justify-center px-4 py-3 border border-gray-300 dark:border-gray-600 text-base font-medium rounded-lg text-gray-700 dark:text-gray-200 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-colors duration-200"
-          >
-            Continue with Instagram
+            Sign in with Google
           </button>
         </div>
 
