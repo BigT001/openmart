@@ -14997,3 +14997,1420 @@ WHERE users.google_id = %(google_id_1)s OR users.email = %(email_1)s
  LIMIT %(param_1)s]
 [parameters: {'google_id_1': '109048330684621484627', 'email_1': 'stasam149@gmail.com', 'param_1': 1}]
 (Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-22 04:42:31,642 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-22 04:42:31,644 - DEBUG - openmart - Registering search router
+2025-06-22 04:42:31,646 - DEBUG - openmart - Registering products router
+2025-06-22 04:42:31,648 - DEBUG - openmart - Registering users router
+2025-06-22 04:42:31,649 - DEBUG - openmart - Registering vendors router
+2025-06-22 04:43:26,586 - INFO - openmart.vendors - [ONBOARD_VENDOR] Endpoint called. Payload: {'email': 'd86584859@gmail.com', 'business_name': 'very', 'business_description': 'openmart_db', 'business_phone': '08098756755', 'business_address': 'you logos streeys', 'category': 'Food'}
+2025-06-22 04:43:26,588 - INFO - openmart.vendors - [ONBOARD_VENDOR] User lookup for email d86584859@gmail.com: FOUND
+2025-06-22 04:43:26,633 - INFO - openmart.vendors - [ONBOARD_VENDOR] Vendor created with id: 41b22303-5298-4b6b-bcd3-0fe2d6aa1e07
+2025-06-22 04:54:05,121 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-22 04:54:05,123 - DEBUG - openmart - Registering search router
+2025-06-22 04:54:05,125 - DEBUG - openmart - Registering products router
+2025-06-22 04:54:05,126 - DEBUG - openmart - Registering users router
+2025-06-22 04:54:05,128 - DEBUG - openmart - Registering vendors router
+2025-06-22 04:55:30,100 - INFO - openmart.vendors - [ONBOARD_VENDOR] Endpoint called. Payload: {'email': 'stasam149@gmail.com', 'business_name': 'you', 'business_description': 'onboard-vendor', 'business_phone': '09056475', 'business_address': 'stasam149@gmail.com', 'category': 'Electronics'}
+2025-06-22 04:55:30,110 - INFO - openmart.vendors - [ONBOARD_VENDOR] User lookup for email stasam149@gmail.com: FOUND
+2025-06-22 04:55:30,123 - INFO - openmart.vendors - [ONBOARD_VENDOR] Vendor created with id: 9d549aae-0840-4d59-88ae-181878952ebb
+2025-06-22 10:18:38,439 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-22 10:18:38,445 - DEBUG - openmart - Registering search router
+2025-06-22 10:18:38,487 - DEBUG - openmart - Registering products router
+2025-06-22 10:18:38,559 - DEBUG - openmart - Registering users router
+2025-06-22 10:18:38,625 - DEBUG - openmart - Registering vendors router
+2025-06-22 10:23:33,920 - INFO - openmart.vendors - [ONBOARD_VENDOR] Endpoint called. Payload: {'email': 'stasam149@gmail.com', 'business_name': 'you', 'business_description': 'models\\vendor.py", line 28, in Vendor\n    products = relationship("Product", back_populates="vendor", cascade="all, delete-orphan")\n               ^^^^^^^^^^^^\nNameError: name \'relationship\' is not defined\n', 'business_phone': '09056475', 'business_address': 'stasam149@gmail.com', 'category': 'Electronics, Food'}
+2025-06-22 10:23:33,925 - INFO - openmart.vendors - [ONBOARD_VENDOR] User lookup for email stasam149@gmail.com: FOUND
+2025-06-22 10:23:33,970 - INFO - openmart.vendors - [ONBOARD_VENDOR] Vendor created with id: 388f85aa-22c6-43bf-bfc8-1796f9b56f9c
+2025-06-22 10:35:20,201 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-22 10:35:20,204 - DEBUG - openmart - Registering search router
+2025-06-22 10:35:20,206 - DEBUG - openmart - Registering products router
+2025-06-22 10:35:20,211 - DEBUG - openmart - Registering users router
+2025-06-22 10:35:20,212 - DEBUG - openmart - Registering vendors router
+2025-06-22 11:00:00,486 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-22 11:00:00,490 - DEBUG - openmart - Registering search router
+2025-06-22 11:00:00,492 - DEBUG - openmart - Registering products router
+2025-06-22 11:00:00,498 - DEBUG - openmart - Registering users router
+2025-06-22 11:00:00,501 - DEBUG - openmart - Registering vendors router
+2025-06-22 11:00:13,134 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-22 11:00:13,142 - DEBUG - openmart - Registering search router
+2025-06-22 11:00:13,145 - DEBUG - openmart - Registering products router
+2025-06-22 11:00:13,152 - DEBUG - openmart - Registering users router
+2025-06-22 11:00:13,158 - DEBUG - openmart - Registering vendors router
+2025-06-22 11:09:07,020 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-22 11:09:07,030 - DEBUG - openmart - Registering search router
+2025-06-22 11:09:07,042 - DEBUG - openmart - Registering products router
+2025-06-22 11:09:07,054 - DEBUG - openmart - Registering users router
+2025-06-22 11:09:07,058 - DEBUG - openmart - Registering vendors router
+2025-06-22 11:32:21,134 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-22 11:32:21,140 - DEBUG - openmart - Registering search router
+2025-06-22 11:32:21,142 - DEBUG - openmart - Registering products router
+2025-06-22 11:32:21,147 - DEBUG - openmart - Registering users router
+2025-06-22 11:32:21,150 - DEBUG - openmart - Registering vendors router
+2025-06-22 12:30:43,626 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-22 12:30:43,656 - DEBUG - openmart - Registering search router
+2025-06-22 12:30:43,658 - DEBUG - openmart - Registering products router
+2025-06-22 12:30:43,665 - DEBUG - openmart - Registering users router
+2025-06-22 12:30:43,667 - DEBUG - openmart - Registering vendors router
+2025-06-22 12:38:21,629 - INFO - openmart.vendors - [ONBOARD_VENDOR] Endpoint called. Payload: {'email': 'info.samuelstanley@gmail.com', 'business_name': 'gggg', 'business_description': 'Would you like me to help you wireframe the onboarding form or build the API/database structure next?\n\n\n\n\n\n\nWould you like me to help you wireframe the onboarding form or build the API/database structure next?\n\n\n\n\n\n\n\n\n\n', 'business_phone': '897975', 'business_address': 'nigeria', 'category': 'Electronics, Food'}
+2025-06-22 12:38:21,632 - INFO - openmart.vendors - [ONBOARD_VENDOR] User lookup for email info.samuelstanley@gmail.com: FOUND
+2025-06-22 12:38:21,642 - INFO - openmart.vendors - [ONBOARD_VENDOR] Vendor created with id: 30e1d314-2d17-4842-9f75-f8fa7affd571
+2025-06-22 12:49:05,150 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 12:49:05,151 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 12:49:05,151 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 12:49:05,152 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:49:05,153 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 12:49:05,153 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 12:49:05,154 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:49:05,154 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 12:49:05,155 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:210129]
+2025-06-22 12:49:05,155 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 12:49:05,156 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 12:49:05,196 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 12:49:05,197 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 12:49:05,199 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 12:49:05,199 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:49:05,200 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 12:49:05,200 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 12:49:05,201 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:49:05,203 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 12:49:05,204 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:261466]
+2025-06-22 12:49:05,207 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:35989]
+2025-06-22 12:49:05,207 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 12:49:05,208 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 12:49:05,214 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 12:49:05,215 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 12:49:05,216 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:111]
+2025-06-22 12:49:05,216 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:49:05,217 - DEBUG - python_multipart.multipart - Calling on_header_field with data[113:125]
+2025-06-22 12:49:05,219 - DEBUG - python_multipart.multipart - Calling on_header_value with data[127:137]
+2025-06-22 12:49:05,220 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:49:05,223 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 12:49:05,224 - DEBUG - python_multipart.multipart - Calling on_part_data with data[141:237795]
+2025-06-22 12:49:05,224 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 12:49:05,225 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 12:49:05,233 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 12:49:05,233 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 12:49:05,234 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 12:49:05,234 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:49:05,236 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 12:49:05,237 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 12:49:05,239 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:49:05,240 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 12:49:05,240 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:172125]
+2025-06-22 12:49:05,240 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 12:49:05,241 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 12:49:05,245 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 12:49:05,248 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 12:49:05,249 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 12:49:05,249 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:49:05,249 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 12:49:05,250 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 12:49:05,250 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:49:05,251 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 12:49:05,253 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:163840]
+2025-06-22 12:49:05,258 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:94877]
+2025-06-22 12:49:05,260 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 12:49:05,261 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 12:49:05,266 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 12:49:05,268 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 12:49:05,270 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:111]
+2025-06-22 12:49:05,272 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:49:05,274 - DEBUG - python_multipart.multipart - Calling on_header_field with data[113:125]
+2025-06-22 12:49:05,276 - DEBUG - python_multipart.multipart - Calling on_header_value with data[127:137]
+2025-06-22 12:49:05,276 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:49:05,277 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 12:49:05,278 - DEBUG - python_multipart.multipart - Calling on_part_data with data[141:236462]
+2025-06-22 12:49:05,278 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 12:49:05,279 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 12:49:05,385 - ERROR - openmart - Request to http://localhost:8000/api/products/ failed: 1 validation errors:
+  {'type': 'string_type', 'loc': ('response', 'created_at'), 'msg': 'Input should be a valid string', 'input': datetime.datetime(2025, 6, 22, 12, 49, 5, 311410, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600)))}
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 327, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 176, in serialize_response
+    raise ResponseValidationError(
+        errors=_normalize_errors(errors), body=response_content
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation errors:
+  {'type': 'string_type', 'loc': ('response', 'created_at'), 'msg': 'Input should be a valid string', 'input': datetime.datetime(2025, 6, 22, 12, 49, 5, 311410, tzinfo=datetime.timezone(datetime.timedelta(seconds=3600)))}
+
+2025-06-22 12:52:07,425 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-22 12:52:07,432 - DEBUG - openmart - Registering search router
+2025-06-22 12:52:07,434 - DEBUG - openmart - Registering products router
+2025-06-22 12:52:07,441 - DEBUG - openmart - Registering users router
+2025-06-22 12:52:07,444 - DEBUG - openmart - Registering vendors router
+2025-06-22 12:53:31,183 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-22 12:53:31,191 - DEBUG - openmart - Registering search router
+2025-06-22 12:53:31,194 - DEBUG - openmart - Registering products router
+2025-06-22 12:53:31,198 - DEBUG - openmart - Registering users router
+2025-06-22 12:53:31,200 - DEBUG - openmart - Registering vendors router
+2025-06-22 12:53:49,224 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 12:53:49,225 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 12:53:49,226 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:111]
+2025-06-22 12:53:49,228 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:53:49,228 - DEBUG - python_multipart.multipart - Calling on_header_field with data[113:125]
+2025-06-22 12:53:49,229 - DEBUG - python_multipart.multipart - Calling on_header_value with data[127:137]
+2025-06-22 12:53:49,230 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:53:49,231 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 12:53:49,232 - DEBUG - python_multipart.multipart - Calling on_part_data with data[141:131072]
+2025-06-22 12:53:49,234 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:105400]
+2025-06-22 12:53:49,235 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 12:53:49,236 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 12:53:49,245 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 12:53:49,245 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 12:53:49,246 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 12:53:49,247 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:53:49,247 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 12:53:49,248 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 12:53:49,249 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:53:49,249 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 12:53:49,250 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:49152]
+2025-06-22 12:53:49,252 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:131072]
+2025-06-22 12:53:49,253 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:78547]
+2025-06-22 12:53:49,254 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 12:53:49,255 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 12:53:49,263 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 12:53:49,265 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 12:53:49,265 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:111]
+2025-06-22 12:53:49,266 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:53:49,266 - DEBUG - python_multipart.multipart - Calling on_header_field with data[113:125]
+2025-06-22 12:53:49,267 - DEBUG - python_multipart.multipart - Calling on_header_value with data[127:137]
+2025-06-22 12:53:49,267 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:53:49,268 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 12:53:49,269 - DEBUG - python_multipart.multipart - Calling on_part_data with data[141:98304]
+2025-06-22 12:53:49,270 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:139491]
+2025-06-22 12:53:49,270 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 12:53:49,271 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 12:53:49,278 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 12:53:49,279 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 12:53:49,280 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 12:53:49,280 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:53:49,280 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 12:53:49,281 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 12:53:49,281 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:53:49,282 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 12:53:49,282 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:81920]
+2025-06-22 12:53:49,283 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:128209]
+2025-06-22 12:53:49,284 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 12:53:49,284 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 12:53:49,292 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 12:53:49,292 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 12:53:49,293 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 12:53:49,293 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:53:49,294 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 12:53:49,295 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 12:53:49,295 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:53:49,296 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 12:53:49,296 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:114688]
+2025-06-22 12:53:49,297 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:57406]
+2025-06-22 12:53:49,298 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 12:53:49,298 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 12:53:49,306 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 12:53:49,306 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 12:53:49,307 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 12:53:49,307 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:53:49,307 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 12:53:49,308 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 12:53:49,308 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:53:49,309 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 12:53:49,309 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:131072]
+2025-06-22 12:53:49,310 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:166380]
+2025-06-22 12:53:49,311 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 12:53:49,311 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 12:55:28,623 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 12:55:28,624 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 12:55:28,624 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 12:55:28,625 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:55:28,625 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 12:55:28,626 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 12:55:28,627 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:55:28,628 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 12:55:28,629 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:114688]
+2025-06-22 12:55:28,630 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:57406]
+2025-06-22 12:55:28,631 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 12:55:28,631 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 12:55:28,644 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 12:55:28,644 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 12:55:28,645 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 12:55:28,646 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:55:28,646 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 12:55:28,646 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 12:55:28,647 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:55:28,647 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 12:55:28,648 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:65536]
+2025-06-22 12:55:28,649 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 12:55:28,650 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 12:55:28,650 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:111]
+2025-06-22 12:55:28,651 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:55:28,652 - DEBUG - python_multipart.multipart - Calling on_header_field with data[113:125]
+2025-06-22 12:55:28,652 - DEBUG - python_multipart.multipart - Calling on_header_value with data[127:137]
+2025-06-22 12:55:28,653 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:55:28,653 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 12:55:28,654 - DEBUG - python_multipart.multipart - Calling on_part_data with data[141:65536]
+2025-06-22 12:55:28,655 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 12:55:28,655 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 12:55:28,656 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:111]
+2025-06-22 12:55:28,656 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:55:28,657 - DEBUG - python_multipart.multipart - Calling on_header_field with data[113:125]
+2025-06-22 12:55:28,657 - DEBUG - python_multipart.multipart - Calling on_header_value with data[127:137]
+2025-06-22 12:55:28,657 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:55:28,658 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 12:55:28,658 - DEBUG - python_multipart.multipart - Calling on_part_data with data[141:65536]
+2025-06-22 12:55:28,660 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:144594]
+2025-06-22 12:55:28,660 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 12:55:28,660 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 12:55:28,664 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:131072]
+2025-06-22 12:55:28,667 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:172259]
+2025-06-22 12:55:28,667 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 12:55:28,668 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 12:55:28,681 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:39864]
+2025-06-22 12:55:28,682 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 12:55:28,682 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 12:55:28,690 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 12:55:28,690 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 12:55:28,691 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 12:55:28,691 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:55:28,691 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 12:55:28,692 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 12:55:28,692 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:55:28,692 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 12:55:28,693 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:261466]
+2025-06-22 12:55:28,694 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 12:55:28,694 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 12:55:28,694 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 12:55:28,695 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:55:28,695 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 12:55:28,695 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 12:55:28,696 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 12:55:28,696 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 12:55:28,697 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:258771]
+2025-06-22 12:55:28,697 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 12:55:28,697 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 12:55:28,700 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:35986]
+2025-06-22 12:55:28,700 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 12:55:28,701 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:02:00,749 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:02:00,820 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:02:00,824 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:111]
+2025-06-22 13:02:00,826 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:02:00,829 - DEBUG - python_multipart.multipart - Calling on_header_field with data[113:125]
+2025-06-22 13:02:00,830 - DEBUG - python_multipart.multipart - Calling on_header_value with data[127:137]
+2025-06-22 13:02:00,831 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:02:00,832 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:02:00,834 - DEBUG - python_multipart.multipart - Calling on_part_data with data[141:98304]
+2025-06-22 13:02:00,836 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:139491]
+2025-06-22 13:02:00,843 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:02:00,847 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:02:00,879 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:02:00,879 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:02:00,880 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 13:02:00,881 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:02:00,881 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 13:02:00,882 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 13:02:00,883 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:02:00,884 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:02:00,886 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:258765]
+2025-06-22 13:02:00,888 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:02:00,890 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:02:00,896 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:02:00,897 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:02:00,898 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:111]
+2025-06-22 13:02:00,899 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:02:00,899 - DEBUG - python_multipart.multipart - Calling on_header_field with data[113:125]
+2025-06-22 13:02:00,900 - DEBUG - python_multipart.multipart - Calling on_header_value with data[127:137]
+2025-06-22 13:02:00,901 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:02:00,902 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:02:00,903 - DEBUG - python_multipart.multipart - Calling on_part_data with data[141:179648]
+2025-06-22 13:02:00,905 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:02:00,905 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:02:01,021 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:02:01,023 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:02:01,023 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 13:02:01,024 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:02:01,025 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 13:02:01,026 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 13:02:01,026 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:02:01,027 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:02:01,028 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:146515]
+2025-06-22 13:02:01,034 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:02:01,035 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:02:01,153 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:02:01,155 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:02:01,156 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:111]
+2025-06-22 13:02:01,156 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:02:01,157 - DEBUG - python_multipart.multipart - Calling on_header_field with data[113:125]
+2025-06-22 13:02:01,158 - DEBUG - python_multipart.multipart - Calling on_header_value with data[127:137]
+2025-06-22 13:02:01,158 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:02:01,159 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:02:01,160 - DEBUG - python_multipart.multipart - Calling on_part_data with data[141:236472]
+2025-06-22 13:02:01,161 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:02:01,161 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:02:01,284 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:02:01,285 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:02:01,286 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:113]
+2025-06-22 13:02:01,286 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:02:01,287 - DEBUG - python_multipart.multipart - Calling on_header_field with data[115:127]
+2025-06-22 13:02:01,287 - DEBUG - python_multipart.multipart - Calling on_header_value with data[129:139]
+2025-06-22 13:02:01,288 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:02:01,288 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:02:01,289 - DEBUG - python_multipart.multipart - Calling on_part_data with data[143:261466]
+2025-06-22 13:02:01,311 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:33712]
+2025-06-22 13:02:01,313 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:02:01,317 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:04:11,129 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-22 13:04:11,132 - DEBUG - openmart - Registering search router
+2025-06-22 13:04:11,133 - DEBUG - openmart - Registering products router
+2025-06-22 13:04:11,138 - DEBUG - openmart - Registering users router
+2025-06-22 13:04:11,140 - DEBUG - openmart - Registering vendors router
+2025-06-22 13:04:33,512 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-22 13:04:33,542 - DEBUG - openmart - Registering search router
+2025-06-22 13:04:33,555 - DEBUG - openmart - Registering products router
+2025-06-22 13:04:33,572 - DEBUG - openmart - Registering users router
+2025-06-22 13:04:33,579 - DEBUG - openmart - Registering vendors router
+2025-06-22 13:05:56,250 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:05:56,251 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:05:56,252 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:111]
+2025-06-22 13:05:56,252 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:05:56,253 - DEBUG - python_multipart.multipart - Calling on_header_field with data[113:125]
+2025-06-22 13:05:56,253 - DEBUG - python_multipart.multipart - Calling on_header_value with data[127:137]
+2025-06-22 13:05:56,254 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:05:56,255 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:05:56,255 - DEBUG - python_multipart.multipart - Calling on_part_data with data[141:65536]
+2025-06-22 13:05:56,257 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:05:56,258 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:05:56,259 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:111]
+2025-06-22 13:05:56,259 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:05:56,261 - DEBUG - python_multipart.multipart - Calling on_header_field with data[113:125]
+2025-06-22 13:05:56,265 - DEBUG - python_multipart.multipart - Calling on_header_value with data[127:137]
+2025-06-22 13:05:56,266 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:05:56,268 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:05:56,270 - DEBUG - python_multipart.multipart - Calling on_part_data with data[141:81920]
+2025-06-22 13:05:56,273 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:131072]
+2025-06-22 13:05:56,274 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:154552]
+2025-06-22 13:05:56,275 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:05:56,278 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:05:56,297 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:41187]
+2025-06-22 13:05:56,299 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:05:56,300 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:05:57,291 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:05:57,316 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:05:57,326 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 13:05:57,330 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:05:57,332 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 13:05:57,347 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 13:05:57,363 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:05:57,363 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:05:57,364 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:146515]
+2025-06-22 13:05:57,364 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:05:57,365 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:05:57,381 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:05:57,383 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:05:57,384 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 13:05:57,385 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:05:57,387 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 13:05:57,394 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 13:05:57,395 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:05:57,396 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:05:57,398 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:261466]
+2025-06-22 13:05:57,399 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:05:57,399 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:05:57,402 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 13:05:57,403 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:05:57,408 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 13:05:57,409 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 13:05:57,410 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:05:57,428 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:05:57,429 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:172094]
+2025-06-22 13:05:57,431 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:05:57,440 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:05:57,452 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:35986]
+2025-06-22 13:05:57,453 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:05:57,453 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:05:57,465 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:05:57,465 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:05:57,466 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 13:05:57,467 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:05:57,467 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 13:05:57,468 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 13:05:57,468 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:05:57,468 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:05:57,469 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:258735]
+2025-06-22 13:05:57,469 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:05:57,470 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:06:40,368 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-22 13:06:40,374 - DEBUG - openmart - Registering search router
+2025-06-22 13:06:40,376 - DEBUG - openmart - Registering products router
+2025-06-22 13:06:40,380 - DEBUG - openmart - Registering users router
+2025-06-22 13:06:40,381 - DEBUG - openmart - Registering vendors router
+2025-06-22 13:08:40,675 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-22 13:08:40,681 - DEBUG - openmart - Registering search router
+2025-06-22 13:08:40,685 - DEBUG - openmart - Registering products router
+2025-06-22 13:08:40,698 - DEBUG - openmart - Registering users router
+2025-06-22 13:08:40,702 - DEBUG - openmart - Registering vendors router
+2025-06-22 13:11:11,102 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:11:11,103 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:11:11,104 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 13:11:11,105 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:11:11,105 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 13:11:11,106 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 13:11:11,106 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:11:11,107 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:11:11,107 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:114688]
+2025-06-22 13:11:11,110 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:11:11,110 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:11:11,111 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:111]
+2025-06-22 13:11:11,112 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:11:11,112 - DEBUG - python_multipart.multipart - Calling on_header_field with data[113:125]
+2025-06-22 13:11:11,112 - DEBUG - python_multipart.multipart - Calling on_header_value with data[127:137]
+2025-06-22 13:11:11,113 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:11:11,114 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:11:11,114 - DEBUG - python_multipart.multipart - Calling on_part_data with data[141:98304]
+2025-06-22 13:11:11,115 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:31827]
+2025-06-22 13:11:11,116 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:11:11,117 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:11:11,122 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:139578]
+2025-06-22 13:11:11,124 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:11:11,125 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:11:12,130 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:11:12,160 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:11:12,172 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 13:11:12,187 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:11:12,188 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 13:11:12,189 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 13:11:12,193 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:11:12,195 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:11:12,198 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:147456]
+2025-06-22 13:11:12,211 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:24638]
+2025-06-22 13:11:12,214 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:11:12,215 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:11:12,228 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:11:12,232 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:11:12,234 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:111]
+2025-06-22 13:11:12,236 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:11:12,237 - DEBUG - python_multipart.multipart - Calling on_header_field with data[113:125]
+2025-06-22 13:11:12,239 - DEBUG - python_multipart.multipart - Calling on_header_value with data[127:137]
+2025-06-22 13:11:12,240 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:11:12,241 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:11:12,242 - DEBUG - python_multipart.multipart - Calling on_part_data with data[141:236479]
+2025-06-22 13:11:12,244 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:11:12,254 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:11:12,274 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:11:12,275 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:11:12,275 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 13:11:12,276 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:11:12,276 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 13:11:12,277 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 13:11:12,277 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:11:12,278 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:11:12,278 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:65536]
+2025-06-22 13:11:12,280 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:163840]
+2025-06-22 13:11:12,281 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:68062]
+2025-06-22 13:11:12,282 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:11:12,288 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:11:12,309 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:11:12,310 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:11:12,310 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 13:11:12,311 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:11:12,311 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 13:11:12,311 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 13:11:12,312 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:11:12,312 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:11:12,313 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:258771]
+2025-06-22 13:11:12,313 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:11:12,314 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:16:23,843 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-22 13:16:23,846 - DEBUG - openmart - Registering search router
+2025-06-22 13:16:23,847 - DEBUG - openmart - Registering products router
+2025-06-22 13:16:23,852 - DEBUG - openmart - Registering users router
+2025-06-22 13:16:23,854 - DEBUG - openmart - Registering vendors router
+2025-06-22 13:25:52,925 - INFO - openmart.vendors - [ONBOARD_VENDOR] Endpoint called. Payload: {'email': 'mischievouscatlab@gmail.com', 'business_name': 'som', 'business_description': "Okay, so let's make some changes and improvements. One, the sidebar should not be scrollable, let it be static. Because I discovered the more product I add and I start to scroll, the sidebar also scrolls with it. It is not supposed to be so. Only that product board that should be scrollable. Secondly, for the product card, I want the pictures to touch the width of the product border, the product card's border. Let the picture sustainably touch the width. And I want the pictures to always reflect its full image. I don't want any top to be cut off or the bottom should be cut off. And the text for the product card, let's maintain white and black, not have to combine it. And that part where the text are, find a way to make it look much more attractive. What we have right now looks like a play. It's not really attractive. I don't like it. So let's make these changes. Let's make this update. And another thing, add a button, a very nice button that allows user to delete and edit products.", 'business_phone': 'som', 'business_address': 'loppp', 'category': 'Electronics, Food'}
+2025-06-22 13:25:52,929 - INFO - openmart.vendors - [ONBOARD_VENDOR] User lookup for email mischievouscatlab@gmail.com: FOUND
+2025-06-22 13:25:52,938 - INFO - openmart.vendors - [ONBOARD_VENDOR] Vendor created with id: 2dbb272b-beb9-4557-b451-56856762a450
+2025-06-22 13:37:33,468 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:37:33,470 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:37:33,471 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 13:37:33,472 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:37:33,472 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 13:37:33,474 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 13:37:33,474 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:37:33,475 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:37:33,476 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:65536]
+2025-06-22 13:37:33,477 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:90786]
+2025-06-22 13:37:33,478 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:37:33,478 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:37:33,523 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:37:33,526 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:37:33,532 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:127]
+2025-06-22 13:37:33,533 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:37:33,534 - DEBUG - python_multipart.multipart - Calling on_header_field with data[129:141]
+2025-06-22 13:37:33,535 - DEBUG - python_multipart.multipart - Calling on_header_value with data[143:153]
+2025-06-22 13:37:33,535 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:37:33,536 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:37:33,536 - DEBUG - python_multipart.multipart - Calling on_part_data with data[157:261466]
+2025-06-22 13:37:33,538 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:37:33,538 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:37:33,540 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:120]
+2025-06-22 13:37:33,541 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:37:33,541 - DEBUG - python_multipart.multipart - Calling on_header_field with data[122:134]
+2025-06-22 13:37:33,542 - DEBUG - python_multipart.multipart - Calling on_header_value with data[136:146]
+2025-06-22 13:37:33,542 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:37:33,543 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:37:33,546 - DEBUG - python_multipart.multipart - Calling on_part_data with data[150:131072]
+2025-06-22 13:37:33,558 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:107429]
+2025-06-22 13:37:33,559 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:37:33,559 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:37:33,569 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:237824]
+2025-06-22 13:37:33,570 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:37:33,571 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:37:50,108 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:37:50,142 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:37:50,146 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:127]
+2025-06-22 13:37:50,147 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:37:50,159 - DEBUG - python_multipart.multipart - Calling on_header_field with data[129:141]
+2025-06-22 13:37:50,183 - DEBUG - python_multipart.multipart - Calling on_header_value with data[143:152]
+2025-06-22 13:37:50,184 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:37:50,184 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:37:50,197 - DEBUG - python_multipart.multipart - Calling on_part_data with data[156:114688]
+2025-06-22 13:37:50,199 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:180224]
+2025-06-22 13:37:50,201 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:180550]
+2025-06-22 13:37:50,202 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:37:50,203 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:37:51,024 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:37:51,027 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:37:51,029 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:120]
+2025-06-22 13:37:51,030 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:37:51,031 - DEBUG - python_multipart.multipart - Calling on_header_field with data[122:134]
+2025-06-22 13:37:51,032 - DEBUG - python_multipart.multipart - Calling on_header_value with data[136:145]
+2025-06-22 13:37:51,034 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:37:51,040 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:37:51,054 - DEBUG - python_multipart.multipart - Calling on_part_data with data[149:81920]
+2025-06-22 13:37:51,057 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:147456]
+2025-06-22 13:37:51,059 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:245294]
+2025-06-22 13:37:51,064 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:37:51,068 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:37:54,950 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:37:54,951 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:37:54,952 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:120]
+2025-06-22 13:37:54,952 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:37:54,952 - DEBUG - python_multipart.multipart - Calling on_header_field with data[122:134]
+2025-06-22 13:37:54,953 - DEBUG - python_multipart.multipart - Calling on_header_value with data[136:145]
+2025-06-22 13:37:54,953 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:37:54,954 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:37:54,954 - DEBUG - python_multipart.multipart - Calling on_part_data with data[149:114688]
+2025-06-22 13:37:54,956 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:196608]
+2025-06-22 13:37:54,958 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:162016]
+2025-06-22 13:37:54,960 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:37:54,961 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:46:17,648 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-22 13:46:17,653 - DEBUG - openmart - Registering search router
+2025-06-22 13:46:17,656 - DEBUG - openmart - Registering products router
+2025-06-22 13:46:17,667 - DEBUG - openmart - Registering users router
+2025-06-22 13:46:17,670 - DEBUG - openmart - Registering vendors router
+2025-06-22 13:49:30,120 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:49:30,165 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:49:30,249 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:118]
+2025-06-22 13:49:30,273 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:49:30,277 - DEBUG - python_multipart.multipart - Calling on_header_field with data[120:132]
+2025-06-22 13:49:30,278 - DEBUG - python_multipart.multipart - Calling on_header_value with data[134:144]
+2025-06-22 13:49:30,278 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:49:30,279 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:49:30,280 - DEBUG - python_multipart.multipart - Calling on_part_data with data[148:65536]
+2025-06-22 13:49:30,282 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:49:30,283 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:49:30,283 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:111]
+2025-06-22 13:49:30,284 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:49:30,286 - DEBUG - python_multipart.multipart - Calling on_header_field with data[113:125]
+2025-06-22 13:49:30,287 - DEBUG - python_multipart.multipart - Calling on_header_value with data[127:137]
+2025-06-22 13:49:30,287 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:49:30,288 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:49:30,288 - DEBUG - python_multipart.multipart - Calling on_part_data with data[141:98304]
+2025-06-22 13:49:30,290 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:98304]
+2025-06-22 13:49:30,291 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:98304]
+2025-06-22 13:49:30,292 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:109163]
+2025-06-22 13:49:30,293 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:49:30,293 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:49:30,298 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:76387]
+2025-06-22 13:49:30,299 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:49:30,299 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:49:31,045 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:49:31,047 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:49:31,047 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:117]
+2025-06-22 13:49:31,048 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:49:31,048 - DEBUG - python_multipart.multipart - Calling on_header_field with data[119:131]
+2025-06-22 13:49:31,049 - DEBUG - python_multipart.multipart - Calling on_header_value with data[133:143]
+2025-06-22 13:49:31,050 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:49:31,050 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:49:31,052 - DEBUG - python_multipart.multipart - Calling on_part_data with data[147:81920]
+2025-06-22 13:49:31,056 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:147456]
+2025-06-22 13:49:31,064 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:11661]
+2025-06-22 13:49:31,065 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:49:31,065 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:49:31,099 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:49:31,106 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:49:31,108 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 13:49:31,109 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:49:31,109 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 13:49:31,110 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 13:49:31,111 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:49:31,112 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:49:31,113 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:81920]
+2025-06-22 13:49:31,118 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:65536]
+2025-06-22 13:49:31,120 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:49:31,121 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:49:31,121 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:117]
+2025-06-22 13:49:31,122 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:49:31,123 - DEBUG - python_multipart.multipart - Calling on_header_field with data[119:131]
+2025-06-22 13:49:31,123 - DEBUG - python_multipart.multipart - Calling on_header_value with data[133:143]
+2025-06-22 13:49:31,124 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:49:31,124 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:49:31,125 - DEBUG - python_multipart.multipart - Calling on_part_data with data[147:261466]
+2025-06-22 13:49:31,126 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:49:31,126 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:49:31,127 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:117]
+2025-06-22 13:49:31,128 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:49:31,128 - DEBUG - python_multipart.multipart - Calling on_header_field with data[119:131]
+2025-06-22 13:49:31,129 - DEBUG - python_multipart.multipart - Calling on_header_value with data[133:143]
+2025-06-22 13:49:31,129 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:49:31,130 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:49:31,130 - DEBUG - python_multipart.multipart - Calling on_part_data with data[147:261466]
+2025-06-22 13:49:31,131 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:115097]
+2025-06-22 13:49:31,132 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:49:31,132 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:49:31,139 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:5015]
+2025-06-22 13:49:31,140 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:49:31,141 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:49:31,145 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:1099]
+2025-06-22 13:49:31,147 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:49:31,155 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:55:47,701 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:55:47,728 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:55:47,729 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:104]
+2025-06-22 13:55:47,749 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:55:47,808 - DEBUG - python_multipart.multipart - Calling on_header_field with data[106:118]
+2025-06-22 13:55:47,874 - DEBUG - python_multipart.multipart - Calling on_header_value with data[120:129]
+2025-06-22 13:55:47,921 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:55:47,981 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:55:48,034 - DEBUG - python_multipart.multipart - Calling on_part_data with data[133:147456]
+2025-06-22 13:55:48,097 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:229376]
+2025-06-22 13:55:48,173 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:114533]
+2025-06-22 13:55:48,269 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:55:48,444 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:55:50,908 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:55:50,950 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:55:50,996 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:104]
+2025-06-22 13:55:51,035 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:55:51,097 - DEBUG - python_multipart.multipart - Calling on_header_field with data[106:118]
+2025-06-22 13:55:51,170 - DEBUG - python_multipart.multipart - Calling on_header_value with data[120:129]
+2025-06-22 13:55:51,215 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:55:51,259 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:55:51,302 - DEBUG - python_multipart.multipart - Calling on_part_data with data[133:98304]
+2025-06-22 13:55:51,359 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:196608]
+2025-06-22 13:55:51,406 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:215412]
+2025-06-22 13:55:51,439 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:55:51,474 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:56:04,068 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:56:04,100 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:56:04,122 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:104]
+2025-06-22 13:56:04,136 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:56:04,175 - DEBUG - python_multipart.multipart - Calling on_header_field with data[106:118]
+2025-06-22 13:56:04,206 - DEBUG - python_multipart.multipart - Calling on_header_value with data[120:129]
+2025-06-22 13:56:04,221 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:56:04,246 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:56:04,258 - DEBUG - python_multipart.multipart - Calling on_part_data with data[133:131072]
+2025-06-22 13:56:04,285 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:229376]
+2025-06-22 13:56:04,316 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:118970]
+2025-06-22 13:56:04,328 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:56:04,352 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:56:05,518 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:56:05,526 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:56:05,529 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:105]
+2025-06-22 13:56:05,561 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:56:05,564 - DEBUG - python_multipart.multipart - Calling on_header_field with data[107:119]
+2025-06-22 13:56:05,565 - DEBUG - python_multipart.multipart - Calling on_header_value with data[121:130]
+2025-06-22 13:56:05,579 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:56:05,580 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:56:05,581 - DEBUG - python_multipart.multipart - Calling on_part_data with data[134:81920]
+2025-06-22 13:56:05,583 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:180224]
+2025-06-22 13:56:05,585 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:226984]
+2025-06-22 13:56:05,586 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:56:05,587 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:56:10,056 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:56:10,057 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:56:10,058 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:111]
+2025-06-22 13:56:10,059 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:56:10,059 - DEBUG - python_multipart.multipart - Calling on_header_field with data[113:125]
+2025-06-22 13:56:10,060 - DEBUG - python_multipart.multipart - Calling on_header_value with data[127:136]
+2025-06-22 13:56:10,061 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:56:10,062 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:56:10,064 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:98304]
+2025-06-22 13:56:10,068 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:196608]
+2025-06-22 13:56:10,071 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:184933]
+2025-06-22 13:56:10,072 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:56:10,073 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 13:56:10,288 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 13:56:10,291 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 13:56:10,292 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:104]
+2025-06-22 13:56:10,293 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:56:10,293 - DEBUG - python_multipart.multipart - Calling on_header_field with data[106:118]
+2025-06-22 13:56:10,294 - DEBUG - python_multipart.multipart - Calling on_header_value with data[120:129]
+2025-06-22 13:56:10,295 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 13:56:10,296 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 13:56:10,297 - DEBUG - python_multipart.multipart - Calling on_part_data with data[133:81920]
+2025-06-22 13:56:10,299 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:196608]
+2025-06-22 13:56:10,302 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:201961]
+2025-06-22 13:56:10,304 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 13:56:10,304 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 14:04:03,387 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 14:04:03,388 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 14:04:03,390 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:120]
+2025-06-22 14:04:03,390 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:04:03,391 - DEBUG - python_multipart.multipart - Calling on_header_field with data[122:134]
+2025-06-22 14:04:03,391 - DEBUG - python_multipart.multipart - Calling on_header_value with data[136:146]
+2025-06-22 14:04:03,391 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:04:03,392 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 14:04:03,392 - DEBUG - python_multipart.multipart - Calling on_part_data with data[150:65536]
+2025-06-22 14:04:03,395 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:65536]
+2025-06-22 14:04:03,398 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 14:04:03,399 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 14:04:03,400 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 14:04:03,412 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:04:03,414 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 14:04:03,415 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 14:04:03,416 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:04:03,416 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 14:04:03,417 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:65536]
+2025-06-22 14:04:03,610 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:164130]
+2025-06-22 14:04:03,645 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 14:04:03,653 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 14:04:03,684 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:204373]
+2025-06-22 14:04:03,689 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 14:04:03,691 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 14:04:03,704 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 14:04:03,706 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 14:04:03,708 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:113]
+2025-06-22 14:04:03,709 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:04:03,710 - DEBUG - python_multipart.multipart - Calling on_header_field with data[115:127]
+2025-06-22 14:04:03,711 - DEBUG - python_multipart.multipart - Calling on_header_value with data[129:139]
+2025-06-22 14:04:03,712 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:04:03,714 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 14:04:03,716 - DEBUG - python_multipart.multipart - Calling on_part_data with data[143:261466]
+2025-06-22 14:04:03,717 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 14:04:03,719 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 14:04:03,719 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:111]
+2025-06-22 14:04:03,721 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:04:03,726 - DEBUG - python_multipart.multipart - Calling on_header_field with data[113:125]
+2025-06-22 14:04:03,727 - DEBUG - python_multipart.multipart - Calling on_header_value with data[127:137]
+2025-06-22 14:04:03,728 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:04:03,729 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 14:04:03,729 - DEBUG - python_multipart.multipart - Calling on_part_data with data[141:179648]
+2025-06-22 14:04:03,730 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 14:04:03,731 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 14:04:03,737 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:33707]
+2025-06-22 14:04:03,739 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 14:04:03,740 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 14:04:04,159 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 14:04:04,164 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 14:04:04,166 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:120]
+2025-06-22 14:04:04,166 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:04:04,167 - DEBUG - python_multipart.multipart - Calling on_header_field with data[122:134]
+2025-06-22 14:04:04,167 - DEBUG - python_multipart.multipart - Calling on_header_value with data[136:146]
+2025-06-22 14:04:04,168 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:04:04,168 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 14:04:04,169 - DEBUG - python_multipart.multipart - Calling on_part_data with data[150:114688]
+2025-06-22 14:04:04,171 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:65628]
+2025-06-22 14:04:04,191 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 14:04:04,192 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 14:04:04,258 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 14:04:04,258 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 14:04:04,260 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:111]
+2025-06-22 14:04:04,261 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:04:04,261 - DEBUG - python_multipart.multipart - Calling on_header_field with data[113:125]
+2025-06-22 14:04:04,262 - DEBUG - python_multipart.multipart - Calling on_header_value with data[127:137]
+2025-06-22 14:04:04,263 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:04:04,264 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 14:04:04,265 - DEBUG - python_multipart.multipart - Calling on_part_data with data[141:65536]
+2025-06-22 14:04:04,267 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:114688]
+2025-06-22 14:04:04,269 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:82796]
+2025-06-22 14:04:04,271 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 14:04:04,271 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 14:04:04,371 - ERROR - openmart - Request to http://localhost:8000/api/products/ failed: 1 validation errors:
+  {'type': 'string_type', 'loc': ('response', 'vendor_id'), 'msg': 'Input should be a valid string', 'input': UUID('30e1d314-2d17-4842-9f75-f8fa7affd571')}
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 327, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 176, in serialize_response
+    raise ResponseValidationError(
+        errors=_normalize_errors(errors), body=response_content
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation errors:
+  {'type': 'string_type', 'loc': ('response', 'vendor_id'), 'msg': 'Input should be a valid string', 'input': UUID('30e1d314-2d17-4842-9f75-f8fa7affd571')}
+
+2025-06-22 14:05:06,610 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-22 14:05:06,614 - DEBUG - openmart - Registering search router
+2025-06-22 14:05:06,619 - DEBUG - openmart - Registering products router
+2025-06-22 14:05:06,625 - DEBUG - openmart - Registering users router
+2025-06-22 14:05:06,627 - DEBUG - openmart - Registering vendors router
+2025-06-22 14:05:43,278 - ERROR - openmart - Request to http://localhost:8000/api/products/?vendor_id=30e1d314-2d17-4842-9f75-f8fa7affd571 failed: 1 validation errors:
+  {'type': 'string_type', 'loc': ('response', 0, 'vendor_id'), 'msg': 'Input should be a valid string', 'input': UUID('30e1d314-2d17-4842-9f75-f8fa7affd571')}
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 327, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 176, in serialize_response
+    raise ResponseValidationError(
+        errors=_normalize_errors(errors), body=response_content
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation errors:
+  {'type': 'string_type', 'loc': ('response', 0, 'vendor_id'), 'msg': 'Input should be a valid string', 'input': UUID('30e1d314-2d17-4842-9f75-f8fa7affd571')}
+
+2025-06-22 14:05:45,124 - ERROR - openmart - Request to http://localhost:8000/api/products/?vendor_id=30e1d314-2d17-4842-9f75-f8fa7affd571 failed: 1 validation errors:
+  {'type': 'string_type', 'loc': ('response', 0, 'vendor_id'), 'msg': 'Input should be a valid string', 'input': UUID('30e1d314-2d17-4842-9f75-f8fa7affd571')}
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 327, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 176, in serialize_response
+    raise ResponseValidationError(
+        errors=_normalize_errors(errors), body=response_content
+    )
+fastapi.exceptions.ResponseValidationError: 1 validation errors:
+  {'type': 'string_type', 'loc': ('response', 0, 'vendor_id'), 'msg': 'Input should be a valid string', 'input': UUID('30e1d314-2d17-4842-9f75-f8fa7affd571')}
+
+2025-06-22 14:05:47,473 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 14:05:47,489 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 14:05:47,490 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 14:05:47,490 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:05:47,491 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 14:05:47,493 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 14:05:47,493 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:05:47,494 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 14:05:47,496 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:81920]
+2025-06-22 14:05:47,505 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 14:05:47,506 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 14:05:47,506 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:113]
+2025-06-22 14:05:47,507 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:05:47,507 - DEBUG - python_multipart.multipart - Calling on_header_field with data[115:127]
+2025-06-22 14:05:47,533 - DEBUG - python_multipart.multipart - Calling on_header_value with data[129:139]
+2025-06-22 14:05:47,534 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:05:47,535 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 14:05:47,541 - DEBUG - python_multipart.multipart - Calling on_part_data with data[143:65536]
+2025-06-22 14:05:47,550 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:16384]
+2025-06-22 14:05:47,552 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:229623]
+2025-06-22 14:05:47,553 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 14:05:47,554 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 14:05:47,672 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:171605]
+2025-06-22 14:05:47,692 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 14:05:47,698 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 14:05:47,727 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 14:05:47,733 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 14:05:47,735 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:120]
+2025-06-22 14:05:47,736 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:05:47,738 - DEBUG - python_multipart.multipart - Calling on_header_field with data[122:134]
+2025-06-22 14:05:47,742 - DEBUG - python_multipart.multipart - Calling on_header_value with data[136:146]
+2025-06-22 14:05:47,756 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:05:47,758 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 14:05:47,782 - DEBUG - python_multipart.multipart - Calling on_part_data with data[150:261466]
+2025-06-22 14:05:47,791 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:33719]
+2025-06-22 14:05:47,806 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 14:05:47,807 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 14:05:47,820 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 14:05:47,822 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 14:05:47,824 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:120]
+2025-06-22 14:05:47,826 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:05:47,837 - DEBUG - python_multipart.multipart - Calling on_header_field with data[122:134]
+2025-06-22 14:05:47,842 - DEBUG - python_multipart.multipart - Calling on_header_value with data[136:146]
+2025-06-22 14:05:47,867 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:05:47,870 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 14:05:47,876 - DEBUG - python_multipart.multipart - Calling on_part_data with data[150:180224]
+2025-06-22 14:05:47,935 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:86]
+2025-06-22 14:05:47,957 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 14:05:47,967 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 14:05:47,989 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 14:05:47,991 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 14:05:48,000 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:111]
+2025-06-22 14:05:48,004 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:05:48,007 - DEBUG - python_multipart.multipart - Calling on_header_field with data[113:125]
+2025-06-22 14:05:48,009 - DEBUG - python_multipart.multipart - Calling on_header_value with data[127:137]
+2025-06-22 14:05:48,015 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:05:48,016 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 14:05:48,040 - DEBUG - python_multipart.multipart - Calling on_part_data with data[141:179648]
+2025-06-22 14:05:48,049 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 14:05:48,050 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 14:05:48,058 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 14:05:48,067 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 14:05:48,069 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:111]
+2025-06-22 14:05:48,070 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:05:48,071 - DEBUG - python_multipart.multipart - Calling on_header_field with data[113:125]
+2025-06-22 14:05:48,071 - DEBUG - python_multipart.multipart - Calling on_header_value with data[127:137]
+2025-06-22 14:05:48,072 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:05:48,083 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 14:05:48,085 - DEBUG - python_multipart.multipart - Calling on_part_data with data[141:261466]
+2025-06-22 14:05:48,097 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:1554]
+2025-06-22 14:05:48,102 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 14:05:48,104 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 14:06:01,745 - ERROR - openmart - Request to http://localhost:8000/api/products/?vendor_id=30e1d314-2d17-4842-9f75-f8fa7affd571 failed: 2 validation errors:
+  {'type': 'string_type', 'loc': ('response', 0, 'vendor_id'), 'msg': 'Input should be a valid string', 'input': UUID('30e1d314-2d17-4842-9f75-f8fa7affd571')}
+  {'type': 'string_type', 'loc': ('response', 1, 'vendor_id'), 'msg': 'Input should be a valid string', 'input': UUID('30e1d314-2d17-4842-9f75-f8fa7affd571')}
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 327, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 176, in serialize_response
+    raise ResponseValidationError(
+        errors=_normalize_errors(errors), body=response_content
+    )
+fastapi.exceptions.ResponseValidationError: 2 validation errors:
+  {'type': 'string_type', 'loc': ('response', 0, 'vendor_id'), 'msg': 'Input should be a valid string', 'input': UUID('30e1d314-2d17-4842-9f75-f8fa7affd571')}
+  {'type': 'string_type', 'loc': ('response', 1, 'vendor_id'), 'msg': 'Input should be a valid string', 'input': UUID('30e1d314-2d17-4842-9f75-f8fa7affd571')}
+
+2025-06-22 14:06:18,422 - ERROR - openmart - Request to http://localhost:8000/api/products/?vendor_id=30e1d314-2d17-4842-9f75-f8fa7affd571 failed: 2 validation errors:
+  {'type': 'string_type', 'loc': ('response', 0, 'vendor_id'), 'msg': 'Input should be a valid string', 'input': UUID('30e1d314-2d17-4842-9f75-f8fa7affd571')}
+  {'type': 'string_type', 'loc': ('response', 1, 'vendor_id'), 'msg': 'Input should be a valid string', 'input': UUID('30e1d314-2d17-4842-9f75-f8fa7affd571')}
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 327, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 176, in serialize_response
+    raise ResponseValidationError(
+        errors=_normalize_errors(errors), body=response_content
+    )
+fastapi.exceptions.ResponseValidationError: 2 validation errors:
+  {'type': 'string_type', 'loc': ('response', 0, 'vendor_id'), 'msg': 'Input should be a valid string', 'input': UUID('30e1d314-2d17-4842-9f75-f8fa7affd571')}
+  {'type': 'string_type', 'loc': ('response', 1, 'vendor_id'), 'msg': 'Input should be a valid string', 'input': UUID('30e1d314-2d17-4842-9f75-f8fa7affd571')}
+
+2025-06-22 14:06:46,919 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-22 14:06:46,922 - DEBUG - openmart - Registering search router
+2025-06-22 14:06:46,924 - DEBUG - openmart - Registering products router
+2025-06-22 14:06:46,928 - DEBUG - openmart - Registering users router
+2025-06-22 14:06:46,930 - DEBUG - openmart - Registering vendors router
+2025-06-22 14:07:09,202 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-22 14:07:10,429 - DEBUG - openmart - Registering search router
+2025-06-22 14:07:10,431 - DEBUG - openmart - Registering products router
+2025-06-22 14:07:10,439 - DEBUG - openmart - Registering users router
+2025-06-22 14:07:10,444 - DEBUG - openmart - Registering vendors router
+2025-06-22 14:09:04,081 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-22 14:09:04,087 - DEBUG - openmart - Registering search router
+2025-06-22 14:09:04,090 - DEBUG - openmart - Registering products router
+2025-06-22 14:09:04,097 - DEBUG - openmart - Registering users router
+2025-06-22 14:09:04,100 - DEBUG - openmart - Registering vendors router
+2025-06-22 14:14:49,912 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 14:14:49,912 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 14:14:49,913 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 14:14:49,913 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:14:49,914 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 14:14:49,914 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 14:14:49,915 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:14:49,915 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 14:14:49,916 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:147456]
+2025-06-22 14:14:49,917 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:24638]
+2025-06-22 14:14:49,917 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 14:14:49,917 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 14:14:49,928 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 14:14:49,928 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 14:14:49,929 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:111]
+2025-06-22 14:14:49,931 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:14:49,934 - DEBUG - python_multipart.multipart - Calling on_header_field with data[113:125]
+2025-06-22 14:14:49,934 - DEBUG - python_multipart.multipart - Calling on_header_value with data[127:137]
+2025-06-22 14:14:49,935 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:14:49,936 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 14:14:49,937 - DEBUG - python_multipart.multipart - Calling on_part_data with data[141:196608]
+2025-06-22 14:14:49,938 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:39864]
+2025-06-22 14:14:49,939 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 14:14:49,939 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 14:14:49,948 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 14:14:49,949 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 14:14:49,949 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 14:14:49,950 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:14:49,950 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 14:14:49,950 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 14:14:49,951 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:14:49,951 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 14:14:49,952 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:65536]
+2025-06-22 14:14:49,952 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:80998]
+2025-06-22 14:14:49,953 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 14:14:49,953 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 14:14:49,966 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 14:14:49,970 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 14:14:49,971 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:111]
+2025-06-22 14:14:49,972 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:14:49,972 - DEBUG - python_multipart.multipart - Calling on_header_field with data[113:125]
+2025-06-22 14:14:49,973 - DEBUG - python_multipart.multipart - Calling on_header_value with data[127:137]
+2025-06-22 14:14:49,980 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:14:49,980 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 14:14:49,981 - DEBUG - python_multipart.multipart - Calling on_part_data with data[141:65536]
+2025-06-22 14:14:49,984 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 14:14:49,984 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 14:14:49,986 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 14:14:49,986 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:14:49,987 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 14:14:49,988 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 14:14:49,988 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:14:49,989 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 14:14:49,989 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:65536]
+2025-06-22 14:14:49,996 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:65535]
+2025-06-22 14:14:49,998 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 14:14:49,998 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 14:14:49,999 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 14:14:49,999 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:14:50,000 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 14:14:50,000 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 14:14:50,001 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:14:50,002 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 14:14:50,003 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:258771]
+2025-06-22 14:14:50,003 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 14:14:50,004 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 14:14:50,010 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:131072]
+2025-06-22 14:14:50,015 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:1]
+2025-06-22 14:14:50,017 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:106723]
+2025-06-22 14:14:50,018 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 14:14:50,018 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 14:14:50,031 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:100844]
+2025-06-22 14:14:50,032 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 14:14:50,032 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 14:32:37,469 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 14:32:37,505 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 14:32:37,514 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:127]
+2025-06-22 14:32:37,551 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:32:37,595 - DEBUG - python_multipart.multipart - Calling on_header_field with data[129:141]
+2025-06-22 14:32:37,627 - DEBUG - python_multipart.multipart - Calling on_header_value with data[143:153]
+2025-06-22 14:32:37,652 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:32:37,684 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 14:32:37,714 - DEBUG - python_multipart.multipart - Calling on_part_data with data[157:196608]
+2025-06-22 14:32:37,746 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:114688]
+2025-06-22 14:32:37,762 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:57594]
+2025-06-22 14:32:37,788 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 14:32:37,804 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 14:32:37,911 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 14:32:37,913 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 14:32:37,914 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 14:32:37,915 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:32:37,916 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 14:32:37,925 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-06-22 14:32:37,940 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:32:37,959 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 14:32:37,974 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:230493]
+2025-06-22 14:32:37,986 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 14:32:38,009 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 14:32:38,200 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 14:32:38,236 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 14:32:38,274 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:120]
+2025-06-22 14:32:38,311 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:32:38,352 - DEBUG - python_multipart.multipart - Calling on_header_field with data[122:134]
+2025-06-22 14:32:38,363 - DEBUG - python_multipart.multipart - Calling on_header_value with data[136:146]
+2025-06-22 14:32:38,400 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:32:38,440 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 14:32:38,474 - DEBUG - python_multipart.multipart - Calling on_part_data with data[150:261466]
+2025-06-22 14:32:38,554 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:107430]
+2025-06-22 14:32:38,574 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 14:32:38,604 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 14:32:54,590 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 14:32:54,611 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 14:32:54,619 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-06-22 14:32:54,634 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:32:54,640 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-06-22 14:32:54,643 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:135]
+2025-06-22 14:32:54,644 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:32:54,645 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 14:32:54,645 - DEBUG - python_multipart.multipart - Calling on_part_data with data[139:131072]
+2025-06-22 14:32:54,647 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:180224]
+2025-06-22 14:32:54,649 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:163906]
+2025-06-22 14:32:54,650 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 14:32:54,650 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 14:32:54,966 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 14:32:54,969 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 14:32:54,971 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:127]
+2025-06-22 14:32:54,971 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:32:54,972 - DEBUG - python_multipart.multipart - Calling on_header_field with data[129:141]
+2025-06-22 14:32:54,973 - DEBUG - python_multipart.multipart - Calling on_header_value with data[143:152]
+2025-06-22 14:32:54,974 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:32:54,975 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 14:32:54,976 - DEBUG - python_multipart.multipart - Calling on_part_data with data[156:81920]
+2025-06-22 14:32:54,978 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:196608]
+2025-06-22 14:32:54,980 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:196812]
+2025-06-22 14:32:54,981 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 14:32:54,982 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 14:32:55,200 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-06-22 14:32:55,204 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-06-22 14:32:55,205 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:120]
+2025-06-22 14:32:55,206 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:32:55,206 - DEBUG - python_multipart.multipart - Calling on_header_field with data[122:134]
+2025-06-22 14:32:55,207 - DEBUG - python_multipart.multipart - Calling on_header_value with data[136:145]
+2025-06-22 14:32:55,207 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-06-22 14:32:55,208 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-06-22 14:32:55,209 - DEBUG - python_multipart.multipart - Calling on_part_data with data[149:98304]
+2025-06-22 14:32:55,210 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:180224]
+2025-06-22 14:32:55,211 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:196326]
+2025-06-22 14:32:55,212 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-06-22 14:32:55,212 - DEBUG - python_multipart.multipart - Calling on_end with no data

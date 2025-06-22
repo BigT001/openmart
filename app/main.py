@@ -7,6 +7,7 @@ from fastapi.responses import JSONResponse
 from app.core.config import settings
 from app.core import logging  # Ensure logging is configured before anything else
 import logging as pylogging
+from fastapi.staticfiles import StaticFiles
 
 logger = pylogging.getLogger("openmart")
 
@@ -28,6 +29,9 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Static files configuration
+app.mount("/static", StaticFiles(directory="static"), name="static")
 
 # Global error handling middleware
 @app.middleware("http")

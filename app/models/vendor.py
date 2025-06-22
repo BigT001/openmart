@@ -1,6 +1,8 @@
 from sqlalchemy import Column, String, Text, Integer, DECIMAL, ForeignKey, TIMESTAMP, func
 from sqlalchemy.dialects.postgresql import UUID
 from app.db import Base
+from app.models.product import Product
+from sqlalchemy.orm import relationship
 import uuid
 
 class Vendor(Base):
@@ -24,3 +26,4 @@ class Vendor(Base):
     category = Column(String(255))
     created_at = Column(TIMESTAMP, server_default=func.now())
     updated_at = Column(TIMESTAMP, server_default=func.now(), onupdate=func.now())
+    products = relationship("Product", back_populates="vendor", cascade="all, delete-orphan")
