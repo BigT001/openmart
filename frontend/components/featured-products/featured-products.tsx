@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
+import RecentProductsCard from "./RecentProductsCard";
 
 const trendingProducts = [
   {
@@ -15,38 +16,8 @@ const trendingProducts = [
 
 export function FeaturedProducts() {
   const [activeTab, setActiveTab] = useState<"recent" | "trending">("recent");
-  const [recentProducts, setRecentProducts] = useState<any[]>([]);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
 
-  useEffect(() => {
-    if (activeTab === "recent") {
-      setLoading(true);
-      setError(null);
-      fetch(
-        `${process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000"}/api/products/`
-      )
-        .then((res) => {
-          if (!res.ok) throw new Error("Failed to fetch products");
-          return res.json();
-        })
-        .then((data) => {
-          // Sort by created_at descending if available
-          const sorted = Array.isArray(data)
-            ? data.sort(
-                (a, b) =>
-                  new Date(b.created_at).getTime() -
-                  new Date(a.created_at).getTime()
-              )
-            : [];
-          setRecentProducts(sorted);
-        })
-        .catch((err) => setError(err.message || "Error loading products"))
-        .finally(() => setLoading(false));
-    }
-  }, [activeTab]);
-
-  const renderTable = (products: any[], isRecent = false) => (
+  const renderTrendingTable = (products: typeof trendingProducts) => (
     <div className="overflow-x-auto rounded-xl shadow-lg bg-white dark:bg-gray-900 mt-6">
       <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-800">
         <thead>
@@ -69,13 +40,6 @@ export function FeaturedProducts() {
           </tr>
         </thead>
         <tbody>
-          {products.length === 0 && (
-            <tr>
-              <td colSpan={5} className="text-center py-8 text-gray-400">
-                No products found.
-              </td>
-            </tr>
-          )}
           {products.map((product, idx) => (
             <tr
               key={idx}
@@ -85,21 +49,17 @@ export function FeaturedProducts() {
                   : "bg-white dark:bg-gray-900"
               }
             >
-              <td className="px-6 py-4">{product.name || product.title}</td>
-              <td className="px-6 py-4">₦{(product.price || 0).toLocaleString()}</td>
-              <td className="px-6 py-4">{product.seller || product.vendor_id || "-"}</td>
-              <td className="px-6 py-4">{product.source || "OpenMart"}</td>
+              <td className="px-6 py-4">{product.name}</td>
+              <td className="px-6 py-4">₦{product.price.toLocaleString()}</td>
+              <td className="px-6 py-4">{product.seller}</td>
+              <td className="px-6 py-4">{product.source}</td>
               <td className="px-6 py-4">
-                {product.id || product.link ? (
-                  <a
-                    href={product.link || `#`}
-                    className="text-indigo-500 hover:underline"
-                  >
-                    View
-                  </a>
-                ) : (
-                  <span className="text-gray-400">-</span>
-                )}
+                <a
+                  href={product.link}
+                  className="text-indigo-500 hover:underline"
+                >
+                  View
+                </a>
               </td>
             </tr>
           ))}
@@ -142,15 +102,9 @@ export function FeaturedProducts() {
           </button>
         </div>
         {activeTab === "recent" ? (
-          loading ? (
-            <div className="py-10 text-center text-gray-400">Loading...</div>
-          ) : error ? (
-            <div className="py-10 text-center text-red-500">{error}</div>
-          ) : (
-            renderTable(recentProducts, true)
-          )
+          <RecentProductsCard />
         ) : (
-          renderTable(trendingProducts)
+          renderTrendingTable(trendingProducts)
         )}
       </div>
     </section>
