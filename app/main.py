@@ -1,20 +1,17 @@
+from dotenv import load_dotenv
+load_dotenv()
+
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from app.core.config import settings
-import logging
-import os
-from app.api.routes import search, products
+from app.core import logging  # Ensure logging is configured before anything else
+import logging as pylogging
 
-# Configure logging first, before any other operations
-os.makedirs("logs", exist_ok=True)
-logging.basicConfig(
-    filename='logs/openmart.log',
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    force=True  # Ensure we don't have multiple handlers
-)
-logger = logging.getLogger(__name__)
+logger = pylogging.getLogger("openmart")
+
+from app.api.routes import search, products, users
+from app.api.routes import vendors
 
 # Create FastAPI application
 app = FastAPI(
@@ -26,7 +23,7 @@ app = FastAPI(
 # CORS middleware configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=settings.BACKEND_CORS_ORIGINS,
+    allow_origins=["http://localhost:3000"],  # Only allow your frontend
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -56,3 +53,9 @@ app.include_router(search.router, prefix="/api", tags=["search"])
 
 logger.debug("Registering products router")
 app.include_router(products.router, prefix="/api/products", tags=["products"])
+
+logger.debug("Registering users router")
+app.include_router(users.router, prefix="/api")
+
+logger.debug("Registering vendors router")
+app.include_router(vendors.router, prefix="/api")

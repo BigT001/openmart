@@ -24,6 +24,21 @@ const handler = NextAuth({
         session.user.email = token.email;
         session.user.name = token.name;
         session.user.image = token.picture;
+        // Call backend to upsert user
+        try {
+          await fetch('http://localhost:8000/api/users/google-login', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              email: token.email,
+              full_name: token.name,
+              avatar_url: token.picture,
+              google_id: token.sub || token.id
+            }),
+          });
+        } catch (e) {
+          // Optionally log error
+        }
       }
       return session;
     },

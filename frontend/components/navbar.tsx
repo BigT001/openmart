@@ -1,10 +1,11 @@
 'use client'
 
-import React from 'react'
+import React, { useRef, useState, useEffect } from 'react'
 import Link from 'next/link'
 import { Button } from './ui/button'
 import { motion, Variants } from 'framer-motion'
 import { useSession, signIn, signOut } from 'next-auth/react'
+import { isVendor } from "@/lib/vendor";
 
 const navVariants: Variants = {
   hidden: { y: -100, opacity: 0 },
@@ -49,6 +50,35 @@ const buttonVariants: Variants = {
 
 export function Navbar() {
   const { data: session } = useSession();
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [isVendorUser, setIsVendorUser] = useState(false);
+  const menuRef = useRef<HTMLDivElement>(null);
+
+  // Close menu on outside click
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+        setMenuOpen(false);
+      }
+    }
+    if (menuOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    } else {
+      document.removeEventListener('mousedown', handleClickOutside);
+    }
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, [menuOpen]);
+
+  useEffect(() => {
+    async function checkVendor() {
+      if (session?.user?.email) {
+        setIsVendorUser(await isVendor(session.user.email));
+      } else {
+        setIsVendorUser(false);
+      }
+    }
+    checkVendor();
+  }, [session]);
 
   return (
     <motion.header 
@@ -84,18 +114,33 @@ export function Navbar() {
           </motion.div>
         </div>
 
-        {/* Auth button on the right */}
-        <div className="flex items-center">
-          <motion.div variants={itemVariants}>
-            {session ? (
+        {/* Auth button and user avatar on the right */}
+        <div className="flex items-center space-x-3">
+          {session && !isVendorUser && (
+            <motion.div variants={itemVariants}>
+              <Link href="/onboard-vendor">
+                <Button 
+                  variant="outline"
+                  className="ml-2 border-indigo-500 text-indigo-600 hover:bg-indigo-50 dark:hover:bg-indigo-950 transition-colors duration-200 font-semibold"
+                >
+                  Become a Seller
+                </Button>
+              </Link>
+            </motion.div>
+          )}
+          {session && isVendorUser && (
+            <motion.div variants={itemVariants}>
               <Button 
                 variant="ghost" 
                 className="hover:bg-green-50 dark:hover:bg-green-950 transition-colors duration-200"
-                onClick={() => window.location.href = '/dashboard'}
+                onClick={() => window.location.href = '/dashboard/vendor'}
               >
-                Sell Your Product
+                Dashboard
               </Button>
-            ) : (
+            </motion.div>
+          )}
+          {!session && (
+            <motion.div variants={itemVariants}>
               <Button 
                 variant="ghost" 
                 className="hover:bg-indigo-50 dark:hover:bg-indigo-950 transition-colors duration-200"
@@ -103,8 +148,47 @@ export function Navbar() {
               >
                 Sign In
               </Button>
-            )}
-          </motion.div>
+            </motion.div>
+          )}
+          {session && (
+            <motion.div variants={itemVariants} className="relative">
+              <button
+                className="focus:outline-none"
+                onClick={() => setMenuOpen((open) => !open)}
+                aria-label="User menu"
+              >
+                {session.user?.image ? (
+                  <img
+                    src={session.user.image}
+                    alt={session.user.name || 'User'}
+                    className="w-9 h-9 rounded-full border border-gray-300 dark:border-gray-700 shadow-sm object-cover hover:ring-2 hover:ring-indigo-500 transition"
+                    title={session.user.name ?? session.user.email ?? undefined}
+                  />
+                ) : (
+                  <div className="w-9 h-9 rounded-full bg-indigo-500 flex items-center justify-center text-white font-bold text-lg border border-gray-300 dark:border-gray-700 hover:ring-2 hover:ring-indigo-500 transition" title={session.user?.name ?? session.user?.email ?? undefined}>
+                    {session.user?.name ? session.user.name.charAt(0).toUpperCase() : (session.user?.email ? session.user.email.charAt(0).toUpperCase() : '?')}
+                  </div>
+                )}
+              </button>
+              {menuOpen && (
+                <div ref={menuRef} className="absolute right-0 mt-2 w-48 bg-white dark:bg-gray-900 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 py-2 z-50 animate-fade-in">
+                  <Link href="/profile" className="block px-4 py-2 text-gray-700 dark:text-gray-200 hover:bg-indigo-50 dark:hover:bg-gray-800 transition-colors rounded-t-lg">
+                    Profile
+                  </Link>
+                  <Link href="/settings" className="block px-4 py-2 text-gray-700 dark:text-gray-200 hover:bg-indigo-50 dark:hover:bg-gray-800 transition-colors">
+                    Settings
+                  </Link>
+                  <div className="border-t border-gray-200 dark:border-gray-700 my-1" />
+                  <button
+                    onClick={() => { setMenuOpen(false); signOut(); }}
+                    className="block w-full text-left px-4 py-2 text-red-600 hover:bg-red-50 dark:hover:bg-gray-800 transition-colors rounded-b-lg font-semibold"
+                  >
+                    Log out
+                  </button>
+                </div>
+              )}
+            </motion.div>
+          )}
         </div>
       </nav>
     </motion.header>

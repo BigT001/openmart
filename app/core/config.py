@@ -34,7 +34,7 @@ class Settings(BaseSettings):
     INSTAGRAM_PASSWORD: Optional[str] = None
     
     # CORS
-    BACKEND_CORS_ORIGINS: List[str] = ["http://localhost:3000"]
+    BACKEND_CORS_ORIGINS: List[str] = ["*"]  # Allow all origins for dev
     
     class Config:
         case_sensitive = True
