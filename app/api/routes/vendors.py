@@ -59,3 +59,20 @@ def get_vendor_by_user(email: str = Query(...), db: Session = Depends(get_db)):
         return {"vendor": None}
     vendor = db.query(vendor_model.Vendor).filter(vendor_model.Vendor.user_id == user.id).first()
     return {"vendor": vendor.id if vendor else None}
+
+@router.get("/vendors/{vendor_id}")
+def get_vendor_details(vendor_id: str, db: Session = Depends(get_db)):
+    vendor = db.query(vendor_model.Vendor).filter(vendor_model.Vendor.id == vendor_id).first()
+    if not vendor:
+        raise HTTPException(status_code=404, detail="Vendor not found")
+    return {
+        "id": str(vendor.id),
+        "business_name": vendor.business_name,
+        "business_description": vendor.business_description,
+        "business_email": vendor.business_email,
+        "business_phone": vendor.business_phone,
+        "business_address": vendor.business_address,
+        "registration_number": vendor.registration_number,
+        "verification_status": vendor.verification_status,
+        # Add more fields as needed
+    }

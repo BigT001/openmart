@@ -16939,3 +16939,2215 @@ fastapi.exceptions.ResponseValidationError: 2 validation errors:
 2025-06-22 17:37:29,666 - DEBUG - python_multipart.multipart - Calling on_part_data with data[204:31262]
 2025-06-22 17:37:29,667 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
 2025-06-22 17:37:29,667 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-06-22 18:15:30,050 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-06-22 18:15:30,052 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-06-22 18:15:31,300 - DEBUG - chromadb.config - Starting component System
+2025-06-22 18:15:31,301 - DEBUG - chromadb.config - Starting component Posthog
+2025-06-22 18:15:34,315 - INFO - app.core.vector_store - Retrieved existing collection: products
+2025-06-22 18:15:34,316 - INFO - app.core.vector_store - VectorStore initialized successfully
+2025-06-22 18:15:34,316 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-06-22 18:15:34,317 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-06-22 18:15:34,317 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-06-22 18:15:34,317 - INFO - app.services.deepseek_service - Processing prompt: iPhone 13 under 500K
+2025-06-22 18:15:34,318 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-06-22 18:15:35,448 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-06-22 18:15:35,449 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-06-22 18:15:35,451 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-06-22 18:15:46,979 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-06-22 18:15:46,980 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-06-22 18:15:46,981 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-06-22 18:15:46,983 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-06-22 18:15:46,983 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-06-22 18:15:46,984 - INFO - app.services.deepseek_service - Processing prompt: costume
+2025-06-22 18:15:46,984 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-06-22 18:15:47,688 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-06-22 18:15:47,689 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-06-22 18:15:47,691 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2028-01-01 00:29:18,464 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2028-01-01 00:29:18,485 - DEBUG - openmart - Registering search router
+2028-01-01 00:29:18,486 - DEBUG - openmart - Registering products router
+2028-01-01 00:29:18,489 - DEBUG - openmart - Registering users router
+2028-01-01 00:29:18,490 - DEBUG - openmart - Registering vendors router
+2025-06-23 01:06:26,749 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-23 01:06:26,752 - DEBUG - openmart - Registering search router
+2025-06-23 01:06:26,754 - DEBUG - openmart - Registering products router
+2025-06-23 01:06:26,760 - DEBUG - openmart - Registering users router
+2025-06-23 01:06:26,761 - DEBUG - openmart - Registering vendors router
+2025-06-23 01:09:52,638 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-23 01:09:52,640 - DEBUG - openmart - Registering search router
+2025-06-23 01:09:52,643 - DEBUG - openmart - Registering products router
+2025-06-23 01:09:52,649 - DEBUG - openmart - Registering users router
+2025-06-23 01:09:52,652 - DEBUG - openmart - Registering vendors router
+2025-06-23 01:10:30,184 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-23 01:10:30,187 - DEBUG - openmart - Registering search router
+2025-06-23 01:10:30,188 - DEBUG - openmart - Registering products router
+2025-06-23 01:10:30,193 - DEBUG - openmart - Registering users router
+2025-06-23 01:10:30,194 - DEBUG - openmart - Registering vendors router
+2025-06-23 01:13:59,363 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-23 01:13:59,368 - DEBUG - openmart - Registering search router
+2025-06-23 01:13:59,371 - DEBUG - openmart - Registering products router
+2025-06-23 01:13:59,379 - DEBUG - openmart - Registering users router
+2025-06-23 01:13:59,382 - DEBUG - openmart - Registering vendors router
+2025-06-23 01:17:44,125 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-23 01:17:44,129 - DEBUG - openmart - Registering search router
+2025-06-23 01:17:44,130 - DEBUG - openmart - Registering products router
+2025-06-23 01:17:44,137 - DEBUG - openmart - Registering users router
+2025-06-23 01:17:44,139 - DEBUG - openmart - Registering vendors router
+2025-06-23 01:20:56,309 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-23 01:20:56,314 - DEBUG - openmart - Registering search router
+2025-06-23 01:20:56,317 - DEBUG - openmart - Registering products router
+2025-06-23 01:20:56,326 - DEBUG - openmart - Registering users router
+2025-06-23 01:20:56,329 - DEBUG - openmart - Registering vendors router
+2025-06-23 01:28:10,849 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-23 01:28:10,852 - DEBUG - openmart - Registering search router
+2025-06-23 01:28:10,853 - DEBUG - openmart - Registering products router
+2025-06-23 01:28:10,859 - DEBUG - openmart - Registering users router
+2025-06-23 01:28:10,860 - DEBUG - openmart - Registering vendors router
+2025-06-23 01:37:39,450 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-23 01:37:39,453 - DEBUG - openmart - Registering search router
+2025-06-23 01:37:39,454 - DEBUG - openmart - Registering products router
+2025-06-23 01:37:39,459 - DEBUG - openmart - Registering users router
+2025-06-23 01:37:39,461 - DEBUG - openmart - Registering vendors router
+2025-06-23 01:44:44,484 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-23 01:44:44,491 - DEBUG - openmart - Registering search router
+2025-06-23 01:44:44,493 - DEBUG - openmart - Registering products router
+2025-06-23 01:44:44,503 - DEBUG - openmart - Registering users router
+2025-06-23 01:44:44,504 - DEBUG - openmart - Registering vendors router
+2025-06-23 01:45:21,967 - ERROR - openmart - Request to http://localhost:8000/api/products/96b67051-56cd-458e-a0aa-16040d36aec4 failed: (psycopg2.errors.UndefinedFunction) operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '96b67051-56cd-458e-a0aa-16040d36aec4'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT products.id AS products_id, products.name AS products_name, products.description AS products_description, products.price AS products_price, products.stock AS products_stock, products.category AS products_category, products.status AS products_status, products.images AS products_images, products.sku AS products_sku, products.vendor_id AS products_vendor_id, products.created_at AS products_created_at 
+FROM products 
+WHERE products.id = %(id_1)s::UUID 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': UUID('96b67051-56cd-458e-a0aa-16040d36aec4'), 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedFunction: operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '96b67051-56cd-458e-a0aa-16040d36aec4'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\products.py", line 167, in get_product
+    product = db.query(ProductModel).filter(ProductModel.id == product_id).first()
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2759, in first
+    return self.limit(1)._iter().first()  # type: ignore
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2857, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1415, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1637, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1842, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1982, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2351, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedFunction) operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '96b67051-56cd-458e-a0aa-16040d36aec4'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT products.id AS products_id, products.name AS products_name, products.description AS products_description, products.price AS products_price, products.stock AS products_stock, products.category AS products_category, products.status AS products_status, products.images AS products_images, products.sku AS products_sku, products.vendor_id AS products_vendor_id, products.created_at AS products_created_at 
+FROM products 
+WHERE products.id = %(id_1)s::UUID 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': UUID('96b67051-56cd-458e-a0aa-16040d36aec4'), 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-06-23 01:45:22,163 - ERROR - openmart - Request to http://localhost:8000/api/products/96b67051-56cd-458e-a0aa-16040d36aec4 failed: (psycopg2.errors.UndefinedFunction) operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '96b67051-56cd-458e-a0aa-16040d36aec4'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT products.id AS products_id, products.name AS products_name, products.description AS products_description, products.price AS products_price, products.stock AS products_stock, products.category AS products_category, products.status AS products_status, products.images AS products_images, products.sku AS products_sku, products.vendor_id AS products_vendor_id, products.created_at AS products_created_at 
+FROM products 
+WHERE products.id = %(id_1)s::UUID 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': UUID('96b67051-56cd-458e-a0aa-16040d36aec4'), 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedFunction: operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '96b67051-56cd-458e-a0aa-16040d36aec4'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\products.py", line 167, in get_product
+    product = db.query(ProductModel).filter(ProductModel.id == product_id).first()
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2759, in first
+    return self.limit(1)._iter().first()  # type: ignore
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2857, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1415, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1637, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1842, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1982, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2351, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedFunction) operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '96b67051-56cd-458e-a0aa-16040d36aec4'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT products.id AS products_id, products.name AS products_name, products.description AS products_description, products.price AS products_price, products.stock AS products_stock, products.category AS products_category, products.status AS products_status, products.images AS products_images, products.sku AS products_sku, products.vendor_id AS products_vendor_id, products.created_at AS products_created_at 
+FROM products 
+WHERE products.id = %(id_1)s::UUID 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': UUID('96b67051-56cd-458e-a0aa-16040d36aec4'), 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-06-23 02:25:36,166 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-23 02:25:36,169 - DEBUG - openmart - Registering search router
+2025-06-23 02:25:36,171 - DEBUG - openmart - Registering products router
+2025-06-23 02:25:36,175 - DEBUG - openmart - Registering users router
+2025-06-23 02:25:36,181 - DEBUG - openmart - Registering vendors router
+2025-06-23 02:26:04,354 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-23 02:26:04,366 - DEBUG - openmart - Registering search router
+2025-06-23 02:26:04,381 - DEBUG - openmart - Registering products router
+2025-06-23 02:26:04,396 - DEBUG - openmart - Registering users router
+2025-06-23 02:26:04,404 - DEBUG - openmart - Registering vendors router
+2025-06-23 02:26:07,589 - ERROR - openmart - Request to http://localhost:8000/api/products/16839297-82d7-4b4a-bfb0-3cec67a95f49 failed: (psycopg2.errors.UndefinedFunction) operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '16839297-82d7-4b4a-bfb0-3cec67a95f49'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT products.id AS products_id, products.name AS products_name, products.description AS products_description, products.price AS products_price, products.stock AS products_stock, products.category AS products_category, products.status AS products_status, products.images AS products_images, products.sku AS products_sku, products.vendor_id AS products_vendor_id, products.created_at AS products_created_at 
+FROM products 
+WHERE products.id = %(id_1)s::UUID 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': UUID('16839297-82d7-4b4a-bfb0-3cec67a95f49'), 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedFunction: operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '16839297-82d7-4b4a-bfb0-3cec67a95f49'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\products.py", line 167, in get_product
+    product = db.query(ProductModel).filter(ProductModel.id == product_id).first()
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2759, in first
+    return self.limit(1)._iter().first()  # type: ignore
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2857, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1415, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1637, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1842, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1982, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2351, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedFunction) operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '16839297-82d7-4b4a-bfb0-3cec67a95f49'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT products.id AS products_id, products.name AS products_name, products.description AS products_description, products.price AS products_price, products.stock AS products_stock, products.category AS products_category, products.status AS products_status, products.images AS products_images, products.sku AS products_sku, products.vendor_id AS products_vendor_id, products.created_at AS products_created_at 
+FROM products 
+WHERE products.id = %(id_1)s::UUID 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': UUID('16839297-82d7-4b4a-bfb0-3cec67a95f49'), 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-06-23 02:26:20,015 - ERROR - openmart - Request to http://localhost:8000/api/products/16839297-82d7-4b4a-bfb0-3cec67a95f49 failed: (psycopg2.errors.UndefinedFunction) operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '16839297-82d7-4b4a-bfb0-3cec67a95f49'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT products.id AS products_id, products.name AS products_name, products.description AS products_description, products.price AS products_price, products.stock AS products_stock, products.category AS products_category, products.status AS products_status, products.images AS products_images, products.sku AS products_sku, products.vendor_id AS products_vendor_id, products.created_at AS products_created_at 
+FROM products 
+WHERE products.id = %(id_1)s::UUID 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': UUID('16839297-82d7-4b4a-bfb0-3cec67a95f49'), 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedFunction: operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '16839297-82d7-4b4a-bfb0-3cec67a95f49'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\products.py", line 167, in get_product
+    product = db.query(ProductModel).filter(ProductModel.id == product_id).first()
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2759, in first
+    return self.limit(1)._iter().first()  # type: ignore
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2857, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1415, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1637, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1842, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1982, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2351, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedFunction) operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '16839297-82d7-4b4a-bfb0-3cec67a95f49'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT products.id AS products_id, products.name AS products_name, products.description AS products_description, products.price AS products_price, products.stock AS products_stock, products.category AS products_category, products.status AS products_status, products.images AS products_images, products.sku AS products_sku, products.vendor_id AS products_vendor_id, products.created_at AS products_created_at 
+FROM products 
+WHERE products.id = %(id_1)s::UUID 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': UUID('16839297-82d7-4b4a-bfb0-3cec67a95f49'), 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-06-23 02:26:20,079 - ERROR - openmart - Request to http://localhost:8000/api/products/16839297-82d7-4b4a-bfb0-3cec67a95f49 failed: (psycopg2.errors.UndefinedFunction) operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '16839297-82d7-4b4a-bfb0-3cec67a95f49'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT products.id AS products_id, products.name AS products_name, products.description AS products_description, products.price AS products_price, products.stock AS products_stock, products.category AS products_category, products.status AS products_status, products.images AS products_images, products.sku AS products_sku, products.vendor_id AS products_vendor_id, products.created_at AS products_created_at 
+FROM products 
+WHERE products.id = %(id_1)s::UUID 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': UUID('16839297-82d7-4b4a-bfb0-3cec67a95f49'), 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedFunction: operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '16839297-82d7-4b4a-bfb0-3cec67a95f49'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\products.py", line 167, in get_product
+    product = db.query(ProductModel).filter(ProductModel.id == product_id).first()
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2759, in first
+    return self.limit(1)._iter().first()  # type: ignore
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2857, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1415, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1637, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1842, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1982, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2351, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedFunction) operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '16839297-82d7-4b4a-bfb0-3cec67a95f49'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT products.id AS products_id, products.name AS products_name, products.description AS products_description, products.price AS products_price, products.stock AS products_stock, products.category AS products_category, products.status AS products_status, products.images AS products_images, products.sku AS products_sku, products.vendor_id AS products_vendor_id, products.created_at AS products_created_at 
+FROM products 
+WHERE products.id = %(id_1)s::UUID 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': UUID('16839297-82d7-4b4a-bfb0-3cec67a95f49'), 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-06-23 02:26:28,802 - ERROR - openmart - Request to http://localhost:8000/api/products/17cd6d0c-f0a2-403a-ac28-63b0a7724066 failed: (psycopg2.errors.UndefinedFunction) operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '17cd6d0c-f0a2-403a-ac28-63b0a7724066'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT products.id AS products_id, products.name AS products_name, products.description AS products_description, products.price AS products_price, products.stock AS products_stock, products.category AS products_category, products.status AS products_status, products.images AS products_images, products.sku AS products_sku, products.vendor_id AS products_vendor_id, products.created_at AS products_created_at 
+FROM products 
+WHERE products.id = %(id_1)s::UUID 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': UUID('17cd6d0c-f0a2-403a-ac28-63b0a7724066'), 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedFunction: operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '17cd6d0c-f0a2-403a-ac28-63b0a7724066'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\products.py", line 167, in get_product
+    product = db.query(ProductModel).filter(ProductModel.id == product_id).first()
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2759, in first
+    return self.limit(1)._iter().first()  # type: ignore
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2857, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1415, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1637, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1842, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1982, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2351, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedFunction) operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '17cd6d0c-f0a2-403a-ac28-63b0a7724066'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT products.id AS products_id, products.name AS products_name, products.description AS products_description, products.price AS products_price, products.stock AS products_stock, products.category AS products_category, products.status AS products_status, products.images AS products_images, products.sku AS products_sku, products.vendor_id AS products_vendor_id, products.created_at AS products_created_at 
+FROM products 
+WHERE products.id = %(id_1)s::UUID 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': UUID('17cd6d0c-f0a2-403a-ac28-63b0a7724066'), 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-06-23 02:26:28,899 - ERROR - openmart - Request to http://localhost:8000/api/products/17cd6d0c-f0a2-403a-ac28-63b0a7724066 failed: (psycopg2.errors.UndefinedFunction) operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '17cd6d0c-f0a2-403a-ac28-63b0a7724066'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT products.id AS products_id, products.name AS products_name, products.description AS products_description, products.price AS products_price, products.stock AS products_stock, products.category AS products_category, products.status AS products_status, products.images AS products_images, products.sku AS products_sku, products.vendor_id AS products_vendor_id, products.created_at AS products_created_at 
+FROM products 
+WHERE products.id = %(id_1)s::UUID 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': UUID('17cd6d0c-f0a2-403a-ac28-63b0a7724066'), 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedFunction: operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '17cd6d0c-f0a2-403a-ac28-63b0a7724066'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\products.py", line 167, in get_product
+    product = db.query(ProductModel).filter(ProductModel.id == product_id).first()
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2759, in first
+    return self.limit(1)._iter().first()  # type: ignore
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2857, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1415, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1637, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1842, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1982, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2351, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedFunction) operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '17cd6d0c-f0a2-403a-ac28-63b0a7724066'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT products.id AS products_id, products.name AS products_name, products.description AS products_description, products.price AS products_price, products.stock AS products_stock, products.category AS products_category, products.status AS products_status, products.images AS products_images, products.sku AS products_sku, products.vendor_id AS products_vendor_id, products.created_at AS products_created_at 
+FROM products 
+WHERE products.id = %(id_1)s::UUID 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': UUID('17cd6d0c-f0a2-403a-ac28-63b0a7724066'), 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-06-23 02:26:38,725 - ERROR - openmart - Request to http://localhost:8000/api/products/9fb50d53-9592-4864-84e7-a7739d2572c5 failed: (psycopg2.errors.UndefinedFunction) operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '9fb50d53-9592-4864-84e7-a7739d2572c5'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT products.id AS products_id, products.name AS products_name, products.description AS products_description, products.price AS products_price, products.stock AS products_stock, products.category AS products_category, products.status AS products_status, products.images AS products_images, products.sku AS products_sku, products.vendor_id AS products_vendor_id, products.created_at AS products_created_at 
+FROM products 
+WHERE products.id = %(id_1)s::UUID 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': UUID('9fb50d53-9592-4864-84e7-a7739d2572c5'), 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedFunction: operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '9fb50d53-9592-4864-84e7-a7739d2572c5'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\products.py", line 167, in get_product
+    product = db.query(ProductModel).filter(ProductModel.id == product_id).first()
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2759, in first
+    return self.limit(1)._iter().first()  # type: ignore
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2857, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1415, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1637, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1842, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1982, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2351, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedFunction) operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '9fb50d53-9592-4864-84e7-a7739d2572c5'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT products.id AS products_id, products.name AS products_name, products.description AS products_description, products.price AS products_price, products.stock AS products_stock, products.category AS products_category, products.status AS products_status, products.images AS products_images, products.sku AS products_sku, products.vendor_id AS products_vendor_id, products.created_at AS products_created_at 
+FROM products 
+WHERE products.id = %(id_1)s::UUID 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': UUID('9fb50d53-9592-4864-84e7-a7739d2572c5'), 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-06-23 02:26:38,790 - ERROR - openmart - Request to http://localhost:8000/api/products/9fb50d53-9592-4864-84e7-a7739d2572c5 failed: (psycopg2.errors.UndefinedFunction) operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '9fb50d53-9592-4864-84e7-a7739d2572c5'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT products.id AS products_id, products.name AS products_name, products.description AS products_description, products.price AS products_price, products.stock AS products_stock, products.category AS products_category, products.status AS products_status, products.images AS products_images, products.sku AS products_sku, products.vendor_id AS products_vendor_id, products.created_at AS products_created_at 
+FROM products 
+WHERE products.id = %(id_1)s::UUID 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': UUID('9fb50d53-9592-4864-84e7-a7739d2572c5'), 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedFunction: operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '9fb50d53-9592-4864-84e7-a7739d2572c5'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\products.py", line 167, in get_product
+    product = db.query(ProductModel).filter(ProductModel.id == product_id).first()
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2759, in first
+    return self.limit(1)._iter().first()  # type: ignore
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2857, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1415, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1637, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1842, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1982, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2351, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedFunction) operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '9fb50d53-9592-4864-84e7-a7739d2572c5'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT products.id AS products_id, products.name AS products_name, products.description AS products_description, products.price AS products_price, products.stock AS products_stock, products.category AS products_category, products.status AS products_status, products.images AS products_images, products.sku AS products_sku, products.vendor_id AS products_vendor_id, products.created_at AS products_created_at 
+FROM products 
+WHERE products.id = %(id_1)s::UUID 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': UUID('9fb50d53-9592-4864-84e7-a7739d2572c5'), 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-06-23 02:26:48,335 - ERROR - openmart - Request to http://localhost:8000/api/products/17cd6d0c-f0a2-403a-ac28-63b0a7724066 failed: (psycopg2.errors.UndefinedFunction) operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '17cd6d0c-f0a2-403a-ac28-63b0a7724066'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT products.id AS products_id, products.name AS products_name, products.description AS products_description, products.price AS products_price, products.stock AS products_stock, products.category AS products_category, products.status AS products_status, products.images AS products_images, products.sku AS products_sku, products.vendor_id AS products_vendor_id, products.created_at AS products_created_at 
+FROM products 
+WHERE products.id = %(id_1)s::UUID 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': UUID('17cd6d0c-f0a2-403a-ac28-63b0a7724066'), 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedFunction: operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '17cd6d0c-f0a2-403a-ac28-63b0a7724066'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\products.py", line 167, in get_product
+    product = db.query(ProductModel).filter(ProductModel.id == product_id).first()
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2759, in first
+    return self.limit(1)._iter().first()  # type: ignore
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2857, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1415, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1637, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1842, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1982, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2351, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedFunction) operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '17cd6d0c-f0a2-403a-ac28-63b0a7724066'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT products.id AS products_id, products.name AS products_name, products.description AS products_description, products.price AS products_price, products.stock AS products_stock, products.category AS products_category, products.status AS products_status, products.images AS products_images, products.sku AS products_sku, products.vendor_id AS products_vendor_id, products.created_at AS products_created_at 
+FROM products 
+WHERE products.id = %(id_1)s::UUID 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': UUID('17cd6d0c-f0a2-403a-ac28-63b0a7724066'), 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-06-23 02:26:48,387 - ERROR - openmart - Request to http://localhost:8000/api/products/17cd6d0c-f0a2-403a-ac28-63b0a7724066 failed: (psycopg2.errors.UndefinedFunction) operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '17cd6d0c-f0a2-403a-ac28-63b0a7724066'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT products.id AS products_id, products.name AS products_name, products.description AS products_description, products.price AS products_price, products.stock AS products_stock, products.category AS products_category, products.status AS products_status, products.images AS products_images, products.sku AS products_sku, products.vendor_id AS products_vendor_id, products.created_at AS products_created_at 
+FROM products 
+WHERE products.id = %(id_1)s::UUID 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': UUID('17cd6d0c-f0a2-403a-ac28-63b0a7724066'), 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedFunction: operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '17cd6d0c-f0a2-403a-ac28-63b0a7724066'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\products.py", line 167, in get_product
+    product = db.query(ProductModel).filter(ProductModel.id == product_id).first()
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2759, in first
+    return self.limit(1)._iter().first()  # type: ignore
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2857, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1415, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1637, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1842, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1982, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2351, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedFunction) operator does not exist: character varying = uuid
+LINE 3: WHERE products.id = '17cd6d0c-f0a2-403a-ac28-63b0a7724066'::...
+                          ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[SQL: SELECT products.id AS products_id, products.name AS products_name, products.description AS products_description, products.price AS products_price, products.stock AS products_stock, products.category AS products_category, products.status AS products_status, products.images AS products_images, products.sku AS products_sku, products.vendor_id AS products_vendor_id, products.created_at AS products_created_at 
+FROM products 
+WHERE products.id = %(id_1)s::UUID 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': UUID('17cd6d0c-f0a2-403a-ac28-63b0a7724066'), 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-06-23 02:28:30,666 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-23 02:28:30,668 - DEBUG - openmart - Registering search router
+2025-06-23 02:28:30,669 - DEBUG - openmart - Registering products router
+2025-06-23 02:28:30,677 - DEBUG - openmart - Registering users router
+2025-06-23 02:28:30,678 - DEBUG - openmart - Registering vendors router
+2025-06-23 02:29:04,143 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-23 02:29:04,147 - DEBUG - openmart - Registering search router
+2025-06-23 02:29:04,149 - DEBUG - openmart - Registering products router
+2025-06-23 02:29:04,164 - DEBUG - openmart - Registering users router
+2025-06-23 02:29:04,176 - DEBUG - openmart - Registering vendors router
+2025-06-23 02:31:02,237 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-23 02:31:02,239 - DEBUG - openmart - Registering search router
+2025-06-23 02:31:02,240 - DEBUG - openmart - Registering products router
+2025-06-23 02:31:02,244 - DEBUG - openmart - Registering users router
+2025-06-23 02:31:02,245 - DEBUG - openmart - Registering vendors router
+2025-06-23 19:06:25,147 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-23 19:06:25,185 - DEBUG - openmart - Registering search router
+2025-06-23 19:06:25,189 - DEBUG - openmart - Registering products router
+2025-06-23 19:06:25,213 - DEBUG - openmart - Registering users router
+2025-06-23 19:06:25,219 - DEBUG - openmart - Registering vendors router
+2025-06-23 20:13:42,145 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-23 20:13:42,149 - DEBUG - openmart - Registering search router
+2025-06-23 20:13:42,151 - DEBUG - openmart - Registering products router
+2025-06-23 20:13:42,158 - DEBUG - openmart - Registering users router
+2025-06-23 20:13:42,159 - DEBUG - openmart - Registering vendors router
+2025-06-23 20:15:09,080 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-23 20:15:09,084 - DEBUG - openmart - Registering search router
+2025-06-23 20:15:09,085 - DEBUG - openmart - Registering products router
+2025-06-23 20:15:09,089 - DEBUG - openmart - Registering users router
+2025-06-23 20:15:09,090 - DEBUG - openmart - Registering vendors router
+2025-06-23 20:32:26,536 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-23 20:32:26,540 - DEBUG - openmart - Registering search router
+2025-06-23 20:32:26,541 - DEBUG - openmart - Registering products router
+2025-06-23 20:32:26,549 - DEBUG - openmart - Registering users router
+2025-06-23 20:32:26,550 - DEBUG - openmart - Registering vendors router
+2025-06-23 20:37:12,560 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-23 20:37:12,562 - DEBUG - openmart - Registering search router
+2025-06-23 20:37:12,563 - DEBUG - openmart - Registering products router
+2025-06-23 20:37:12,572 - DEBUG - openmart - Registering users router
+2025-06-23 20:37:12,573 - DEBUG - openmart - Registering vendors router
+2025-06-23 20:44:03,221 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-23 20:44:03,228 - DEBUG - openmart - Registering search router
+2025-06-23 20:44:03,234 - DEBUG - openmart - Registering products router
+2025-06-23 20:44:03,250 - DEBUG - openmart - Registering users router
+2025-06-23 20:44:03,253 - DEBUG - openmart - Registering vendors router
+2025-06-23 20:58:01,638 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-23 20:58:01,640 - DEBUG - openmart - Registering search router
+2025-06-23 20:58:01,641 - DEBUG - openmart - Registering products router
+2025-06-23 20:58:01,649 - DEBUG - openmart - Registering users router
+2025-06-23 20:58:01,654 - DEBUG - openmart - Registering vendors router
+2025-06-23 22:49:44,278 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-23 22:49:44,280 - DEBUG - openmart - Registering search router
+2025-06-23 22:49:44,282 - DEBUG - openmart - Registering products router
+2025-06-23 22:49:44,287 - DEBUG - openmart - Registering users router
+2025-06-23 22:49:44,289 - DEBUG - openmart - Registering vendors router
+2025-06-23 22:51:09,800 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-23 22:51:09,803 - DEBUG - openmart - Registering search router
+2025-06-23 22:51:09,804 - DEBUG - openmart - Registering products router
+2025-06-23 22:51:09,810 - DEBUG - openmart - Registering users router
+2025-06-23 22:51:09,812 - DEBUG - openmart - Registering vendors router
+2025-06-25 00:40:24,147 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-25 00:40:24,400 - DEBUG - openmart - Registering search router
+2025-06-25 00:40:24,409 - DEBUG - openmart - Registering products router
+2025-06-25 00:40:24,434 - DEBUG - openmart - Registering users router
+2025-06-25 00:40:24,436 - DEBUG - openmart - Registering vendors router
+2025-06-25 05:50:29,301 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-25 05:50:29,653 - DEBUG - openmart - Registering search router
+2025-06-25 05:50:29,656 - DEBUG - openmart - Registering products router
+2025-06-25 05:50:29,679 - DEBUG - openmart - Registering users router
+2025-06-25 05:50:29,738 - DEBUG - openmart - Registering vendors router
+2025-06-25 09:31:02,014 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-25 09:31:02,046 - DEBUG - openmart - Registering search router
+2025-06-25 09:31:02,054 - DEBUG - openmart - Registering products router
+2025-06-25 09:31:02,073 - DEBUG - openmart - Registering users router
+2025-06-25 09:31:02,081 - DEBUG - openmart - Registering vendors router
+2025-06-25 09:03:55,188 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-25 09:03:55,234 - DEBUG - openmart - Registering search router
+2025-06-25 09:03:55,235 - DEBUG - openmart - Registering products router
+2025-06-25 09:03:55,239 - DEBUG - openmart - Registering users router
+2025-06-25 09:03:55,241 - DEBUG - openmart - Registering vendors router
+2025-06-25 09:26:12,966 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-25 09:26:12,989 - DEBUG - openmart - Registering search router
+2025-06-25 09:26:12,994 - DEBUG - openmart - Registering products router
+2025-06-25 09:26:13,013 - DEBUG - openmart - Registering users router
+2025-06-25 09:26:13,015 - DEBUG - openmart - Registering vendors router
+2025-06-25 21:12:35,957 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-25 21:12:36,028 - DEBUG - openmart - Registering search router
+2025-06-25 21:12:36,035 - DEBUG - openmart - Registering products router
+2025-06-25 21:12:36,052 - DEBUG - openmart - Registering users router
+2025-06-25 21:12:36,054 - DEBUG - openmart - Registering vendors router
+2025-06-26 02:18:59,596 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-26 02:18:59,618 - DEBUG - openmart - Registering search router
+2025-06-26 02:18:59,621 - DEBUG - openmart - Registering products router
+2025-06-26 02:18:59,627 - DEBUG - openmart - Registering users router
+2025-06-26 02:18:59,631 - DEBUG - openmart - Registering vendors router
+2025-06-28 01:01:22,841 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-06-28 01:01:22,873 - DEBUG - openmart - Registering search router
+2025-06-28 01:01:22,877 - DEBUG - openmart - Registering products router
+2025-06-28 01:01:22,888 - DEBUG - openmart - Registering users router
+2025-06-28 01:01:22,889 - DEBUG - openmart - Registering vendors router
+2025-07-02 00:54:16,729 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-02 00:54:16,752 - DEBUG - openmart - Registering search router
+2025-07-02 00:54:16,754 - DEBUG - openmart - Registering products router
+2025-07-02 00:54:16,759 - DEBUG - openmart - Registering users router
+2025-07-02 00:54:16,760 - DEBUG - openmart - Registering vendors router
+2025-07-03 04:10:46,282 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-03 04:10:46,303 - DEBUG - openmart - Registering search router
+2025-07-03 04:10:46,304 - DEBUG - openmart - Registering products router
+2025-07-03 04:10:46,311 - DEBUG - openmart - Registering users router
+2025-07-03 04:10:46,313 - DEBUG - openmart - Registering vendors router
+2025-07-03 07:48:54,111 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-03 07:48:54,114 - DEBUG - openmart - Registering search router
+2025-07-03 07:48:54,116 - DEBUG - openmart - Registering products router
+2025-07-03 07:48:54,125 - DEBUG - openmart - Registering users router
+2025-07-03 07:48:54,128 - DEBUG - openmart - Registering vendors router

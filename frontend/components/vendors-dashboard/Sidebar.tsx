@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { useState } from "react";
 import { FiChevronLeft, FiChevronRight, FiGrid, FiBox, FiShoppingBag, FiStar, FiSettings } from "react-icons/fi";
@@ -8,6 +10,7 @@ const sidebarItems = [
 	{ label: "Orders", href: "/dashboard/vendor/orders", icon: <FiShoppingBag /> },
 	{ label: "Reviews", href: "/dashboard/vendor/reviews", icon: <FiStar /> },
 	{ label: "Settings", href: "/dashboard/vendor/settings", icon: <FiSettings /> },
+	{ label: "My Store", href: "/dashboard/vendor/mystore", icon: <FiGrid /> },
 ];
 
 export default function Sidebar({ active }: { active?: string }) {

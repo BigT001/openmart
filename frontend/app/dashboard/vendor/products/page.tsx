@@ -1,5 +1,4 @@
 "use client";
-import DashboardLayout from "@/components/vendors-dashboard/DashboardLayout";
 import ProductCard from "@/components/vendors-dashboard/products/ProductCard";
 import AddProductForm from "@/components/vendors-dashboard/products/AddProductForm";
 import { useEffect, useState } from "react";
@@ -62,7 +61,7 @@ export default function VendorProductsPage() {
   };
 
   return (
-    <DashboardLayout active="/dashboard/vendor/products" onAddProduct={handleAddProduct}>
+    <div>
       <div className="mb-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <div>
           <h1 className="text-3xl font-extrabold text-[#181024] dark:text-[#b39ddb] mb-2">
@@ -110,6 +109,6 @@ export default function VendorProductsPage() {
           No products yet. Click "Add Product" to get started.
         </div>
       )}
-    </DashboardLayout>
+    </div>
   );
 }

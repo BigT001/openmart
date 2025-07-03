@@ -9,6 +9,8 @@ from datetime import datetime
 import uuid
 import logging
 import os
+import json
+from uuid import UUID
 
 # Define response models
 class Product(BaseModel):
@@ -159,3 +161,17 @@ def get_products(vendor_id: str = Query(None), db: Session = Depends(get_db)):
         if p.vendor_id is not None:
             p.vendor_id = str(p.vendor_id)
     return products
+
+@router.get("/{product_id}", tags=["products"])
+def get_product(product_id: str, db: Session = Depends(get_db)):
+    product = db.query(ProductModel).filter(ProductModel.id == product_id).first()
+    if not product:
+        raise HTTPException(status_code=404, detail="Product not found")
+    result = {c.name: getattr(product, c.name) for c in product.__table__.columns}
+    # If images is a JSON/text column, parse it if needed
+    if isinstance(result.get("images"), str):
+        try:
+            result["images"] = json.loads(result["images"])
+        except Exception:
+            pass
+    return result

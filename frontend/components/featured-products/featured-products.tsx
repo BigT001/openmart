@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import RecentProductsCard from "./RecentProductsCard";
+import RecentProductsCard from "./recentproducts/RecentProductsCard";
 
 const trendingProducts = [
   {
@@ -73,10 +73,10 @@ export function FeaturedProducts() {
       <div className="container mx-auto px-4">
         <div className="mb-10 text-center">
           <h2 className="text-3xl font-bold mb-2 text-gray-900 dark:text-white">
-            Product Highlights
+            Explor Products
           </h2>
           <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Explore recent and trending products from our marketplace
+            Discover recent and trending products 
           </p>
         </div>
         <div className="flex gap-4 border-b border-gray-200 dark:border-gray-800 mb-0 justify-start">

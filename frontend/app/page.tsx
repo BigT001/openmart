@@ -3,10 +3,8 @@
 import { useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { SearchForm } from '@/components/search'
-import { HowItWorks } from '@/components/how-it-works'
 import { FeaturedProducts } from '@/components/featured-products/featured-products'
-import { TrustedVendors } from '@/components/trusted-vendors'
-import { Navbar } from "@/components/navbar"
+import { Navbar } from "@/components/navbar/navbar"
 import { motion } from "framer-motion"
 import { useRef } from 'react'
 

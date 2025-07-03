@@ -2,7 +2,7 @@
 
 import React, { useRef, useState, useEffect } from 'react'
 import Link from 'next/link'
-import { Button } from './ui/button'
+import { Button } from '../ui/button'
 import { motion, Variants } from 'framer-motion'
 import { useSession, signIn, signOut } from 'next-auth/react'
 import { isVendor } from "@/lib/vendor";
