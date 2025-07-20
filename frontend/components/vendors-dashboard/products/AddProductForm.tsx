@@ -123,8 +123,8 @@ export default function AddProductForm({ onClose, onAdd, vendor_id }: AddProduct
 
   // Modal animation: slide-in from bottom, faint white/ash/gray background, minimal purple
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/20 p-4">
-      <div className="relative w-full max-w-md bg-white rounded-2xl shadow-2xl border border-[#7c4dff]/20 p-6 animate-slideIn pointer-events-auto flex flex-col items-center" style={{margin: 'auto'}}>
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/30 p-4">
+      <div className="relative w-full max-w-md bg-[#181818] rounded-2xl shadow-2xl border border-[#232323] p-6 animate-slideIn pointer-events-auto flex flex-col items-center" style={{margin: 'auto'}}>
         {loading && (
           <div className="absolute inset-0 bg-white/70 flex items-center justify-center z-50 rounded-2xl">
             <svg className="animate-spin h-8 w-8 text-[#7c4dff]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
@@ -137,7 +137,7 @@ export default function AddProductForm({ onClose, onAdd, vendor_id }: AddProduct
           {error && <div className="text-red-500 text-sm mb-2">{error}</div>}
           {/* Image Upload at Top */}
           <div>
-            <label className="block font-semibold mb-1 text-[#181024]">Product Images <span className="text-xs text-gray-400">(max 6)</span></label>
+            <label className="block font-semibold mb-1 text-white">Product Images <span className="text-xs text-gray-400">(max 6)</span></label>
             <input
               type="file"
               accept="image/*"
@@ -149,7 +149,7 @@ export default function AddProductForm({ onClose, onAdd, vendor_id }: AddProduct
             />
             <div className="flex gap-2 mt-2 overflow-x-auto">
               {images.map((img, idx) => (
-                <div key={idx} className="relative w-12 h-12 min-w-12 min-h-12 rounded-lg overflow-hidden border border-gray-200 bg-gray-100 flex items-center justify-center">
+                <div key={idx} className="relative w-12 h-12 min-w-12 min-h-12 rounded-lg overflow-hidden border border-[#232323] bg-[#232323] flex items-center justify-center">
                   <img
                     src={URL.createObjectURL(img)}
                     alt="Preview"
@@ -170,7 +170,7 @@ export default function AddProductForm({ onClose, onAdd, vendor_id }: AddProduct
                 <button
                   type="button"
                   onClick={() => fileInputRef.current?.click()}
-                  className="w-12 h-12 min-w-12 min-h-12 flex items-center justify-center border border-dashed border-[#7c4dff]/30 rounded-lg text-[#7c4dff] bg-white hover:bg-gray-100 text-xl"
+                  className="w-12 h-12 min-w-12 min-h-12 flex items-center justify-center border border-dashed border-[#b39ddb]/30 rounded-lg text-[#b39ddb] bg-[#232323] hover:bg-[#181818] text-xl"
                   title="Add Image"
                   disabled={loading}
                 >
@@ -181,9 +181,9 @@ export default function AddProductForm({ onClose, onAdd, vendor_id }: AddProduct
           </div>
           {/* Product Name */}
           <div>
-            <label className="block font-semibold mb-1 text-[#181024]">Product Name</label>
+            <label className="block font-semibold mb-1 text-white">Product Name</label>
             <input
-              className="w-full px-3 py-2 border border-gray-200 focus:border-[#7c4dff]/40 rounded-lg bg-white text-[#181024] placeholder-gray-400 text-sm"
+              className="w-full px-3 py-2 border border-[#232323] focus:border-[#b39ddb]/40 rounded-lg bg-[#232323] text-white placeholder-gray-400 text-sm"
               placeholder="e.g. Arewa Rice"
               value={name}
               onChange={(e) => setName(e.target.value)}
@@ -194,10 +194,10 @@ export default function AddProductForm({ onClose, onAdd, vendor_id }: AddProduct
           {/* Price and Stock */}
           <div className="flex gap-2">
             <div className="w-1/2">
-              <label className="block font-semibold mb-1 text-[#181024]">Price (₦)</label>
-              <input
-                type="number"
-                className="w-full px-3 py-2 border border-gray-200 focus:border-[#7c4dff]/40 rounded-lg bg-white text-[#181024] placeholder-gray-400 text-sm"
+            <label className="block font-semibold mb-1 text-white">Price (₦)</label>
+            <input
+              type="number"
+              className="w-full px-3 py-2 border border-[#232323] focus:border-[#b39ddb]/40 rounded-lg bg-[#232323] text-white placeholder-gray-400 text-sm"
                 placeholder="0"
                 value={price}
                 onChange={(e) => setPrice(e.target.value)}
@@ -207,10 +207,10 @@ export default function AddProductForm({ onClose, onAdd, vendor_id }: AddProduct
               />
             </div>
             <div className="w-1/2">
-              <label className="block font-semibold mb-1 text-[#181024]">Stock</label>
-              <input
-                type="number"
-                className="w-full px-3 py-2 border border-gray-200 focus:border-[#7c4dff]/40 rounded-lg bg-white text-[#181024] placeholder-gray-400 text-sm"
+            <label className="block font-semibold mb-1 text-white">Stock</label>
+            <input
+              type="number"
+              className="w-full px-3 py-2 border border-[#232323] focus:border-[#b39ddb]/40 rounded-lg bg-[#232323] text-white placeholder-gray-400 text-sm"
                 placeholder="e.g. 10"
                 value={stock}
                 onChange={(e) => setStock(e.target.value)}
@@ -222,9 +222,9 @@ export default function AddProductForm({ onClose, onAdd, vendor_id }: AddProduct
           </div>
           {/* Description */}
           <div>
-            <label className="block font-semibold mb-1 text-[#181024]">Description</label>
+            <label className="block font-semibold mb-1 text-white">Description</label>
             <textarea
-              className="w-full px-3 py-2 border border-gray-200 focus:border-[#7c4dff]/40 rounded-lg bg-white text-[#181024] placeholder-gray-400 text-sm"
+              className="w-full px-3 py-2 border border-[#232323] focus:border-[#b39ddb]/40 rounded-lg bg-[#232323] text-white placeholder-gray-400 text-sm"
               placeholder="Describe your product..."
               value={description}
               onChange={(e) => setDescription(e.target.value)}
@@ -234,13 +234,13 @@ export default function AddProductForm({ onClose, onAdd, vendor_id }: AddProduct
           </div>
           {/* Category Dropdown */}
           <div>
-            <label className="block font-semibold mb-1 text-[#181024]">Category <span className="text-xs text-gray-400">(Select one)</span></label>
+            <label className="block font-semibold mb-1 text-white">Category <span className="text-xs text-gray-400">(Select one)</span></label>
             <div className="relative mt-1">
               <button
                 type="button"
                 ref={catBtnRef}
                 onClick={() => setCatOpen((v) => !v)}
-                className="w-full flex justify-between items-center px-3 py-2 border border-gray-200 rounded-lg bg-white text-[#181024] font-semibold focus:outline-none transition-all text-sm"
+                className="w-full flex justify-between items-center px-3 py-2 border border-[#232323] rounded-lg bg-[#232323] text-white font-semibold focus:outline-none transition-all text-sm"
                 disabled={loading}
               >
                 {category ? category : "Select category"}
@@ -254,13 +254,13 @@ export default function AddProductForm({ onClose, onAdd, vendor_id }: AddProduct
                   <div
                     key={cat}
                     onClick={() => handleCategorySelect(cat)}
-                    className={`px-4 py-2 cursor-pointer hover:bg-gray-100 transition-colors flex items-center ${category === cat ? "bg-[#7c4dff]/10 text-[#7c4dff] font-bold" : "text-[#181024]"}`}
+                className={`px-4 py-2 cursor-pointer hover:bg-[#181818] transition-colors flex items-center ${category === cat ? "bg-[#b39ddb]/10 text-[#b39ddb] font-bold" : "text-white"}`}
                   >
                     <input
                       type="radio"
                       checked={category === cat}
                       readOnly
-                      className="mr-2 accent-[#7c4dff]"
+                      className="mr-2 accent-[#b39ddb]"
                     />
                     {cat}
                   </div>
@@ -270,13 +270,13 @@ export default function AddProductForm({ onClose, onAdd, vendor_id }: AddProduct
           </div>
           {/* Colors Dropdown */}
           <div>
-            <label className="block font-semibold mb-1 text-[#181024]">Colors <span className="text-xs text-gray-400">(If applicable)</span></label>
+            <label className="block font-semibold mb-1 text-white">Colors <span className="text-xs text-gray-400">(If applicable)</span></label>
             <div className="relative mt-1">
               <button
                 type="button"
                 ref={colorBtnRef}
                 onClick={() => setColorOpen((v) => !v)}
-                className="w-full flex justify-between items-center px-3 py-2 border border-gray-200 rounded-lg bg-white text-[#181024] font-semibold focus:outline-none transition-all text-sm"
+                className="w-full flex justify-between items-center px-3 py-2 border border-[#232323] rounded-lg bg-[#232323] text-white font-semibold focus:outline-none transition-all text-sm"
                 disabled={loading}
               >
                 {colors.length > 0 ? colors.join(", ") : "Select colors"}
@@ -290,13 +290,13 @@ export default function AddProductForm({ onClose, onAdd, vendor_id }: AddProduct
                   <div
                     key={color}
                     onClick={() => handleColorToggle(color)}
-                    className={`px-4 py-2 cursor-pointer hover:bg-gray-100 transition-colors flex items-center ${colors.includes(color) ? "bg-[#7c4dff]/10 text-[#7c4dff] font-bold" : "text-[#181024]"}`}
+                className={`px-4 py-2 cursor-pointer hover:bg-[#181818] transition-colors flex items-center ${colors.includes(color) ? "bg-[#b39ddb]/10 text-[#b39ddb] font-bold" : "text-white"}`}
                   >
                     <input
                       type="checkbox"
                       checked={colors.includes(color)}
                       readOnly
-                      className="mr-2 accent-[#7c4dff]"
+                      className="mr-2 accent-[#b39ddb]"
                     />
                     {color}
                   </div>
@@ -309,14 +309,14 @@ export default function AddProductForm({ onClose, onAdd, vendor_id }: AddProduct
             <button
               type="button"
               onClick={onClose}
-              className="px-5 py-2 bg-gray-100 text-[#181024] font-bold rounded-lg border border-gray-200 hover:bg-gray-200 transition text-sm"
+              className="px-5 py-2 bg-[#232323] text-white font-bold rounded-lg border border-[#232323] hover:bg-[#181818] transition text-sm"
               disabled={loading}
             >
               Cancel
             </button>
             <button
               type="submit"
-              className="px-6 py-2 bg-[#7c4dff] text-white font-bold rounded-lg shadow hover:bg-[#5f32b3] border border-[#7c4dff]/40 focus:outline-none focus:ring-2 focus:ring-[#7c4dff]/30 transition disabled:opacity-60 text-sm"
+              className="px-6 py-2 bg-[#b39ddb] text-white font-bold rounded-lg shadow hover:bg-[#7c4dff] border border-[#b39ddb]/40 focus:outline-none focus:ring-2 focus:ring-[#b39ddb]/30 transition disabled:opacity-60 text-sm"
               disabled={loading}
             >
               {loading ? "Adding..." : "Add Product"}

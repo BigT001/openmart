@@ -79,7 +79,6 @@ class DeepSeekService:
                 logger.error(f"Error calling OpenRouter API: {str(e)}")
                 raise
 
-    async def process_prompt(self, query: str) -> Dict[str, Any]:
         """Process a natural language shopping query into structured data"""
         logger.info(f"Processing prompt: {query}")
         
@@ -126,3 +125,75 @@ class DeepSeekService:
         except Exception as e:
             logger.error(f"Error in process_prompt: {str(e)}")
             raise Exception(f"Error processing query: {str(e)}")
+
+    async def process_prompt(self, query: str) -> Dict[str, Any]:
+        """Process a natural language shopping query into structured data, with fallback for robustness."""
+        logger.info(f"Processing prompt: {query}")
+
+        try:
+            messages = [
+                {"role": "system", "content": self.system_prompt},
+                {"role": "user", "content": query}
+            ]
+
+            response = await self._call_api(messages)
+
+            # Extract the JSON response from the model's output
+            try:
+                response_text = response['choices'][0]['message']['content']
+                logger.info(f"Raw model response: {response_text}")
+
+                # Find JSON object between curly braces
+                start = response_text.find('{')
+                end = response_text.rfind('}') + 1
+                if start >= 0 and end > start:
+                    json_str = response_text[start:end]
+                    structured_data = json.loads(json_str)
+                    logger.info(f"Successfully parsed structured data: {structured_data}")
+                else:
+                    raise ValueError("No JSON found in response")
+
+            except (json.JSONDecodeError, KeyError, ValueError) as e:
+                logger.error(f"Failed to parse model response: {str(e)}")
+                # Fallback: basic keyword extraction if model fails
+                structured_data = self._fallback_parse(query)
+                logger.warning(f"Fallback parse used for query: {query}")
+
+            # Ensure all required fields are present
+            required_fields = [
+                "product_type", "specifications", "price_range",
+                "brands", "colors", "condition", "location", "style", "size", "urgency"
+            ]
+
+            for field in required_fields:
+                if field not in structured_data:
+                    structured_data[field] = [] if field in ["specifications", "brands", "colors"] else None
+                    logger.warning(f"Missing field '{field}' in response, initialized with default value")
+
+            return structured_data
+
+        except Exception as e:
+            logger.error(f"Error in process_prompt: {str(e)}")
+            # Fallback: basic keyword extraction if everything fails
+            return self._fallback_parse(query)
+
+    def _fallback_parse(self, query: str) -> Dict[str, Any]:
+        """Very basic fallback: extract price, color, and product keywords from query."""
+        import re
+        colors = [c for c in ["red", "blue", "black", "white", "green", "yellow", "pink", "purple", "orange", "grey", "gray", "gold", "silver"] if c in query.lower()]
+        price = None
+        price_match = re.search(r"(\d{2,}[,\d]*)", query.replace(",", ""))
+        if price_match:
+            price = float(price_match.group(1))
+        return {
+            "product_type": None,
+            "specifications": [],
+            "price_range": {"minimum": 0, "maximum": price or None, "target": price},
+            "brands": [],
+            "colors": colors,
+            "condition": None,
+            "location": None,
+            "style": None,
+            "size": None,
+            "urgency": None
+        }

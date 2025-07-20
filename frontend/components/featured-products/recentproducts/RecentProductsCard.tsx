@@ -1,16 +1,21 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
-import ViewProduct from "../../vendors-dashboard/products/view-product"; // Adjust the import based on your file structure
+import React, { useEffect, useState, useCallback } from "react";
+import ViewProduct from "../../vendors-dashboard/products/view-product";
+import LikeButton from "../../ui/LikeButton";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
 
-const RecentProductsCard: React.FC = () => {
+
+function RecentProductsCard() {
   const [products, setProducts] = useState<any[]>([]);
   const [mainIdxMap, setMainIdxMap] = useState<{ [id: string]: number }>({});
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [selectedProductId, setSelectedProductId] = useState<string | null>(null);
+  const [likeLoadingMap, setLikeLoadingMap] = useState<{ [id: string]: boolean }>({});
+  const [likesMap, setLikesMap] = useState<{ [id: string]: number }>({});
+  const [likedMap, setLikedMap] = useState<{ [id: string]: boolean }>({});
 
   useEffect(() => {
     setLoading(true);
@@ -35,10 +40,44 @@ const RecentProductsCard: React.FC = () => {
           });
           return newMap;
         });
+        // Set likes and liked state
+        const likes: { [id: string]: number } = {};
+        const liked: { [id: string]: boolean } = {};
+        sorted.forEach((p: any, i: number) => {
+          const key = p.id || i;
+          likes[key] = p.likes ?? 0;
+          liked[key] = !!p.likedByUser;
+        });
+        setLikesMap(likes);
+        setLikedMap(liked);
       })
       .catch(err => setError(err.message || 'Error loading products'))
       .finally(() => setLoading(false));
   }, []);
+  const handleLike = useCallback(async (productId: string) => {
+    if (!productId || likeLoadingMap[productId]) return;
+    setLikeLoadingMap(prev => ({ ...prev, [productId]: true }));
+    const liked = likedMap[productId];
+    try {
+      const res = await fetch(`${API_URL}/api/products/${productId}/${liked ? 'unlike' : 'like'}`, {
+        method: 'POST',
+        credentials: 'include',
+      });
+      if (res.ok) {
+        setLikedMap(prev => ({ ...prev, [productId]: !liked }));
+        setLikesMap(prev => ({
+          ...prev,
+          [productId]: liked ? Math.max(0, prev[productId] - 1) : prev[productId] + 1,
+        }));
+      }
+    } finally {
+      setLikeLoadingMap(prev => ({ ...prev, [productId]: false }));
+    }
+  }, [likeLoadingMap, likedMap]);
+
+  // Fix misplaced .catch and .finally
+  // The following should be inside the useEffect fetch chain, not after the handleLike function
+
 
   const handleThumbClick = (key: string, idx: number) => {
     setMainIdxMap(prev => ({ ...prev, [key]: idx }));
@@ -59,21 +98,36 @@ const RecentProductsCard: React.FC = () => {
             <div key={key} className="break-inside-avoid bg-white dark:bg-gray-900 rounded-2xl shadow hover:shadow-lg transition overflow-hidden flex flex-col p-0 relative group">
               {/* Main Image with overlaid thumbnails at the bottom */}
               <div className="relative w-full">
-                {/* Price badge at top left of main image */}
-                {typeof product.price !== 'undefined' && (
-                  <div className="absolute top-2 left-2 bg-black text-white text-xs font-bold px-3 py-1 rounded-full shadow z-20">
-                    ₦{parseFloat(product.price).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
-                  </div>
-                )}
+                {/* Like button at top right */}
+                <div className="absolute top-2 right-2 z-20">
+                  <LikeButton
+                    liked={!!likedMap[product.id]}
+                    count={likesMap[product.id] ?? 0}
+                    loading={!!likeLoadingMap[product.id]}
+                    onClick={() => handleLike(product.id)}
+                    buttonAriaLabel={likedMap[product.id] ? "Unlike" : "Like"}
+                  />
+                </div>
+                {/* Price badge removed as requested */}
                 {showImages.length > 0 ? (
                   <img
                     src={showImages[mainIdx]}
                     alt={product.name || 'Product'}
-                    className="w-full h-auto max-h-[340px] object-cover rounded-t-2xl rounded-b-none border-b border-gray-100 dark:border-gray-800"
+                    className="w-full h-auto max-h-[340px] object-cover rounded-t-2xl rounded-b-none border-b border-gray-100 dark:border-gray-800 cursor-pointer"
                     style={{ display: 'block', margin: 0, padding: 0 }}
+                    onClick={() => setSelectedProductId(product.id)}
+                    tabIndex={0}
+                    role="button"
+                    aria-label={`View details for ${product.name}`}
                   />
                 ) : (
-                  <div className="w-full h-48 flex items-center justify-center bg-gray-100 text-gray-300 rounded-t-2xl text-3xl">🛒</div>
+                  <div
+                    className="w-full h-48 flex items-center justify-center bg-gray-100 text-gray-300 rounded-t-2xl text-3xl cursor-pointer"
+                    onClick={() => setSelectedProductId(product.id)}
+                    tabIndex={0}
+                    role="button"
+                    aria-label={`View details for ${product.name}`}
+                  >🛒</div>
                 )}
                 {/* Thumbnails overlayed at the bottom of the main image */}
                 {showImages.length > 1 && (
@@ -94,23 +148,24 @@ const RecentProductsCard: React.FC = () => {
                 )}
               </div>
               {/* Name and View button on same row, name is always truncated */}
-              <div className="flex items-center justify-between w-full px-3 py-2 mt-1">
+              <div
+                className="flex items-center justify-between w-full px-3 py-2 mt-1 cursor-pointer group/card bg-[#232323]"
+                onClick={() => setSelectedProductId(product.id)}
+                tabIndex={0}
+                role="button"
+                aria-label={`View details for ${product.name}`}
+                style={{ userSelect: 'none', borderBottomLeftRadius: '1rem', borderBottomRightRadius: '1rem' }}
+              >
                 <div
-                  className="text-xs font-semibold text-gray-800 dark:text-gray-100 truncate max-w-[70%]"
+                  className="text-xs font-semibold text-[#b39ddb] truncate max-w-[70%] group-hover/card:underline"
                   title={product.name}
                   style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}
                 >
                   {product.name}
                 </div>
-                <button
-                  className="px-3 py-1 rounded bg-black text-white text-xs font-bold 
-                  shadow hover:bg-gray-700 transition-colors duration-200 focus:outline-none 
-                  focus:ring-2 focus:ring-gray-600"
-                  tabIndex={0}
-                  onClick={() => setSelectedProductId(product.id)}
-                >
-                  View
-                </button>
+                <div className="text-xs font-bold text-[#b39ddb] px-3 py-1 rounded bg-transparent">
+                  ₦{typeof product.price !== 'undefined' ? parseFloat(product.price).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : '--'}
+                </div>
               </div>
             </div>
           );
@@ -146,6 +201,6 @@ const RecentProductsCard: React.FC = () => {
       )}
     </div>
   );
-};
+}
 
 export default RecentProductsCard;

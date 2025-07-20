@@ -19151,3 +19151,1475 @@ WHERE products.id = %(id_1)s::UUID
 2025-07-03 07:48:54,116 - DEBUG - openmart - Registering products router
 2025-07-03 07:48:54,125 - DEBUG - openmart - Registering users router
 2025-07-03 07:48:54,128 - DEBUG - openmart - Registering vendors router
+2025-07-03 11:35:28,611 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-03 11:35:28,633 - DEBUG - openmart - Registering search router
+2025-07-03 11:35:28,636 - DEBUG - openmart - Registering products router
+2025-07-03 11:35:28,644 - DEBUG - openmart - Registering users router
+2025-07-03 11:35:28,647 - DEBUG - openmart - Registering vendors router
+2037-07-03 23:01:22,329 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2037-07-03 23:01:22,350 - DEBUG - openmart - Registering search router
+2037-07-03 23:01:22,351 - DEBUG - openmart - Registering products router
+2037-07-03 23:01:22,356 - DEBUG - openmart - Registering users router
+2037-07-03 23:01:22,357 - DEBUG - openmart - Registering vendors router
+2025-07-04 01:13:23,353 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-04 01:13:23,376 - DEBUG - openmart - Registering search router
+2025-07-04 01:13:23,381 - DEBUG - openmart - Registering products router
+2025-07-04 01:13:23,398 - DEBUG - openmart - Registering users router
+2025-07-04 01:13:23,402 - DEBUG - openmart - Registering vendors router
+2025-07-04 21:43:27,522 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-04 21:43:27,621 - DEBUG - openmart - Registering search router
+2025-07-04 21:43:27,650 - DEBUG - openmart - Registering products router
+2025-07-04 21:43:27,666 - DEBUG - openmart - Registering users router
+2025-07-04 21:43:27,668 - DEBUG - openmart - Registering vendors router
+2028-01-01 00:38:17,963 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2028-01-01 00:38:17,984 - DEBUG - openmart - Registering search router
+2028-01-01 00:38:17,986 - DEBUG - openmart - Registering products router
+2028-01-01 00:38:17,992 - DEBUG - openmart - Registering users router
+2028-01-01 00:38:17,997 - DEBUG - openmart - Registering vendors router
+2025-07-05 13:37:42,705 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-05 13:37:42,767 - DEBUG - openmart - Registering search router
+2025-07-05 13:37:42,773 - DEBUG - openmart - Registering products router
+2025-07-05 13:37:42,791 - DEBUG - openmart - Registering users router
+2025-07-05 13:37:42,795 - DEBUG - openmart - Registering vendors router
+2028-01-01 00:27:34,181 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2028-01-01 00:27:34,260 - DEBUG - openmart - Registering search router
+2028-01-01 00:27:34,262 - DEBUG - openmart - Registering products router
+2028-01-01 00:27:34,273 - DEBUG - openmart - Registering users router
+2028-01-01 00:27:34,277 - DEBUG - openmart - Registering vendors router
+2025-07-05 22:40:10,048 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-05 22:40:10,055 - DEBUG - openmart - Registering search router
+2025-07-05 22:40:10,061 - DEBUG - openmart - Registering products router
+2025-07-05 22:40:10,084 - DEBUG - openmart - Registering users router
+2025-07-05 22:40:10,087 - DEBUG - openmart - Registering vendors router
+2025-07-06 18:26:27,654 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-06 18:26:27,827 - DEBUG - openmart - Registering search router
+2025-07-06 18:26:27,830 - DEBUG - openmart - Registering products router
+2025-07-06 18:26:27,839 - DEBUG - openmart - Registering users router
+2025-07-06 18:26:27,841 - DEBUG - openmart - Registering vendors router
+2025-07-06 19:00:29,574 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-06 19:00:29,591 - DEBUG - openmart - Registering search router
+2025-07-06 19:00:29,596 - DEBUG - openmart - Registering products router
+2025-07-06 19:00:29,619 - DEBUG - openmart - Registering users router
+2025-07-06 19:00:29,628 - DEBUG - openmart - Registering vendors router
+2025-07-07 00:40:21,980 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-07 00:40:22,030 - DEBUG - openmart - Registering search router
+2025-07-07 00:40:22,037 - DEBUG - openmart - Registering products router
+2025-07-07 00:40:22,061 - DEBUG - openmart - Registering users router
+2025-07-07 00:40:22,064 - DEBUG - openmart - Registering vendors router
+2025-07-07 00:53:56,095 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-07 00:53:56,106 - DEBUG - openmart - Registering search router
+2025-07-07 00:53:56,109 - DEBUG - openmart - Registering products router
+2025-07-07 00:53:56,125 - DEBUG - openmart - Registering users router
+2025-07-07 00:53:56,127 - DEBUG - openmart - Registering vendors router
+2025-07-07 01:36:10,916 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-07 01:36:10,934 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-07 01:36:10,936 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-07-07 01:36:10,937 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-07 01:36:10,939 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-07-07 01:36:10,967 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-07-07 01:36:10,968 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-07 01:36:10,969 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-07 01:36:10,970 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:81920]
+2025-07-07 01:36:10,987 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:210990]
+2025-07-07 01:36:10,989 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-07 01:36:10,991 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-07 01:36:11,188 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-07 01:36:11,189 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-07 01:36:11,189 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-07-07 01:36:11,192 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-07 01:36:11,200 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-07-07 01:36:11,201 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-07-07 01:36:11,202 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-07 01:36:11,202 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-07 01:36:11,203 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:65536]
+2025-07-07 01:36:11,206 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:131072]
+2025-07-07 01:36:11,207 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:116140]
+2025-07-07 01:36:11,208 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-07 01:36:11,208 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-07 01:36:11,235 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-07 01:36:11,235 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-07 01:36:11,235 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:117]
+2025-07-07 01:36:11,236 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-07 01:36:11,236 - DEBUG - python_multipart.multipart - Calling on_header_field with data[119:131]
+2025-07-07 01:36:11,236 - DEBUG - python_multipart.multipart - Calling on_header_value with data[133:143]
+2025-07-07 01:36:11,237 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-07 01:36:11,237 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-07 01:36:11,243 - DEBUG - python_multipart.multipart - Calling on_part_data with data[147:98304]
+2025-07-07 01:36:11,245 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:194613]
+2025-07-07 01:36:11,246 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-07 01:36:11,246 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-07 01:36:11,254 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-07 01:36:11,255 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-07 01:36:11,255 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-07-07 01:36:11,255 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-07 01:36:11,256 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-07-07 01:36:11,256 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-07-07 01:36:11,256 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-07 01:36:11,257 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-07 01:36:11,257 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:98304]
+2025-07-07 01:36:11,258 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:193935]
+2025-07-07 01:36:11,258 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-07 01:36:11,259 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-07 03:27:39,689 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-07 03:27:39,708 - DEBUG - openmart - Registering search router
+2025-07-07 03:27:39,709 - DEBUG - openmart - Registering products router
+2025-07-07 03:27:39,719 - DEBUG - openmart - Registering users router
+2025-07-07 03:27:39,721 - DEBUG - openmart - Registering vendors router
+2025-07-07 04:22:38,477 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-07 04:22:38,504 - DEBUG - openmart - Registering search router
+2025-07-07 04:22:38,509 - DEBUG - openmart - Registering products router
+2025-07-07 04:22:38,536 - DEBUG - openmart - Registering users router
+2025-07-07 04:22:38,538 - DEBUG - openmart - Registering vendors router
+2025-07-07 04:22:42,526 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-07 04:22:42,532 - DEBUG - openmart - Registering search router
+2025-07-07 04:22:42,534 - DEBUG - openmart - Registering products router
+2025-07-07 04:22:42,543 - DEBUG - openmart - Registering users router
+2025-07-07 04:22:42,546 - DEBUG - openmart - Registering vendors router
+2055-07-07 08:43:22,818 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2055-07-07 08:43:22,877 - DEBUG - openmart - Registering search router
+2055-07-07 08:43:22,883 - DEBUG - openmart - Registering products router
+2055-07-07 08:43:22,891 - DEBUG - openmart - Registering users router
+2055-07-07 08:43:22,892 - DEBUG - openmart - Registering vendors router
+2025-07-07 10:21:17,693 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-07 10:21:17,750 - DEBUG - openmart - Registering search router
+2025-07-07 10:21:17,765 - DEBUG - openmart - Registering products router
+2025-07-07 10:21:17,814 - DEBUG - openmart - Registering users router
+2025-07-07 10:21:17,844 - DEBUG - openmart - Registering vendors router
+2025-07-07 10:27:59,434 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-07 10:27:59,439 - DEBUG - openmart - Registering search router
+2025-07-07 10:27:59,440 - DEBUG - openmart - Registering products router
+2025-07-07 10:27:59,445 - DEBUG - openmart - Registering users router
+2025-07-07 10:27:59,447 - DEBUG - openmart - Registering vendors router
+2025-07-07 11:43:55,634 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-07 11:43:55,638 - DEBUG - openmart - Registering search router
+2025-07-07 11:43:55,640 - DEBUG - openmart - Registering products router
+2025-07-07 11:43:55,646 - DEBUG - openmart - Registering users router
+2025-07-07 11:43:55,647 - DEBUG - openmart - Registering vendors router
+2025-07-07 11:49:25,676 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-07 11:49:25,679 - DEBUG - openmart - Registering search router
+2025-07-07 11:49:25,681 - DEBUG - openmart - Registering products router
+2025-07-07 11:49:25,687 - DEBUG - openmart - Registering users router
+2025-07-07 11:49:25,688 - DEBUG - openmart - Registering vendors router
+2025-07-07 13:29:32,378 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-07 13:29:32,386 - DEBUG - openmart - Registering search router
+2025-07-07 13:29:32,396 - DEBUG - openmart - Registering products router
+2025-07-07 13:29:32,414 - DEBUG - openmart - Registering users router
+2025-07-07 13:29:32,416 - DEBUG - openmart - Registering vendors router
+2025-07-07 23:06:16,825 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-07 23:06:16,828 - DEBUG - openmart - Registering search router
+2025-07-07 23:06:16,830 - DEBUG - openmart - Registering products router
+2025-07-07 23:06:16,835 - DEBUG - openmart - Registering users router
+2025-07-07 23:06:16,836 - DEBUG - openmart - Registering vendors router
+2025-07-08 00:53:36,063 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-08 00:53:36,065 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-08 00:53:36,065 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-07-08 00:53:36,065 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 00:53:36,065 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-07-08 00:53:36,066 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-07-08 00:53:36,066 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 00:53:36,066 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-08 00:53:36,067 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:131072]
+2025-07-08 00:53:36,068 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:179030]
+2025-07-08 00:53:36,069 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-08 00:53:36,069 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-08 00:53:36,214 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-08 00:53:36,214 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-08 00:53:36,214 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-07-08 00:53:36,215 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 00:53:36,215 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-07-08 00:53:36,215 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-07-08 00:53:36,215 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 00:53:36,216 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-08 00:53:36,216 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:261466]
+2025-07-08 00:53:36,217 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-08 00:53:36,217 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-08 00:53:36,217 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-07-08 00:53:36,218 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 00:53:36,218 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-07-08 00:53:36,218 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-07-08 00:53:36,218 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 00:53:36,219 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-08 00:53:36,219 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:261466]
+2025-07-08 00:53:36,220 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-08 00:53:36,220 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-08 00:53:36,220 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-07-08 00:53:36,221 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 00:53:36,221 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-07-08 00:53:36,221 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-07-08 00:53:36,221 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 00:53:36,222 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-08 00:53:36,222 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:261466]
+2025-07-08 00:53:36,223 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-08 00:53:36,223 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-08 00:53:36,224 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-07-08 00:53:36,225 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 00:53:36,226 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-07-08 00:53:36,226 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-07-08 00:53:36,226 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 00:53:36,226 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-08 00:53:36,227 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:261466]
+2025-07-08 00:53:36,228 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:75758]
+2025-07-08 00:53:36,228 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-08 00:53:36,228 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-08 00:53:36,312 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:111247]
+2025-07-08 00:53:36,313 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-08 00:53:36,314 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-08 00:53:36,326 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:63097]
+2025-07-08 00:53:36,327 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-08 00:53:36,327 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-08 00:53:36,333 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:145742]
+2025-07-08 00:53:36,334 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-08 00:53:36,334 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-08 01:29:32,113 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-08 01:29:32,117 - DEBUG - openmart - Registering search router
+2025-07-08 01:29:32,122 - DEBUG - openmart - Registering products router
+2025-07-08 01:29:32,129 - DEBUG - openmart - Registering users router
+2025-07-08 01:29:32,131 - DEBUG - openmart - Registering vendors router
+2025-07-08 01:40:05,496 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-08 01:40:05,499 - DEBUG - openmart - Registering search router
+2025-07-08 01:40:05,503 - DEBUG - openmart - Registering products router
+2025-07-08 01:40:05,507 - DEBUG - openmart - Registering users router
+2025-07-08 01:40:05,509 - DEBUG - openmart - Registering vendors router
+2025-07-08 01:46:39,686 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-08 01:46:39,687 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-08 01:46:39,687 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-07-08 01:46:39,687 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:46:39,688 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-07-08 01:46:39,688 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-07-08 01:46:39,688 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:46:39,689 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-08 01:46:39,689 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:65536]
+2025-07-08 01:46:39,690 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-08 01:46:39,690 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-08 01:46:39,691 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-07-08 01:46:39,691 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:46:39,691 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-07-08 01:46:39,692 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-07-08 01:46:39,692 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:46:39,692 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-08 01:46:39,693 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:131072]
+2025-07-08 01:46:39,694 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:163840]
+2025-07-08 01:46:39,695 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:196608]
+2025-07-08 01:46:39,696 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:88395]
+2025-07-08 01:46:39,697 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-08 01:46:39,698 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-08 01:46:39,703 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:9544]
+2025-07-08 01:46:39,704 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-08 01:46:39,704 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-08 01:46:39,715 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-08 01:46:39,717 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-08 01:46:39,718 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-07-08 01:46:39,719 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:46:39,720 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-07-08 01:46:39,721 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-07-08 01:46:39,722 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:46:39,722 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-08 01:46:39,723 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:147456]
+2025-07-08 01:46:39,726 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-08 01:46:39,727 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-08 01:46:39,728 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:111]
+2025-07-08 01:46:39,729 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:46:39,729 - DEBUG - python_multipart.multipart - Calling on_header_field with data[113:125]
+2025-07-08 01:46:39,732 - DEBUG - python_multipart.multipart - Calling on_header_value with data[127:137]
+2025-07-08 01:46:39,734 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:46:39,735 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-08 01:46:39,736 - DEBUG - python_multipart.multipart - Calling on_part_data with data[141:65536]
+2025-07-08 01:46:39,737 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:81920]
+2025-07-08 01:46:39,739 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:196518]
+2025-07-08 01:46:39,740 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-08 01:46:39,741 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-08 01:46:39,745 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:143268]
+2025-07-08 01:46:39,746 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-08 01:46:39,746 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-08 01:46:41,374 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-08 01:46:41,375 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-08 01:46:41,375 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-07-08 01:46:41,376 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:46:41,376 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-07-08 01:46:41,377 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:135]
+2025-07-08 01:46:41,377 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:46:41,377 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-08 01:46:41,378 - DEBUG - python_multipart.multipart - Calling on_part_data with data[139:114688]
+2025-07-08 01:46:41,379 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:212992]
+2025-07-08 01:46:41,381 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:161782]
+2025-07-08 01:46:41,382 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-08 01:46:41,382 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-08 01:54:45,316 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-08 01:54:45,321 - DEBUG - openmart - Registering search router
+2025-07-08 01:54:45,324 - DEBUG - openmart - Registering products router
+2025-07-08 01:54:45,328 - DEBUG - openmart - Registering users router
+2025-07-08 01:54:45,329 - DEBUG - openmart - Registering vendors router
+2025-07-08 01:56:42,861 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-08 01:56:42,863 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-08 01:56:42,864 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:146]
+2025-07-08 01:56:42,864 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:56:42,866 - DEBUG - python_multipart.multipart - Calling on_header_field with data[148:160]
+2025-07-08 01:56:42,873 - DEBUG - python_multipart.multipart - Calling on_header_value with data[162:172]
+2025-07-08 01:56:42,875 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:56:42,876 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-08 01:56:42,887 - DEBUG - python_multipart.multipart - Calling on_part_data with data[176:39614]
+2025-07-08 01:56:42,889 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-08 01:56:42,890 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-08 01:56:42,897 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-08 01:56:42,898 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-08 01:56:42,898 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:201]
+2025-07-08 01:56:42,899 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:56:42,901 - DEBUG - python_multipart.multipart - Calling on_header_field with data[203:215]
+2025-07-08 01:56:42,902 - DEBUG - python_multipart.multipart - Calling on_header_value with data[217:227]
+2025-07-08 01:56:42,902 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:56:42,904 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-08 01:56:42,904 - DEBUG - python_multipart.multipart - Calling on_part_data with data[231:28440]
+2025-07-08 01:56:42,905 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-08 01:56:42,905 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-08 01:56:42,911 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-08 01:56:42,912 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-08 01:56:42,913 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:171]
+2025-07-08 01:56:42,913 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:56:42,913 - DEBUG - python_multipart.multipart - Calling on_header_field with data[173:185]
+2025-07-08 01:56:42,914 - DEBUG - python_multipart.multipart - Calling on_header_value with data[187:197]
+2025-07-08 01:56:42,914 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:56:42,914 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-08 01:56:42,915 - DEBUG - python_multipart.multipart - Calling on_part_data with data[201:23912]
+2025-07-08 01:56:42,915 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-08 01:56:42,916 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-08 01:56:42,929 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-08 01:56:42,929 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-08 01:56:42,930 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:181]
+2025-07-08 01:56:42,931 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:56:42,932 - DEBUG - python_multipart.multipart - Calling on_header_field with data[183:195]
+2025-07-08 01:56:42,932 - DEBUG - python_multipart.multipart - Calling on_header_value with data[197:207]
+2025-07-08 01:56:42,935 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:56:42,935 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-08 01:56:42,936 - DEBUG - python_multipart.multipart - Calling on_part_data with data[211:91519]
+2025-07-08 01:56:42,936 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-08 01:56:42,937 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-08 01:56:42,985 - ERROR - root - Error creating product: cannot access local variable 'uuid' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\products.py", line 155, in create_product
+    id=str(uuid.uuid4()),
+           ^^^^
+UnboundLocalError: cannot access local variable 'uuid' where it is not associated with a value
+2025-07-08 01:57:26,301 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-08 01:57:26,312 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-08 01:57:26,314 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-07-08 01:57:26,314 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:57:26,315 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-07-08 01:57:26,316 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-07-08 01:57:26,325 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:57:26,327 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-08 01:57:26,329 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:98304]
+2025-07-08 01:57:26,331 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:163840]
+2025-07-08 01:57:26,332 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:54304]
+2025-07-08 01:57:26,333 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-08 01:57:26,333 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-08 01:57:26,395 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-08 01:57:26,397 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-08 01:57:26,398 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-07-08 01:57:26,398 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:57:26,399 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-07-08 01:57:26,400 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-07-08 01:57:26,401 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:57:26,404 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-08 01:57:26,405 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:65536]
+2025-07-08 01:57:26,406 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:81920]
+2025-07-08 01:57:26,407 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:259732]
+2025-07-08 01:57:26,408 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-08 01:57:26,409 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-08 01:57:26,457 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-08 01:57:26,457 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-08 01:57:26,458 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-07-08 01:57:26,458 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:57:26,458 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-07-08 01:57:26,459 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-07-08 01:57:26,459 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:57:26,459 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-08 01:57:26,462 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:81920]
+2025-07-08 01:57:26,463 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:196608]
+2025-07-08 01:57:26,464 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:26044]
+2025-07-08 01:57:26,465 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-08 01:57:26,465 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-08 01:57:26,476 - ERROR - root - Error creating product: cannot access local variable 'uuid' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\products.py", line 155, in create_product
+    id=str(uuid.uuid4()),
+           ^^^^
+UnboundLocalError: cannot access local variable 'uuid' where it is not associated with a value
+2025-07-08 01:58:28,495 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-08 01:58:28,499 - DEBUG - openmart - Registering search router
+2025-07-08 01:58:28,502 - DEBUG - openmart - Registering products router
+2025-07-08 01:58:28,509 - DEBUG - openmart - Registering users router
+2025-07-08 01:58:28,513 - DEBUG - openmart - Registering vendors router
+2025-07-08 01:58:55,600 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-08 01:58:55,601 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-08 01:58:55,604 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:146]
+2025-07-08 01:58:55,605 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:58:55,605 - DEBUG - python_multipart.multipart - Calling on_header_field with data[148:160]
+2025-07-08 01:58:55,606 - DEBUG - python_multipart.multipart - Calling on_header_value with data[162:172]
+2025-07-08 01:58:55,607 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:58:55,608 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-08 01:58:55,609 - DEBUG - python_multipart.multipart - Calling on_part_data with data[176:39614]
+2025-07-08 01:58:55,610 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-08 01:58:55,610 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-08 01:58:55,636 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-08 01:58:55,638 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-08 01:58:55,640 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:201]
+2025-07-08 01:58:55,641 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:58:55,642 - DEBUG - python_multipart.multipart - Calling on_header_field with data[203:215]
+2025-07-08 01:58:55,643 - DEBUG - python_multipart.multipart - Calling on_header_value with data[217:227]
+2025-07-08 01:58:55,644 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:58:55,647 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-08 01:58:55,648 - DEBUG - python_multipart.multipart - Calling on_part_data with data[231:28440]
+2025-07-08 01:58:55,649 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-08 01:58:55,650 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-08 01:58:55,685 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-08 01:58:55,691 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-08 01:58:55,693 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:171]
+2025-07-08 01:58:55,694 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:58:55,695 - DEBUG - python_multipart.multipart - Calling on_header_field with data[173:185]
+2025-07-08 01:58:55,696 - DEBUG - python_multipart.multipart - Calling on_header_value with data[187:197]
+2025-07-08 01:58:55,697 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:58:55,697 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-08 01:58:55,698 - DEBUG - python_multipart.multipart - Calling on_part_data with data[201:23912]
+2025-07-08 01:58:55,699 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-08 01:58:55,700 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-08 01:58:55,731 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-08 01:58:55,735 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-08 01:58:55,736 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:181]
+2025-07-08 01:58:55,739 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:58:55,740 - DEBUG - python_multipart.multipart - Calling on_header_field with data[183:195]
+2025-07-08 01:58:55,741 - DEBUG - python_multipart.multipart - Calling on_header_value with data[197:207]
+2025-07-08 01:58:55,742 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:58:55,744 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-08 01:58:55,746 - DEBUG - python_multipart.multipart - Calling on_part_data with data[211:91519]
+2025-07-08 01:58:55,751 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-08 01:58:55,752 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-08 01:58:55,792 - ERROR - root - Error creating product: cannot access local variable 'uuid' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\products.py", line 158, in create_product
+    id=str(uuid.uuid4()),
+           ^^^^
+UnboundLocalError: cannot access local variable 'uuid' where it is not associated with a value
+2025-07-08 01:59:22,038 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-08 01:59:22,040 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-08 01:59:22,040 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:153]
+2025-07-08 01:59:22,041 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:59:22,041 - DEBUG - python_multipart.multipart - Calling on_header_field with data[155:167]
+2025-07-08 01:59:22,042 - DEBUG - python_multipart.multipart - Calling on_header_value with data[169:179]
+2025-07-08 01:59:22,043 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:59:22,044 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-08 01:59:22,044 - DEBUG - python_multipart.multipart - Calling on_part_data with data[183:39621]
+2025-07-08 01:59:22,052 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-08 01:59:22,056 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-08 01:59:22,079 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-08 01:59:22,080 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-08 01:59:22,082 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:201]
+2025-07-08 01:59:22,083 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:59:22,083 - DEBUG - python_multipart.multipart - Calling on_header_field with data[203:215]
+2025-07-08 01:59:22,084 - DEBUG - python_multipart.multipart - Calling on_header_value with data[217:227]
+2025-07-08 01:59:22,084 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:59:22,085 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-08 01:59:22,086 - DEBUG - python_multipart.multipart - Calling on_part_data with data[231:28440]
+2025-07-08 01:59:22,086 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-08 01:59:22,087 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-08 01:59:22,235 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-08 01:59:22,235 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-08 01:59:22,237 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:171]
+2025-07-08 01:59:22,237 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:59:22,238 - DEBUG - python_multipart.multipart - Calling on_header_field with data[173:185]
+2025-07-08 01:59:22,239 - DEBUG - python_multipart.multipart - Calling on_header_value with data[187:197]
+2025-07-08 01:59:22,240 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:59:22,241 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-08 01:59:22,243 - DEBUG - python_multipart.multipart - Calling on_part_data with data[201:23912]
+2025-07-08 01:59:22,244 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-08 01:59:22,248 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-08 01:59:22,255 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-08 01:59:22,255 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-08 01:59:22,256 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:181]
+2025-07-08 01:59:22,257 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:59:22,257 - DEBUG - python_multipart.multipart - Calling on_header_field with data[183:195]
+2025-07-08 01:59:22,258 - DEBUG - python_multipart.multipart - Calling on_header_value with data[197:207]
+2025-07-08 01:59:22,258 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 01:59:22,258 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-08 01:59:22,259 - DEBUG - python_multipart.multipart - Calling on_part_data with data[211:91519]
+2025-07-08 01:59:22,259 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-08 01:59:22,260 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-08 01:59:22,272 - ERROR - root - Error creating product: cannot access local variable 'uuid' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\products.py", line 158, in create_product
+    id=str(uuid.uuid4()),
+           ^^^^
+UnboundLocalError: cannot access local variable 'uuid' where it is not associated with a value
+2025-07-08 01:59:44,889 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-08 01:59:44,893 - DEBUG - openmart - Registering search router
+2025-07-08 01:59:44,897 - DEBUG - openmart - Registering products router
+2025-07-08 01:59:44,906 - DEBUG - openmart - Registering users router
+2025-07-08 01:59:44,908 - DEBUG - openmart - Registering vendors router
+2025-07-08 02:00:16,787 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-08 02:00:16,790 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-08 02:00:16,791 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:146]
+2025-07-08 02:00:16,792 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 02:00:16,793 - DEBUG - python_multipart.multipart - Calling on_header_field with data[148:160]
+2025-07-08 02:00:16,793 - DEBUG - python_multipart.multipart - Calling on_header_value with data[162:172]
+2025-07-08 02:00:16,794 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 02:00:16,794 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-08 02:00:16,795 - DEBUG - python_multipart.multipart - Calling on_part_data with data[176:18610]
+2025-07-08 02:00:16,795 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-08 02:00:16,796 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-08 02:00:17,040 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-08 02:00:17,043 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-08 02:00:17,045 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-07-08 02:00:17,045 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 02:00:17,046 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-07-08 02:00:17,046 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-07-08 02:00:17,047 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 02:00:17,047 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-08 02:00:17,048 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:163840]
+2025-07-08 02:00:17,050 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:148908]
+2025-07-08 02:00:17,051 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-08 02:00:17,070 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-08 02:00:17,159 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-08 02:00:17,159 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-08 02:00:17,160 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:117]
+2025-07-08 02:00:17,160 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 02:00:17,161 - DEBUG - python_multipart.multipart - Calling on_header_field with data[119:131]
+2025-07-08 02:00:17,161 - DEBUG - python_multipart.multipart - Calling on_header_value with data[133:143]
+2025-07-08 02:00:17,161 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-08 02:00:17,162 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-08 02:00:17,162 - DEBUG - python_multipart.multipart - Calling on_part_data with data[147:98304]
+2025-07-08 02:00:17,163 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:163840]
+2025-07-08 02:00:17,164 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:30773]
+2025-07-08 02:00:17,164 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-08 02:00:17,165 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-08 23:44:31,342 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-08 23:44:31,367 - DEBUG - openmart - Registering search router
+2025-07-08 23:44:31,375 - DEBUG - openmart - Registering products router
+2025-07-08 23:44:31,391 - DEBUG - openmart - Registering users router
+2025-07-08 23:44:31,406 - DEBUG - openmart - Registering vendors router
+2025-07-09 21:18:16,509 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-09 21:18:16,521 - DEBUG - openmart - Registering search router
+2025-07-09 21:18:16,522 - DEBUG - openmart - Registering products router
+2025-07-09 21:18:16,526 - DEBUG - openmart - Registering users router
+2025-07-09 21:18:16,528 - DEBUG - openmart - Registering vendors router
+2025-07-09 22:19:55,350 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-09 22:19:55,356 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-09 22:19:57,354 - DEBUG - chromadb.config - Starting component System
+2025-07-09 22:19:57,355 - DEBUG - chromadb.config - Starting component Posthog
+2025-07-09 22:20:00,970 - INFO - app.core.vector_store - Retrieved existing collection: products
+2025-07-09 22:20:00,971 - INFO - app.core.vector_store - VectorStore initialized successfully
+2025-07-09 22:20:00,972 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-09 22:20:00,994 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-09 22:20:00,995 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-09 22:20:00,995 - INFO - app.services.deepseek_service - Processing prompt: iPhone 13 under 500K
+2025-07-09 22:20:00,995 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-09 22:20:02,451 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-09 22:20:02,454 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-09 22:20:02,511 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-09 23:02:02,677 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-09 23:02:02,678 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-09 23:02:02,680 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-09 23:02:02,680 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-09 23:02:02,680 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-09 23:02:02,681 - INFO - app.services.deepseek_service - Processing prompt: iPhone 13 under 500K
+2025-07-09 23:02:02,687 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-09 23:02:05,928 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-09 23:02:05,929 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-09 23:02:05,930 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-09 23:12:31,644 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-09 23:12:31,647 - DEBUG - openmart - Registering search router
+2025-07-09 23:12:31,650 - DEBUG - openmart - Registering products router
+2025-07-09 23:12:31,654 - DEBUG - openmart - Registering users router
+2025-07-09 23:12:31,655 - DEBUG - openmart - Registering vendors router
+2025-07-09 23:17:37,366 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-09 23:17:37,366 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-09 23:17:37,703 - DEBUG - chromadb.config - Starting component System
+2025-07-09 23:17:37,703 - DEBUG - chromadb.config - Starting component Posthog
+2025-07-09 23:17:38,028 - INFO - app.core.vector_store - Retrieved existing collection: products
+2025-07-09 23:17:38,029 - INFO - app.core.vector_store - VectorStore initialized successfully
+2025-07-09 23:17:38,029 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-09 23:17:38,029 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-09 23:17:38,030 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-09 23:17:38,030 - INFO - app.services.deepseek_service - Processing prompt: Red heels in Lagos
+2025-07-09 23:17:38,030 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-09 23:17:42,059 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-09 23:17:42,060 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-09 23:17:42,062 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:07:12,111 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:07:12,113 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:07:12,126 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:07:12,126 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:07:12,128 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:07:12,129 - INFO - app.services.deepseek_service - Processing prompt: s
+2025-07-10 00:07:12,129 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:07:12,741 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:07:12,741 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:07:12,742 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:07:12,742 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:07:12,742 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:07:12,742 - INFO - app.services.deepseek_service - Processing prompt: shi
+2025-07-10 00:07:12,743 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:07:14,020 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:07:14,021 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:07:14,021 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:07:14,022 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:07:14,022 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:07:14,022 - INFO - app.services.deepseek_service - Processing prompt: shirt
+2025-07-10 00:07:14,023 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:07:14,715 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:07:14,718 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:07:14,720 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:07:15,604 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:07:15,605 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:07:15,607 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:07:15,722 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:07:15,728 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:07:15,735 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:08:05,518 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-10 00:08:05,525 - DEBUG - openmart - Registering search router
+2025-07-10 00:08:05,530 - DEBUG - openmart - Registering products router
+2025-07-10 00:08:05,539 - DEBUG - openmart - Registering users router
+2025-07-10 00:08:05,542 - DEBUG - openmart - Registering vendors router
+2025-07-10 00:14:29,780 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:14:29,781 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:14:30,413 - DEBUG - chromadb.config - Starting component System
+2025-07-10 00:14:30,419 - DEBUG - chromadb.config - Starting component Posthog
+2025-07-10 00:14:31,131 - INFO - app.core.vector_store - Retrieved existing collection: products
+2025-07-10 00:14:31,131 - INFO - app.core.vector_store - VectorStore initialized successfully
+2025-07-10 00:14:31,132 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:14:31,132 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:14:31,133 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:14:31,133 - INFO - app.services.deepseek_service - Processing prompt: sh
+2025-07-10 00:14:31,133 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:14:31,537 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:14:31,537 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:14:31,538 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:14:31,539 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:14:31,539 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:14:31,541 - INFO - app.services.deepseek_service - Processing prompt: shirts
+2025-07-10 00:14:31,541 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:14:32,453 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:14:32,454 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:14:32,461 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:14:40,431 - DEBUG - httpcore.connection - connect_tcp.started host='chroma-onnx-models.s3.amazonaws.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-07-10 00:14:41,111 - DEBUG - httpcore.connection - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A5B42A5E80>
+2025-07-10 00:14:41,112 - DEBUG - httpcore.connection - start_tls.started ssl_context=<ssl.SSLContext object at 0x000002A5B42531D0> server_hostname='chroma-onnx-models.s3.amazonaws.com' timeout=5.0
+2025-07-10 00:14:41,620 - DEBUG - httpcore.connection - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A5B42C87D0>
+2025-07-10 00:14:41,620 - DEBUG - httpcore.http11 - send_request_headers.started request=<Request [b'GET']>
+2025-07-10 00:14:41,621 - DEBUG - httpcore.http11 - send_request_headers.complete
+2025-07-10 00:14:41,621 - DEBUG - httpcore.http11 - send_request_body.started request=<Request [b'GET']>
+2025-07-10 00:14:41,623 - DEBUG - httpcore.http11 - send_request_body.complete
+2025-07-10 00:14:41,624 - DEBUG - httpcore.http11 - receive_response_headers.started request=<Request [b'GET']>
+2025-07-10 00:14:42,147 - DEBUG - httpcore.http11 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'x-amz-id-2', b'dY5sBqAG+vTvnyQExYczf4iF8uJzY6+9ndq7DkO5UXjQj1B2F29xuPNktkWxHdAYLOcG/gm0Z4w='), (b'x-amz-request-id', b'0BCCAN4GV1Q765G6'), (b'Date', b'Wed, 09 Jul 2025 23:14:42 GMT'), (b'Last-Modified', b'Thu, 30 Mar 2023 23:38:52 GMT'), (b'ETag', b'"c319dd36af997be17ffb4669076b13a0-5"'), (b'x-amz-server-side-encryption', b'AES256'), (b'x-amz-version-id', b'null'), (b'Accept-Ranges', b'bytes'), (b'Content-Type', b'application/x-gzip'), (b'Content-Length', b'83178821'), (b'Server', b'AmazonS3')])
+2025-07-10 00:14:42,149 - INFO - httpx - HTTP Request: GET https://chroma-onnx-models.s3.amazonaws.com/all-MiniLM-L6-v2/onnx.tar.gz "HTTP/1.1 200 OK"
+2025-07-10 00:14:42,259 - DEBUG - httpcore.http11 - receive_response_body.started request=<Request [b'GET']>
+2025-07-10 00:20:15,276 - DEBUG - httpcore.http11 - receive_response_body.failed exception=ReadTimeout(TimeoutError('The read operation timed out'))
+2025-07-10 00:20:15,277 - DEBUG - httpcore.http11 - response_closed.started
+2025-07-10 00:20:15,279 - DEBUG - httpcore.http11 - response_closed.complete
+2025-07-10 00:20:15,296 - ERROR - app.core.vector_store - Error searching vector store: The read operation timed out in query.
+2025-07-10 00:20:15,301 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: 
+2025-07-10 00:20:15,303 - ERROR - app.services.deepseek_service - Error in process_prompt: 
+2025-07-10 00:20:15,788 - DEBUG - httpcore.connection - connect_tcp.started host='chroma-onnx-models.s3.amazonaws.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-07-10 00:20:19,443 - DEBUG - httpcore.connection - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A5B42CAFD0>
+2025-07-10 00:20:19,445 - DEBUG - httpcore.connection - start_tls.started ssl_context=<ssl.SSLContext object at 0x000002A5B4253AD0> server_hostname='chroma-onnx-models.s3.amazonaws.com' timeout=5.0
+2025-07-10 00:20:20,308 - DEBUG - httpcore.connection - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A5B42995B0>
+2025-07-10 00:20:20,311 - DEBUG - httpcore.http11 - send_request_headers.started request=<Request [b'GET']>
+2025-07-10 00:20:20,314 - DEBUG - httpcore.http11 - send_request_headers.complete
+2025-07-10 00:20:20,316 - DEBUG - httpcore.http11 - send_request_body.started request=<Request [b'GET']>
+2025-07-10 00:20:20,317 - DEBUG - httpcore.http11 - send_request_body.complete
+2025-07-10 00:20:20,319 - DEBUG - httpcore.http11 - receive_response_headers.started request=<Request [b'GET']>
+2025-07-10 00:20:21,239 - DEBUG - httpcore.http11 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'x-amz-id-2', b'd6IimMq4ZvBah3eM+at5efLkjmBAZ1Xc6UE/1EPDitjhl6nfX7plItMnvUNvE+Udq1n2V9r/7ng='), (b'x-amz-request-id', b'1RFA9GYEP2V4AJKN'), (b'Date', b'Wed, 09 Jul 2025 23:20:21 GMT'), (b'Last-Modified', b'Thu, 30 Mar 2023 23:38:52 GMT'), (b'ETag', b'"c319dd36af997be17ffb4669076b13a0-5"'), (b'x-amz-server-side-encryption', b'AES256'), (b'x-amz-version-id', b'null'), (b'Accept-Ranges', b'bytes'), (b'Content-Type', b'application/x-gzip'), (b'Content-Length', b'83178821'), (b'Server', b'AmazonS3')])
+2025-07-10 00:20:21,241 - INFO - httpx - HTTP Request: GET https://chroma-onnx-models.s3.amazonaws.com/all-MiniLM-L6-v2/onnx.tar.gz "HTTP/1.1 200 OK"
+2025-07-10 00:20:21,254 - DEBUG - httpcore.http11 - receive_response_body.started request=<Request [b'GET']>
+2025-07-10 00:25:23,201 - DEBUG - httpcore.http11 - receive_response_body.failed exception=ReadTimeout(TimeoutError('The read operation timed out'))
+2025-07-10 00:25:23,207 - DEBUG - httpcore.http11 - response_closed.started
+2025-07-10 00:25:23,211 - DEBUG - httpcore.http11 - response_closed.complete
+2025-07-10 00:25:23,215 - ERROR - app.core.vector_store - Error searching vector store: The read operation timed out in query.
+2025-07-10 00:25:23,255 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:25:23,257 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:25:23,258 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:25:23,259 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:25:23,260 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:25:23,260 - INFO - app.services.deepseek_service - Processing prompt: Red heels in Lagos
+2025-07-10 00:25:23,263 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:25:26,713 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:25:26,713 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:25:26,715 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:25:27,155 - DEBUG - httpcore.connection - connect_tcp.started host='chroma-onnx-models.s3.amazonaws.com' port=443 local_address=None timeout=5.0 socket_options=None
+2025-07-10 00:25:27,668 - DEBUG - httpcore.connection - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A5B429B100>
+2025-07-10 00:25:27,670 - DEBUG - httpcore.connection - start_tls.started ssl_context=<ssl.SSLContext object at 0x000002A5B4253C80> server_hostname='chroma-onnx-models.s3.amazonaws.com' timeout=5.0
+2025-07-10 00:25:28,064 - DEBUG - httpcore.connection - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000002A5B42D70B0>
+2025-07-10 00:25:28,065 - DEBUG - httpcore.http11 - send_request_headers.started request=<Request [b'GET']>
+2025-07-10 00:25:28,067 - DEBUG - httpcore.http11 - send_request_headers.complete
+2025-07-10 00:25:28,068 - DEBUG - httpcore.http11 - send_request_body.started request=<Request [b'GET']>
+2025-07-10 00:25:28,070 - DEBUG - httpcore.http11 - send_request_body.complete
+2025-07-10 00:25:28,071 - DEBUG - httpcore.http11 - receive_response_headers.started request=<Request [b'GET']>
+2025-07-10 00:25:28,555 - DEBUG - httpcore.http11 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'x-amz-id-2', b'eht9p0LvsZUppk84MLy20QXcHAwU7OSIr3fBi3ITf4UbEI82k8Yid1bkZwO5Uu40wFAWxeJ6CUQ='), (b'x-amz-request-id', b'MRSHB4YC10C05GMY'), (b'Date', b'Wed, 09 Jul 2025 23:25:29 GMT'), (b'Last-Modified', b'Thu, 30 Mar 2023 23:38:52 GMT'), (b'ETag', b'"c319dd36af997be17ffb4669076b13a0-5"'), (b'x-amz-server-side-encryption', b'AES256'), (b'x-amz-version-id', b'null'), (b'Accept-Ranges', b'bytes'), (b'Content-Type', b'application/x-gzip'), (b'Content-Length', b'83178821'), (b'Server', b'AmazonS3')])
+2025-07-10 00:25:28,559 - INFO - httpx - HTTP Request: GET https://chroma-onnx-models.s3.amazonaws.com/all-MiniLM-L6-v2/onnx.tar.gz "HTTP/1.1 200 OK"
+2025-07-10 00:25:28,576 - DEBUG - httpcore.http11 - receive_response_body.started request=<Request [b'GET']>
+2025-07-10 00:39:49,141 - DEBUG - httpcore.http11 - receive_response_body.complete
+2025-07-10 00:39:49,143 - DEBUG - httpcore.http11 - response_closed.started
+2025-07-10 00:39:49,144 - DEBUG - httpcore.http11 - response_closed.complete
+2025-07-10 00:39:49,149 - DEBUG - httpcore.connection - close.started
+2025-07-10 00:39:49,154 - DEBUG - httpcore.connection - close.complete
+2025-07-10 00:39:52,930 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:39:56,712 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:39:56,991 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': ['red'], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:39:56,991 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': ['red'], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:39:56,992 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:42:52,815 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:42:52,818 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:42:52,822 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:42:52,827 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:42:52,849 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:42:52,850 - INFO - app.services.deepseek_service - Processing prompt: c
+2025-07-10 00:42:52,851 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:42:56,709 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:42:56,710 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:42:56,711 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:42:56,756 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:42:57,184 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:42:57,751 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:42:57,751 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:42:57,752 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:42:57,758 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:42:57,759 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:42:57,760 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:42:57,760 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:42:57,761 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:42:57,762 - INFO - app.services.deepseek_service - Processing prompt: ca
+2025-07-10 00:42:57,762 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:42:58,952 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:42:58,956 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:42:58,957 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:42:58,957 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:42:58,957 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:42:58,957 - INFO - app.services.deepseek_service - Processing prompt: car
+2025-07-10 00:42:58,958 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:42:59,561 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:42:59,562 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:42:59,563 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:42:59,608 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:42:59,991 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:00,467 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:00,468 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:00,468 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:43:00,472 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:00,472 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:43:00,474 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:43:00,474 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:43:00,480 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:43:00,481 - INFO - app.services.deepseek_service - Processing prompt: car
+2025-07-10 00:43:00,482 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:00,705 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:00,706 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:00,708 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:00,745 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:01,215 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:01,698 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:01,699 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:01,699 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:43:01,707 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:01,709 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:43:01,709 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:43:01,710 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:43:01,710 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:43:01,711 - INFO - app.services.deepseek_service - Processing prompt: car
+2025-07-10 00:43:01,711 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:01,712 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:01,712 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:43:01,716 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:43:01,716 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:43:01,716 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:43:01,717 - INFO - app.services.deepseek_service - Processing prompt: car
+2025-07-10 00:43:01,717 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:01,718 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:01,718 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:43:01,721 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:43:01,722 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:43:01,726 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:43:01,726 - INFO - app.services.deepseek_service - Processing prompt: car
+2025-07-10 00:43:01,727 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:01,728 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:01,728 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:43:01,729 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:43:01,729 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:43:01,729 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:43:01,730 - INFO - app.services.deepseek_service - Processing prompt: car
+2025-07-10 00:43:01,730 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:01,730 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:01,731 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:43:01,731 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:43:01,732 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:43:01,732 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:43:01,732 - INFO - app.services.deepseek_service - Processing prompt: car
+2025-07-10 00:43:01,732 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:01,908 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:01,909 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:43:01,909 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:43:01,909 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:43:01,910 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:43:01,910 - INFO - app.services.deepseek_service - Processing prompt: car
+2025-07-10 00:43:01,910 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:02,411 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:02,412 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:43:02,413 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:43:02,413 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:43:02,414 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:43:02,415 - INFO - app.services.deepseek_service - Processing prompt: car
+2025-07-10 00:43:02,415 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:02,573 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:02,573 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:43:02,574 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:43:02,574 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:43:02,574 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:43:02,574 - INFO - app.services.deepseek_service - Processing prompt: car
+2025-07-10 00:43:02,575 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:02,742 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:02,743 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:43:02,743 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:43:02,744 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:43:02,744 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:43:02,744 - INFO - app.services.deepseek_service - Processing prompt: car
+2025-07-10 00:43:02,744 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:02,925 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:02,925 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:43:02,926 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:43:02,926 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:43:02,926 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:43:02,927 - INFO - app.services.deepseek_service - Processing prompt: car
+2025-07-10 00:43:02,927 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:03,210 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:03,211 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:43:03,211 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:43:03,211 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:43:03,212 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:43:03,212 - INFO - app.services.deepseek_service - Processing prompt: car
+2025-07-10 00:43:03,212 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:03,427 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:03,427 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:43:03,428 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:43:03,428 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:43:03,428 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:43:03,428 - INFO - app.services.deepseek_service - Processing prompt: car
+2025-07-10 00:43:03,429 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:03,612 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:03,612 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:43:03,613 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:43:03,613 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:43:03,614 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:43:03,614 - INFO - app.services.deepseek_service - Processing prompt: car
+2025-07-10 00:43:03,614 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:03,677 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:03,677 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:03,679 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:03,717 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:04,193 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:04,711 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:04,711 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:04,713 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:04,713 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:04,714 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:04,714 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:04,714 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:04,715 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:04,715 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:04,716 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:04,728 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:04,729 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:04,729 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:43:04,746 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:04,809 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:05,344 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:05,830 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:05,868 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:06,373 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:06,844 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:06,883 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:07,378 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:07,865 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:07,909 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:08,433 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:08,917 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:08,956 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:09,459 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:09,939 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:09,940 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:09,941 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:09,941 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:09,943 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:09,943 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:43:09,944 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:43:09,944 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:43:09,945 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:43:09,945 - INFO - app.services.deepseek_service - Processing prompt: car
+2025-07-10 00:43:09,945 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:09,946 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:09,947 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:43:09,947 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:43:09,948 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:43:09,948 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:43:09,948 - INFO - app.services.deepseek_service - Processing prompt: car
+2025-07-10 00:43:09,949 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:09,956 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:09,957 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:09,958 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:43:09,959 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:09,960 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:09,960 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:43:09,961 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:09,962 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:09,963 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:43:09,966 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:09,966 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:09,967 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:43:09,973 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:09,974 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:09,975 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:43:09,977 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:10,023 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:10,544 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:11,017 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:11,017 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:43:11,020 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:43:11,020 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:43:11,021 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:43:11,021 - INFO - app.services.deepseek_service - Processing prompt: Red heels in Lagos
+2025-07-10 00:43:11,022 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:11,022 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:11,063 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:11,588 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:12,150 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:12,150 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:12,155 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:12,156 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:12,158 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:12,158 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:12,159 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:12,159 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:12,160 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:12,160 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:43:12,161 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:43:12,162 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:43:12,162 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:43:12,162 - INFO - app.services.deepseek_service - Processing prompt: Red heels in Lagos
+2025-07-10 00:43:12,163 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:12,163 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:12,164 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:43:12,164 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:43:12,164 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:43:12,165 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:43:12,165 - INFO - app.services.deepseek_service - Processing prompt: Red heels in Lagos
+2025-07-10 00:43:12,165 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:12,175 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:12,177 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:12,178 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:43:12,179 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:12,179 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:12,179 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:43:12,191 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:12,262 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:12,845 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:13,366 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:13,416 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:14,317 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:16,012 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:16,143 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:17,447 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:18,133 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:18,266 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:19,257 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:19,889 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:19,908 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:19,909 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:19,910 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:19,913 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:19,914 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:19,914 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:43:19,916 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:19,922 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:19,923 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:43:19,926 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:19,927 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:19,927 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:43:19,928 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:19,929 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:19,930 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:43:19,959 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:20,040 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:20,574 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:21,114 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:21,161 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:21,681 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:22,175 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:22,176 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:43:22,176 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:43:22,176 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:43:22,177 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:43:22,177 - INFO - app.services.deepseek_service - Processing prompt: c
+2025-07-10 00:43:22,177 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:22,179 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:22,179 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:22,179 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:43:22,180 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:22,180 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:22,181 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:43:22,206 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:22,209 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:43:22,209 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:43:22,210 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:43:22,210 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:43:22,211 - INFO - app.services.deepseek_service - Processing prompt: car
+2025-07-10 00:43:22,211 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:22,213 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:22,214 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:43:22,215 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:43:22,215 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:43:22,215 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:43:22,215 - INFO - app.services.deepseek_service - Processing prompt: cars
+2025-07-10 00:43:22,216 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:22,220 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:22,222 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:43:22,223 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:43:22,223 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:43:22,224 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:43:22,224 - INFO - app.services.deepseek_service - Processing prompt: ca
+2025-07-10 00:43:22,224 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:22,343 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:22,344 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:43:22,345 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:43:22,347 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:43:22,347 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:43:22,348 - INFO - app.services.deepseek_service - Processing prompt: cars
+2025-07-10 00:43:22,348 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:22,857 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:22,858 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:22,859 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:22,897 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:23,443 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:23,957 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:23,957 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:23,958 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:23,958 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:23,960 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:23,960 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:23,961 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:23,962 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:23,966 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:23,970 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:23,971 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:43:23,973 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:24,044 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:24,577 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:25,073 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:25,113 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:25,661 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:26,227 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:26,274 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:26,812 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:27,295 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:27,347 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:27,935 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:28,460 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:28,461 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:28,461 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:28,462 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:28,462 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:28,463 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:28,463 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:28,464 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:28,464 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:28,465 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:28,472 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:28,473 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:28,474 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:43:28,475 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': ['red'], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:28,476 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': ['red'], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:28,476 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:43:28,477 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': ['red'], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:28,478 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': ['red'], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:28,478 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:43:28,479 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': ['red'], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:28,479 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': ['red'], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:28,480 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:43:28,490 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:28,491 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:43:28,492 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:43:28,493 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:43:28,493 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:43:28,493 - INFO - app.services.deepseek_service - Processing prompt: cars
+2025-07-10 00:43:28,494 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:28,494 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:28,573 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:29,123 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:29,818 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:29,870 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:30,279 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:30,712 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:30,751 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:31,132 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:31,571 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:31,614 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:32,031 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:32,418 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:32,463 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:32,886 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:33,289 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:33,289 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:43:33,290 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:43:33,291 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:43:33,291 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:43:33,291 - INFO - app.services.deepseek_service - Processing prompt: cars
+2025-07-10 00:43:33,292 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:33,293 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:33,293 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:43:33,294 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:43:33,295 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:43:33,295 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:43:33,296 - INFO - app.services.deepseek_service - Processing prompt: cars
+2025-07-10 00:43:33,296 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:33,297 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:33,299 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:43:33,299 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:43:33,300 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:43:33,300 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:43:33,301 - INFO - app.services.deepseek_service - Processing prompt: cars
+2025-07-10 00:43:33,301 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:43:33,302 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:33,303 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:33,303 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:43:33,304 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:33,305 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:33,306 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:43:33,307 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:33,308 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:33,308 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:43:33,309 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:33,310 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:33,311 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:43:33,312 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:33,313 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:33,313 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:43:34,281 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:34,295 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:34,304 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:34,331 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:34,333 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:34,341 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:34,361 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:34,364 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:34,368 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:34,443 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:35,155 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:35,646 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:35,689 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:36,181 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:36,689 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:36,725 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:37,200 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:37,587 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:43:37,630 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:38,048 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:43:38,432 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:38,433 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:38,433 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:43:38,435 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:38,436 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:38,436 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:43:38,437 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:38,438 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:38,439 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:43:38,440 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:38,441 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 00:43:38,442 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:45:41,221 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-10 00:45:41,229 - DEBUG - openmart - Registering search router
+2025-07-10 00:45:41,235 - DEBUG - openmart - Registering products router
+2025-07-10 00:45:41,246 - DEBUG - openmart - Registering users router
+2025-07-10 00:45:41,251 - DEBUG - openmart - Registering vendors router
+2025-07-10 00:46:36,630 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:46:36,635 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:46:37,285 - DEBUG - chromadb.config - Starting component System
+2025-07-10 00:46:37,286 - DEBUG - chromadb.config - Starting component Posthog
+2025-07-10 00:46:37,736 - INFO - app.core.vector_store - Retrieved existing collection: products
+2025-07-10 00:46:37,736 - INFO - app.core.vector_store - VectorStore initialized successfully
+2025-07-10 00:46:37,737 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:46:37,737 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:46:37,737 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:46:37,738 - INFO - app.services.deepseek_service - Processing prompt: - Error scraping Instagram: 'NoneType' object has no attribute 'lower' Error in background scraping: Error scraping social media: Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 00:46:37,739 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:46:39,302 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:46:39,303 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:46:39,304 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:46:39,706 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:47:07,608 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:47:07,609 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:47:07,609 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:47:07,610 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:47:07,610 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:47:07,610 - INFO - app.services.deepseek_service - Processing prompt: c
+2025-07-10 00:47:07,610 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:47:09,289 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:47:09,289 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:47:09,291 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:47:09,329 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:47:10,150 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:47:10,152 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:47:10,165 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:47:10,166 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:47:10,172 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:47:10,182 - INFO - app.services.deepseek_service - Processing prompt: ca
+2025-07-10 00:47:10,197 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:47:11,017 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:47:11,026 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:47:11,030 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:47:11,031 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:47:11,035 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:47:11,050 - INFO - app.services.deepseek_service - Processing prompt: car
+2025-07-10 00:47:11,052 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:47:11,624 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:47:11,633 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:47:11,635 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:47:11,750 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:47:13,561 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:47:13,565 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:47:13,566 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:47:13,569 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:47:13,573 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:47:13,582 - INFO - app.services.deepseek_service - Processing prompt: cars
+2025-07-10 00:47:13,584 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:47:13,891 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:47:13,893 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:47:13,894 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:47:13,894 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:47:13,895 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:47:13,895 - INFO - app.services.deepseek_service - Processing prompt: cars
+2025-07-10 00:47:13,896 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:47:14,134 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:47:14,145 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:47:14,150 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:47:14,347 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:47:15,898 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:47:15,916 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:47:15,928 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:47:15,981 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:47:15,982 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:47:15,982 - INFO - app.services.deepseek_service - Processing prompt: cars
+2025-07-10 00:47:16,000 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:47:16,446 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:47:16,455 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:47:16,462 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:47:16,610 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:47:18,886 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:47:18,896 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:47:18,900 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:47:18,909 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:47:18,912 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:47:19,075 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:47:21,355 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:47:21,507 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:47:23,348 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:47:23,354 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:47:23,362 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:47:23,362 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:47:23,363 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:47:23,363 - INFO - app.services.deepseek_service - Processing prompt: cars
+2025-07-10 00:47:23,416 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:47:23,426 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:47:23,449 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:47:23,460 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:47:23,478 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:47:23,479 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:47:23,481 - INFO - app.services.deepseek_service - Processing prompt: cars
+2025-07-10 00:47:23,483 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:47:23,495 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:47:23,497 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:47:23,505 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:47:23,508 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:47:23,509 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:47:23,511 - INFO - app.services.deepseek_service - Processing prompt: cars
+2025-07-10 00:47:23,512 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:47:25,193 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:47:25,193 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:47:25,195 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:47:25,273 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:47:25,815 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:47:25,816 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:47:25,817 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:47:25,820 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:47:25,826 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:47:25,879 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:47:26,800 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:47:26,898 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 00:50:32,998 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-10 00:50:33,008 - DEBUG - openmart - Registering search router
+2025-07-10 00:50:33,015 - DEBUG - openmart - Registering products router
+2025-07-10 00:50:33,033 - DEBUG - openmart - Registering users router
+2025-07-10 00:50:33,049 - DEBUG - openmart - Registering vendors router
+2025-07-10 00:51:30,994 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:51:30,994 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 00:51:31,344 - DEBUG - chromadb.config - Starting component System
+2025-07-10 00:51:31,344 - DEBUG - chromadb.config - Starting component Posthog
+2025-07-10 00:51:31,623 - INFO - app.core.vector_store - Retrieved existing collection: products
+2025-07-10 00:51:31,623 - INFO - app.core.vector_store - VectorStore initialized successfully
+2025-07-10 00:51:31,623 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 00:51:31,623 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 00:51:31,624 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 00:51:31,624 - INFO - app.services.deepseek_service - Processing prompt: cars
+2025-07-10 00:51:31,624 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 00:51:34,718 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:51:34,721 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:51:34,723 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-10 00:51:34,979 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 23:11:48,553 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-10 23:11:48,574 - DEBUG - openmart - Registering search router
+2025-07-10 23:11:48,576 - DEBUG - openmart - Registering products router
+2025-07-10 23:11:48,584 - DEBUG - openmart - Registering users router
+2025-07-10 23:11:48,585 - DEBUG - openmart - Registering vendors router
+2025-07-10 23:36:43,502 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 23:36:43,503 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 23:36:45,557 - DEBUG - chromadb.config - Starting component System
+2025-07-10 23:36:45,558 - DEBUG - chromadb.config - Starting component Posthog
+2025-07-10 23:36:49,170 - INFO - app.core.vector_store - Retrieved existing collection: products
+2025-07-10 23:36:49,170 - INFO - app.core.vector_store - VectorStore initialized successfully
+2025-07-10 23:36:49,171 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 23:36:49,184 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 23:36:49,185 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 23:36:49,185 - INFO - app.services.deepseek_service - Processing prompt: Nike Air Max
+2025-07-10 23:36:49,186 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 23:36:49,445 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: Cannot connect to host openrouter.ai:443 ssl:default [getaddrinfo failed]
+2025-07-10 23:36:49,446 - ERROR - app.services.deepseek_service - Error in process_prompt: Cannot connect to host openrouter.ai:443 ssl:default [getaddrinfo failed]
+2025-07-10 23:36:55,713 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 23:37:02,917 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 23:37:02,918 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 23:37:02,918 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 23:37:02,918 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 23:37:02,919 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 23:37:02,919 - INFO - app.services.deepseek_service - Processing prompt: Red heels in Lagos
+2025-07-10 23:37:02,920 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 23:37:02,921 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 23:37:02,922 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 23:37:02,923 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 23:37:02,923 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 23:37:02,924 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 23:37:02,924 - INFO - app.services.deepseek_service - Processing prompt: iPhone 13 under 500K
+2025-07-10 23:37:02,926 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 23:37:02,927 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: Cannot connect to host openrouter.ai:443 ssl:default [getaddrinfo failed]
+2025-07-10 23:37:02,931 - ERROR - app.services.deepseek_service - Error in process_prompt: Cannot connect to host openrouter.ai:443 ssl:default [getaddrinfo failed]
+2025-07-10 23:37:03,080 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 23:37:03,586 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: Cannot connect to host openrouter.ai:443 ssl:default [getaddrinfo failed]
+2025-07-10 23:37:03,586 - ERROR - app.services.deepseek_service - Error in process_prompt: Cannot connect to host openrouter.ai:443 ssl:default [getaddrinfo failed]
+2025-07-10 23:37:03,634 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 23:37:04,187 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': ['red'], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 23:37:04,187 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': ['red'], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 23:37:04,188 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 23:37:04,189 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': 13.0, 'target': 13.0}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 23:37:04,189 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': 13.0, 'target': 13.0}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 23:37:04,190 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 23:37:04,192 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 23:37:04,192 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 23:37:04,192 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 23:37:04,193 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 23:37:04,193 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 23:37:04,202 - INFO - app.services.deepseek_service - Processing prompt: PS5 console
+2025-07-10 23:37:04,202 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 23:37:04,204 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: Cannot connect to host openrouter.ai:443 ssl:default [getaddrinfo failed]
+2025-07-10 23:37:04,204 - ERROR - app.services.deepseek_service - Error in process_prompt: Cannot connect to host openrouter.ai:443 ssl:default [getaddrinfo failed]
+2025-07-10 23:37:04,254 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 23:37:05,131 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 23:37:05,159 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 23:37:05,160 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 23:37:05,186 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 23:37:05,188 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 23:37:05,220 - INFO - app.services.deepseek_service - Processing prompt: Nike Air Max
+2025-07-10 23:37:05,240 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 23:37:05,253 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: Cannot connect to host openrouter.ai:443 ssl:default [getaddrinfo failed]
+2025-07-10 23:37:05,256 - ERROR - app.services.deepseek_service - Error in process_prompt: Cannot connect to host openrouter.ai:443 ssl:default [getaddrinfo failed]
+2025-07-10 23:37:05,359 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 23:37:15,039 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 23:37:15,039 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 23:37:15,040 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 23:37:15,040 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 23:37:15,040 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 23:37:15,041 - INFO - app.services.deepseek_service - Processing prompt: PS5 console
+2025-07-10 23:37:15,041 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 23:37:15,042 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: Cannot connect to host openrouter.ai:443 ssl:default [getaddrinfo failed]
+2025-07-10 23:37:15,043 - ERROR - app.services.deepseek_service - Error in process_prompt: Cannot connect to host openrouter.ai:443 ssl:default [getaddrinfo failed]
+2025-07-10 23:37:15,086 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 23:37:27,484 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 23:37:27,501 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 23:37:27,502 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 23:37:27,503 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 23:37:27,516 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 23:37:27,518 - INFO - app.services.deepseek_service - Processing prompt: Red heels in Lagos
+2025-07-10 23:37:27,520 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 23:37:27,527 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: Cannot connect to host openrouter.ai:443 ssl:default [getaddrinfo failed]
+2025-07-10 23:37:27,575 - ERROR - app.services.deepseek_service - Error in process_prompt: Cannot connect to host openrouter.ai:443 ssl:default [getaddrinfo failed]
+2025-07-10 23:37:27,848 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 23:37:28,514 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': ['red'], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 23:37:28,516 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': None, 'target': None}, 'brands': [], 'colors': ['red'], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 23:37:28,517 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-10 23:37:38,086 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 23:37:38,087 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-10 23:37:38,090 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-10 23:37:38,091 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-10 23:37:38,092 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-10 23:37:38,093 - INFO - app.services.deepseek_service - Processing prompt: iPhone 13 under 500K
+2025-07-10 23:37:38,098 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-10 23:37:38,103 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: Cannot connect to host openrouter.ai:443 ssl:default [getaddrinfo failed]
+2025-07-10 23:37:38,105 - ERROR - app.services.deepseek_service - Error in process_prompt: Cannot connect to host openrouter.ai:443 ssl:default [getaddrinfo failed]
+2025-07-10 23:37:38,151 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-10 23:37:38,603 - INFO - app.services.scraping_service - Starting Instagram scrape for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': 13.0, 'target': 13.0}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 23:37:38,605 - INFO - app.services.scraping_service - Generating search tags for query: {'product_type': None, 'specifications': [], 'price_range': {'minimum': 0, 'maximum': 13.0, 'target': 13.0}, 'brands': [], 'colors': [], 'condition': None, 'location': None, 'style': None, 'size': None, 'urgency': None}
+2025-07-10 23:37:38,605 - ERROR - app.services.scraping_service - Error scraping Instagram: 'NoneType' object has no attribute 'lower'
+2025-07-11 02:31:46,478 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-11 02:31:46,510 - DEBUG - openmart - Registering search router
+2025-07-11 02:31:46,512 - DEBUG - openmart - Registering products router
+2025-07-11 02:31:46,519 - DEBUG - openmart - Registering users router
+2025-07-11 02:31:46,521 - DEBUG - openmart - Registering vendors router
+2025-07-13 23:41:54,950 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-13 23:41:54,992 - DEBUG - openmart - Registering search router
+2025-07-13 23:41:54,994 - DEBUG - openmart - Registering products router
+2025-07-13 23:41:55,004 - DEBUG - openmart - Registering users router
+2025-07-13 23:41:55,006 - DEBUG - openmart - Registering vendors router
+2025-07-16 19:49:00,338 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-16 19:49:00,372 - DEBUG - openmart - Registering search router
+2025-07-16 19:49:00,383 - DEBUG - openmart - Registering products router
+2025-07-16 19:49:00,400 - DEBUG - openmart - Registering users router
+2025-07-16 19:49:00,402 - DEBUG - openmart - Registering vendors router
+2025-07-18 08:23:39,866 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-18 08:23:39,930 - DEBUG - openmart - Registering search router
+2025-07-18 08:23:39,939 - DEBUG - openmart - Registering products router
+2025-07-18 08:23:39,951 - DEBUG - openmart - Registering users router
+2025-07-18 08:23:39,956 - DEBUG - openmart - Registering vendors router
+2025-07-18 19:50:11,573 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-18 19:50:11,626 - DEBUG - openmart - Registering search router
+2025-07-18 19:50:11,635 - DEBUG - openmart - Registering products router
+2025-07-18 19:50:11,665 - DEBUG - openmart - Registering users router
+2025-07-18 19:50:11,668 - DEBUG - openmart - Registering vendors router
+2025-07-18 20:53:13,405 - INFO - openmart.vendors - [ONBOARD_VENDOR] Endpoint called. Payload: {'email': 'developersng576@gmail.com', 'business_name': 'gg', 'business_description': '33', 'business_phone': '786755', 'business_address': 'rrr', 'category': 'Fashion'}
+2025-07-18 20:53:13,409 - INFO - openmart.vendors - [ONBOARD_VENDOR] User lookup for email developersng576@gmail.com: FOUND
+2025-07-18 20:53:13,453 - INFO - openmart.vendors - [ONBOARD_VENDOR] Vendor created with id: 8a54cd6b-0ace-4c8a-9ad5-1afeac07bfcb
+2025-07-20 06:02:28,933 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-20 06:02:28,967 - DEBUG - openmart - Registering search router
+2025-07-20 06:02:28,975 - DEBUG - openmart - Registering products router
+2025-07-20 06:02:28,990 - DEBUG - openmart - Registering users router
+2025-07-20 06:02:28,995 - DEBUG - openmart - Registering vendors router
+2025-07-20 15:16:34,873 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-20 15:16:34,917 - DEBUG - openmart - Registering search router
+2025-07-20 15:16:34,923 - DEBUG - openmart - Registering products router
+2025-07-20 15:16:34,939 - DEBUG - openmart - Registering users router
+2025-07-20 15:16:34,947 - DEBUG - openmart - Registering vendors router
+2025-07-20 15:24:15,134 - INFO - app.services.deepseek_service - DeepSeek service initialized with model: deepseek-r1-distill-qwen-32b:free
+2025-07-20 15:24:15,135 - INFO - app.services.scraping_service - Initializing ScrapingService...
+2025-07-20 15:24:17,417 - DEBUG - chromadb.config - Starting component System
+2025-07-20 15:24:17,418 - DEBUG - chromadb.config - Starting component Posthog
+2025-07-20 15:24:20,923 - INFO - app.core.vector_store - Retrieved existing collection: products
+2025-07-20 15:24:20,924 - INFO - app.core.vector_store - VectorStore initialized successfully
+2025-07-20 15:24:20,925 - INFO - app.services.scraping_service - \u2705 Successfully initialized VectorStore
+2025-07-20 15:24:20,951 - WARNING - app.services.scraping_service - \u26a0\ufe0f No Instagram credentials provided in .env file
+2025-07-20 15:24:20,951 - INFO - app.services.scraping_service - ScrapingService initialization completed
+2025-07-20 15:24:20,952 - INFO - app.services.deepseek_service - Processing prompt: PS5 console
+2025-07-20 15:24:20,952 - INFO - app.services.deepseek_service - Making API call to OpenRouter with model: deepseek-r1-distill-qwen-32b:free
+2025-07-20 15:24:27,843 - ERROR - app.services.deepseek_service - OpenRouter API error: Status 401, Response: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-20 15:24:27,843 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-20 15:24:27,896 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
+2025-07-20 15:24:31,089 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']

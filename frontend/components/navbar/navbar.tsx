@@ -52,6 +52,7 @@ export function Navbar() {
   const { data: session } = useSession();
   const [menuOpen, setMenuOpen] = useState(false);
   const [isVendorUser, setIsVendorUser] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
 
   // Close menu on outside click
@@ -89,18 +90,18 @@ export function Navbar() {
     >
       <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
         {/* Logo on the left */}
-        <Link href="/" className="flex items-center space-x-2">
-          <motion.span 
-            className="text-2xl font-bold bg-gradient-to-r from-indigo-500 to-indigo-600 bg-clip-text text-transparent"
-            variants={itemVariants}
-            whileHover={{ 
-              scale: 1.02,
-              transition: { duration: 0.2 }
-            }}
-          >
-            OpenMart
-          </motion.span>
-        </Link>
+  <Link href="/" className="flex items-center space-x-2">
+    <motion.span 
+      className="text-2xl font-bold bg-gradient-to-r from-indigo-500 to-indigo-600 bg-clip-text text-transparent"
+      variants={itemVariants}
+      whileHover={{ 
+        scale: 1.02,
+        transition: { duration: 0.2 }
+      }}
+    >
+      OpenMart
+    </motion.span>
+  </Link>
 
         {/* Centered Blog link */}
         <div className="flex-1 flex justify-center">
@@ -114,8 +115,21 @@ export function Navbar() {
           </motion.div>
         </div>
 
-        {/* Auth button and user avatar on the right */}
-        <div className="flex items-center space-x-3">
+        {/* Search icon and Auth button/user avatar on the right */}
+        <div className="flex items-center gap-3">
+          {/* Search Icon */}
+          <motion.div variants={itemVariants}>
+            <button
+              className="p-2 rounded-full hover:bg-indigo-100 dark:hover:bg-indigo-950 transition-colors duration-200 focus:outline-none"
+              aria-label="Search businesses"
+              onClick={() => setSearchOpen(true)}
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6 text-indigo-600">
+                <circle cx="11" cy="11" r="8" stroke="currentColor" strokeWidth="2" fill="none" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" stroke="currentColor" strokeWidth="2" />
+              </svg>
+            </button>
+          </motion.div>
           {session && !isVendorUser && (
             <motion.div variants={itemVariants}>
               <Link href="/onboard-vendor">
@@ -151,9 +165,9 @@ export function Navbar() {
             </motion.div>
           )}
           {session && (
-            <motion.div variants={itemVariants} className="relative">
+            <motion.div variants={itemVariants} className="relative flex items-center">
               <button
-                className="focus:outline-none"
+                className="focus:outline-none flex items-center justify-center"
                 onClick={() => setMenuOpen((open) => !open)}
                 aria-label="User menu"
               >
@@ -190,7 +204,29 @@ export function Navbar() {
             </motion.div>
           )}
         </div>
+        {/* Vendor Search Modal */}
+        {searchOpen && (
+          <div className="fixed inset-0 z-[100] flex items-center mt-20 justify-center bg-black/40 backdrop-blur-sm">
+            <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-2xl p-6 w-full max-w-lg relative">
+              <button
+                className="absolute top-3 right-3 p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-800 focus:outline-none"
+                aria-label="Close search"
+                onClick={() => setSearchOpen(false)}
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6 text-gray-500">
+                  <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" strokeWidth="2" />
+                  <line x1="6" y1="18" x2="18" y2="6" stroke="currentColor" strokeWidth="2" />
+                </svg>
+              </button>
+              <h2 className="text-md font-bold mb-4 text-black">Search Businesses by Name</h2>
+              {/* VendorSearch component from search */}
+              <React.Suspense fallback={<div>Loading...</div>}>
+                {React.createElement(require("../search/VendorSearch").default)}
+              </React.Suspense>
+            </div>
+          </div>
+        )}
       </nav>
     </motion.header>
-  )
+  );
 }

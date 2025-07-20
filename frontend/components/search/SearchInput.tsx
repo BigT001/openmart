@@ -42,7 +42,8 @@ export const SearchInput: React.FC<SearchInputProps> = ({
         <div className="absolute right-3">
           <Button
             type="submit"
-            disabled={isSearching || !prompt.trim()}
+            // Only disable if searching, never disable for empty prompt (let backend handle empty)
+            disabled={isSearching}
             className={`h-12 px-8 rounded-lg bg-gradient-to-r from-indigo-600 to-purple-600 
                        text-white font-medium text-lg hover:from-indigo-700 hover:to-purple-700 
                        transition-all duration-300 shadow-lg hover:shadow-indigo-500/25 

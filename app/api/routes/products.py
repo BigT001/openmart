@@ -1,3 +1,43 @@
+from fastapi import APIRouter, HTTPException, status, Depends, UploadFile, File, Query, Body, Request
+from sqlalchemy.orm import Session
+from app.db import get_db
+from app.models.product import Product as ProductModel
+from app.models.vendor import Vendor
+from app.models.user import User
+from app.crud import social
+from pydantic import BaseModel, Field
+from typing import List, Optional
+from datetime import datetime
+import uuid
+import logging
+import os
+import json
+from uuid import UUID
+
+# Configure router
+router = APIRouter()
+
+import logging
+logger = logging.getLogger(__name__)
+# --- Like Product Endpoint ---
+@router.post("/{product_id}/like")
+def like_product(product_id: str, request: Request, db: Session = Depends(get_db), user: str = Body(..., embed=True)):
+    logger.info(f"[REGISTERED] /api/products/{{product_id}}/like endpoint called for product_id={product_id}, user={user}")
+    """
+    Like a product. Only allows one like per user per product.
+    Expects: { "user": "user@email.com" }
+    """
+    # Find user by email
+    db_user = db.query(User).filter(User.email == user).first()
+    if not db_user:
+        raise HTTPException(status_code=404, detail="User not found")
+    # Only allow one like per user per product
+    liked = social.like_product(db, db_user.id, product_id)
+    if not liked:
+        raise HTTPException(status_code=400, detail="Already liked")
+    # Return new like count
+    count = social.get_product_likes_count(db, product_id)
+    return {"success": True, "likes": count}
 from fastapi import APIRouter, HTTPException, status, Depends, UploadFile, File, Query
 from sqlalchemy.orm import Session
 from app.db import get_db

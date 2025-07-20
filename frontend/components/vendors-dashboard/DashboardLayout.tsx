@@ -3,7 +3,7 @@ import DashboardHeader from "./DashboardHeader";
 
 export default function DashboardLayout({ children, active, onAddProduct }: { children: React.ReactNode; active?: string; onAddProduct?: () => void }) {
   return (
-    <div className="min-h-screen flex bg-gray-50 dark:bg-gray-900">
+    <div className="min-h-screen flex bg-[#181818]">
       <Sidebar active={active} />
       <div className="flex-1 flex flex-col h-screen">
         <DashboardHeader onAddProduct={onAddProduct} />

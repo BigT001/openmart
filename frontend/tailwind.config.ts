@@ -47,6 +47,15 @@ const config: Config = {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+      keyframes: {
+        fadein: {
+          '0%': { opacity: '0', transform: 'translateY(24px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+      },
+      animation: {
+        fadein: 'fadein 1.1s cubic-bezier(0.4,0,0.2,1) both',
+      },
     },
   },
   plugins: [],

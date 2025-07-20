@@ -30,14 +30,13 @@ export default function SettingsPage() {
   }, [session?.user?.email]);
 
   return (
-    <div className="min-h-[80vh] w-full flex flex-col items-center justify-center  ">
-      <h1 className="text-4xl md:text-5xl font-extrabold text-[#b39ddb] mb-10 
-        tracking-tight text-center drop-shadow-lg">
+    <div className="rounded-2xl bg-[#181818] border border-[#232323] shadow-xl p-8 flex flex-col gap-8 min-h-[600px] w-full">
+      <h1 className="text-4xl md:text-5xl font-extrabold text-[#b39ddb] mb-10 tracking-tight text-center drop-shadow-lg">
         Vendor Settings
       </h1>
-      <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-2 md:px-0">
+      <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 md:px-0">
         {/* Profile Card - left side */}
-        <div className="flex flex-col w-full gap-2">
+        <div className="flex flex-col w-full gap-4">
           {loading ? (
             <div className="flex items-center justify-center h-full min-h-[200px] text-lg text-gray-400">
               Loading vendor profile...
@@ -45,9 +44,7 @@ export default function SettingsPage() {
           ) : vendorId ? (
             <>
               <VendorsProfile vendorId={vendorId} />
-              {session?.user?.email && (
-                <PersonalInfo email={session.user.email} />
-              )}
+              {session?.user?.email && <PersonalInfo email={session.user.email} />}
             </>
           ) : (
             <div className="text-red-500 flex items-center justify-center h-full min-h-[200px]">
@@ -56,7 +53,7 @@ export default function SettingsPage() {
           )}
         </div>
         {/* Social Media + Bank stacked on right */}
-        <div className="flex flex-col w-full gap-2 ">
+        <div className="flex flex-col w-full gap-4">
           <VendorSocialMedia />
           <VendorBanks />
         </div>

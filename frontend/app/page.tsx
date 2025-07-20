@@ -33,6 +33,8 @@ const titleVariants = {
   }
 }
 
+import { easeInOut } from "framer-motion"
+
 const searchVariants = {
   hidden: { opacity: 0, scale: 0.95 },
   visible: {
@@ -40,7 +42,7 @@ const searchVariants = {
     scale: 1,
     transition: {
       duration: 0.8,
-      ease: [0.04, 0.62, 0.23, 0.98],
+      ease: easeInOut,
       delay: 0.4
     }
   }
@@ -66,33 +68,17 @@ export default function Home() {
       <Navbar />
       <main className="flex-1 pt-16">
         {/* Hero Section with Search */}
-        <section className="relative py-20 bg-gradient-to-b from-indigo-50 to-white dark:from-gray-900 dark:to-gray-950">
+        <section className="relative py-20 min-h-[60vh] bg-gradient-to-br from-white via-[#f5f5fa] to-[#e5e7eb] dark:from-[#232136] dark:to-[#181818]">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
-              <motion.div
-                className="space-y-6"
-                variants={containerVariants}
-                initial="hidden"
-                animate="visible"
-              >
-                <motion.h1 
-                  className="text-6xl md:text-7xl font-extrabold mb-6 tracking-tight"
-                  variants={titleVariants}
-                >
-                  <span className="block bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
-                    Find Anything,
-                  </span>
-                  <span className="block bg-gradient-to-r from-pink-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent">
-                    Buy Smart
-                  </span>
-                </motion.h1>
-                <motion.p 
-                  className="text-2xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-12 leading-relaxed font-medium"
-                  variants={titleVariants}
-                >
-                  Let our AI assistant help you discover the best deals from trusted vendors
-                </motion.p>
-              </motion.div>
+              <div className="space-y-8">
+                <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-4 text-[#232136] drop-shadow-lg">
+                  OpenMart
+                </h1>
+                <p className="text-lg md:text-xl font-medium max-w-2xl mx-auto mb-6 leading-relaxed text-[#44446a]">
+                  Your AI-powered marketplace for <span className="text-[#7c3aed] font-semibold">trusted vendors</span>, <span className="text-[#b39ddb] font-semibold">best deals</span>, and a seamless shopping experience.
+                </p>
+              </div>
               <motion.div 
                 className="w-full max-w-4xl mx-auto relative z-10"
                 variants={searchVariants}
@@ -111,14 +97,14 @@ export default function Home() {
                 />
                 
                 {/* Search Container */}
-                <div className="relative bg-white dark:bg-gray-900 rounded-lg shadow-2xl p-6 backdrop-blur-sm border border-gray-200 dark:border-gray-800">
+                <div className="relative bg-[#181818] dark:bg-[#181818] rounded-2xl shadow-2xl p-6 backdrop-blur-sm border border-[#232136]">
                   <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
                   >
-                    <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-200 mb-4">
-                      What are you looking for?
+                    <h2 className="text-2xl font-bold text-[#b39ddb] mb-4 tracking-wide">
+                      What are you looking for today?
                     </h2>
                     
                     {/* Search Form */}
@@ -128,7 +114,7 @@ export default function Home() {
 
                     {/* Example Searches */}
                     <motion.div 
-                      className="mt-6 flex flex-wrap items-center gap-3 text-sm text-gray-500"
+                      className="mt-6 flex flex-wrap items-center gap-3 text-sm text-[#b39ddb]"
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
                       transition={{ duration: 1, delay: 0.5 }}
@@ -143,9 +129,7 @@ export default function Home() {
                         <motion.button
                           key={text}
                           onClick={() => handleExampleClick(text)}
-                          className="px-4 py-2 rounded-full bg-gray-100 dark:bg-gray-800 text-indigo-600 dark:text-indigo-400 
-                                   hover:bg-indigo-100 dark:hover:bg-indigo-900 transition-colors duration-200
-                                   font-medium cursor-pointer"
+                          className="px-4 py-2 rounded-full bg-[#232136] text-[#b39ddb] border border-[#b39ddb] hover:bg-[#b39ddb] hover:text-[#181818] transition-colors duration-200 font-medium cursor-pointer shadow"
                           whileHover={{ 
                             scale: 1.05,
                             transition: { duration: 0.2 }
@@ -164,12 +148,13 @@ export default function Home() {
             </div>
           </div>
           
-          {/* Background Pattern */}
-          <div className="absolute inset-0 z-0 opacity-30 dark:opacity-20">
-            <div className="absolute inset-0" style={{
-              backgroundImage: 'radial-gradient(circle at 25px 25px, rgba(99, 102, 241, 0.15) 2%, transparent 0%)',
-              backgroundSize: '50px 50px'
-            }} />
+          {/* Minimal Subtle Background Pattern */}
+          <div className="absolute inset-0 z-0 pointer-events-none mt-10">
+          <div className="absolute inset-0 opacity-10" style={{
+            backgroundImage: 'radial-gradient(ellipse at 60% 20%, #b3b3c622 0%, transparent 60%), radial-gradient(ellipse at 80% 80%, #e0def422 0%, transparent 70%)',
+            backgroundSize: 'cover',
+            filter: 'blur(2px)'
+          }} />
           </div>
         </section>
 

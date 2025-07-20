@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import LikeButton from "../../ui/LikeButton";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
 
@@ -12,17 +13,49 @@ export interface ProductCardProps {
   sku?: string;
   onEdit?: () => void;
   onDelete?: () => void;
+  productId?: string;
+  initialLikes?: number;
+  likedByUser?: boolean;
 }
 
-export default function ProductCard({ name, price, images = [], description, stock, category, sku, onEdit, onDelete }: ProductCardProps) {
+
+import { useSession } from "next-auth/react";
+
+export default function ProductCard({ name, price, images = [], description, stock, category, sku, onEdit, onDelete, productId, initialLikes = 0, likedByUser = false }: ProductCardProps) {
+  const { data: session } = useSession();
   const [mainIdx, setMainIdx] = useState(0);
+  const [likes, setLikes] = useState(initialLikes);
+  const [liked, setLiked] = useState(likedByUser);
+  const [likeLoading, setLikeLoading] = useState(false);
   const getImageUrl = (img: string) => img.startsWith('/static/') ? `${API_URL}${img}` : img;
   const mainImage = images.length > 0 ? getImageUrl(images[mainIdx]) : undefined;
 
+  // Only allow like if not already liked
+  const handleLike = async () => {
+    if (!productId || likeLoading || liked) return;
+    setLikeLoading(true);
+    try {
+      const res = await fetch(`${API_URL}/api/products/${productId}/like`, {
+        method: 'POST',
+        credentials: 'include',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ user: session?.user?.email }),
+      });
+      if (res.ok) {
+        setLiked(true);
+        setLikes((l) => l + 1);
+      }
+    } finally {
+      setLikeLoading(false);
+    }
+  };
+
   return (
     <div className="relative flex flex-col rounded-2xl shadow-lg border-2 border-purple-600 bg-white max-w-[210px] min-w-[180px] w-full mx-auto overflow-hidden group transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
-      {/* Product Image - fills card, only top corners rounded */}
-      <div className="w-full aspect-[1/1.15] bg-gray-50 overflow-hidden">
+      {/* Product Image - fills card, only top corners rounded, with like button overlay */}
+      <div className="w-full aspect-[1/1.15] bg-gray-50 overflow-hidden relative">
         {mainImage ? (
           <img
             src={mainImage}
@@ -33,6 +66,16 @@ export default function ProductCard({ name, price, images = [], description, sto
         ) : (
           <div className="w-full h-full flex items-center justify-center text-4xl text-gray-200 font-bold">🛒</div>
         )}
+        {/* Like button overlay */}
+        <div style={{ position: 'absolute', top: 8, right: 8, zIndex: 20 }}>
+          <LikeButton
+            liked={liked}
+            count={likes}
+            loading={likeLoading}
+            onClick={handleLike}
+            buttonAriaLabel={liked ? 'Liked' : 'Like product'}
+          />
+        </div>
       </div>
       {/* Thumbnails centered below image */}
       {images.length > 1 && (
