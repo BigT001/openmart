@@ -2,10 +2,10 @@
 
 import React, { useEffect, useState } from "react";
 import { useSession } from "next-auth/react";
-import VendorsProfile from "@/components/vendors-dashboard/settings/Vendorsprofile";
-import VendorSocialMedia from "@/components/vendors-dashboard/settings/VendorSocialMedia";
-import VendorBanks from "@/components/vendors-dashboard/settings/VendorBanks";
-import PersonalInfo from "@/components/vendors-dashboard/settings/PersonalInfo";
+import VendorsProfile from "@/components/vendor/vendors-dashboard/settings/Vendorsprofile";
+import VendorSocialMedia from "@/components/vendor/vendors-dashboard/settings/VendorSocialMedia";
+import VendorBanks from "@/components/vendor/vendors-dashboard/settings/VendorBanks";
+import PersonalInfo from "@/components/vendor/vendors-dashboard/settings/PersonalInfo";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 

@@ -149,7 +149,7 @@ export default function Home() {
           </div>
           
           {/* Minimal Subtle Background Pattern */}
-          <div className="absolute inset-0 z-0 pointer-events-none mt-10">
+          <div className="absolute inset-0 z-0 pointer-events-none">
           <div className="absolute inset-0 opacity-10" style={{
             backgroundImage: 'radial-gradient(ellipse at 60% 20%, #b3b3c622 0%, transparent 60%), radial-gradient(ellipse at 80% 80%, #e0def422 0%, transparent 70%)',
             backgroundSize: 'cover',

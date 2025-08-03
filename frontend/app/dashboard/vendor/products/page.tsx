@@ -1,8 +1,8 @@
 
 "use client";
-import StoreHeader from "@/components/vendors-dashboard/StoreHeader";
-import ProductCard from "@/components/vendors-dashboard/products/ProductCard";
-import AddProductForm from "@/components/vendors-dashboard/products/AddProductForm";
+import StoreHeader from "@/components/vendor/vendors-dashboard/StoreHeader";
+import ProductCard from "@/components/vendor/vendors-dashboard/products/ProductCard";
+import AddProductForm from "@/components/vendor/vendors-dashboard/products/AddProductForm";
 import { useEffect, useState } from "react";
 import { useSession } from "next-auth/react";
 
@@ -38,20 +38,12 @@ export default function VendorProductsPage() {
           return;
         }
         setVendorId(vendorData.vendor); // NEW: store vendorId
-        // Fetch all products for this vendor, fallback to all products if vendor_id fails
-        let res = await fetch(`${API_URL}/api/products/?vendor_id=${vendorData.vendor}`);
-        let data = [];
-        if (res.ok) {
-          data = await res.json();
-        } else {
-          // fallback: fetch all products
-          res = await fetch(`${API_URL}/api/products/`);
-          if (res.ok) {
-            data = await res.json();
-          } else {
-            throw new Error("Failed to fetch products");
-          }
-        }
+        // Fetch only this vendor's products
+        const res = await fetch(
+          `${API_URL}/api/products/?vendor_id=${vendorData.vendor}`
+        );
+        if (!res.ok) throw new Error("Failed to fetch products");
+        const data = await res.json();
         setProducts(data);
       } catch (err: any) {
         setError(err.message || "Error loading products");
@@ -66,23 +58,9 @@ export default function VendorProductsPage() {
 
   const handleAddProduct = () => setShowForm(true);
   const handleCloseForm = () => setShowForm(false);
-  // Refetch products after adding a new one
-  const handleProductSubmit = async () => {
+  const handleProductSubmit = (product: any) => {
+    setProducts((prev) => [...prev, product]);
     setShowForm(false);
-    // Refetch products from backend
-    const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
-    if (!vendorId) return;
-    try {
-      setLoading(true);
-      const res = await fetch(`${API_URL}/api/products/?vendor_id=${vendorId}`);
-      if (!res.ok) throw new Error("Failed to fetch products");
-      const data = await res.json();
-      setProducts(data);
-    } catch (err: any) {
-      setError(err.message || "Error loading products");
-    } finally {
-      setLoading(false);
-    }
   };
 
   // Tab state: 0 = Products, 1 = Favorites, 2 = Liked
@@ -163,19 +141,7 @@ export default function VendorProductsPage() {
               products.length > 0 ? (
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-4 mb-16">
                   {products.map((product, idx) => (
-                    <ProductCard
-                      key={product.id || product.name + idx}
-                      name={product.name}
-                      price={product.price}
-                      images={product.images}
-                      description={product.description}
-                      stock={product.stock}
-                      category={product.category}
-                      sku={product.sku}
-                      productId={product.id}
-                      initialLikes={product.likes || 0}
-                      likedByUser={product.likedByUser || false}
-                    />
+                    <ProductCard key={product.id || product.name + idx} {...product} />
                   ))}
                 </div>
               ) : (

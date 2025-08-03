@@ -20623,3 +20623,2718 @@ UnboundLocalError: cannot access local variable 'uuid' where it is not associate
 2025-07-20 15:24:27,843 - ERROR - app.services.deepseek_service - Error calling OpenRouter API: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
 2025-07-20 15:24:27,896 - ERROR - app.services.deepseek_service - Error in process_prompt: OpenRouter API error: {"error":{"message":"No auth credentials found","code":401}}
 2025-07-20 15:24:31,089 - DEBUG - chromadb.utils.embedding_functions.onnx_mini_lm_l6_v2 - WARNING: No ONNX providers provided, defaulting to available providers: ['AzureExecutionProvider', 'CPUExecutionProvider']
+2025-07-20 16:41:12,898 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-20 16:41:12,923 - DEBUG - openmart - Registering search router
+2025-07-20 16:41:12,929 - DEBUG - openmart - Registering products router
+2025-07-20 16:41:12,945 - DEBUG - openmart - Registering users router
+2025-07-20 16:41:12,947 - DEBUG - openmart - Registering vendors router
+2025-07-21 18:59:18,555 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-21 18:59:18,601 - DEBUG - openmart - Registering search router
+2025-07-21 18:59:18,610 - DEBUG - openmart - Registering products router
+2025-07-21 18:59:18,630 - DEBUG - openmart - Registering users router
+2025-07-21 18:59:18,632 - DEBUG - openmart - Registering vendors router
+2025-07-22 01:05:16,293 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-22 01:05:16,334 - DEBUG - openmart - Registering search router
+2025-07-22 01:05:16,344 - DEBUG - openmart - Registering products router
+2025-07-22 01:05:16,358 - DEBUG - openmart - Registering users router
+2025-07-22 01:05:16,361 - DEBUG - openmart - Registering vendors router
+2025-07-22 01:48:44,936 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-22 01:48:44,969 - DEBUG - openmart - Registering search router
+2025-07-22 01:48:44,988 - DEBUG - openmart - Registering products router
+2025-07-22 01:48:45,106 - DEBUG - openmart - Registering users router
+2025-07-22 01:48:45,154 - DEBUG - openmart - Registering vendors router
+2025-07-22 02:33:36,908 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-22 02:33:36,933 - DEBUG - openmart - Registering search router
+2025-07-22 02:33:36,942 - DEBUG - openmart - Registering products router
+2025-07-22 02:33:36,953 - DEBUG - openmart - Registering users router
+2025-07-22 02:33:36,955 - DEBUG - openmart - Registering vendors router
+2025-07-22 11:10:44,108 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-22 11:10:44,133 - DEBUG - openmart - Registering search router
+2025-07-22 11:10:44,139 - DEBUG - openmart - Registering products router
+2025-07-22 11:10:44,152 - DEBUG - openmart - Registering users router
+2025-07-22 11:10:44,155 - DEBUG - openmart - Registering vendors router
+2025-07-22 12:27:56,399 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-22 12:27:56,438 - DEBUG - openmart - Registering search router
+2025-07-22 12:27:56,449 - DEBUG - openmart - Registering products router
+2025-07-22 12:27:56,480 - DEBUG - openmart - Registering users router
+2025-07-22 12:27:56,484 - DEBUG - openmart - Registering vendors router
+2025-07-22 13:41:56,372 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-22 13:41:56,375 - DEBUG - openmart - Registering search router
+2025-07-22 13:41:56,379 - DEBUG - openmart - Registering products router
+2025-07-22 13:41:56,386 - DEBUG - openmart - Registering users router
+2025-07-22 13:41:56,390 - DEBUG - openmart - Registering vendors router
+2025-07-22 14:39:36,080 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-22 14:39:36,086 - DEBUG - openmart - Registering search router
+2025-07-22 14:39:36,091 - DEBUG - openmart - Registering products router
+2025-07-22 14:39:36,113 - DEBUG - openmart - Registering users router
+2025-07-22 14:39:36,115 - DEBUG - openmart - Registering vendors router
+2025-07-22 21:09:36,071 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-22 21:09:36,098 - DEBUG - openmart - Registering search router
+2025-07-22 21:09:36,101 - DEBUG - openmart - Registering products router
+2025-07-22 21:09:36,113 - DEBUG - openmart - Registering users router
+2025-07-22 21:09:36,115 - DEBUG - openmart - Registering vendors router
+2025-07-23 02:17:15,460 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-23 02:17:15,499 - DEBUG - openmart - Registering search router
+2025-07-23 02:17:15,502 - DEBUG - openmart - Registering products router
+2025-07-23 02:17:15,508 - DEBUG - openmart - Registering users router
+2025-07-23 02:17:15,511 - DEBUG - openmart - Registering vendors router
+2025-07-23 12:26:11,571 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-23 12:26:11,601 - DEBUG - openmart - Registering search router
+2025-07-23 12:26:11,605 - DEBUG - openmart - Registering products router
+2025-07-23 12:26:11,617 - DEBUG - openmart - Registering users router
+2025-07-23 12:26:11,619 - DEBUG - openmart - Registering vendors router
+2025-07-23 21:12:00,696 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-23 21:12:00,727 - DEBUG - openmart - Registering search router
+2025-07-23 21:12:00,735 - DEBUG - openmart - Registering products router
+2025-07-23 21:12:00,765 - DEBUG - openmart - Registering users router
+2025-07-23 21:12:00,767 - DEBUG - openmart - Registering vendors router
+2025-07-24 20:27:57,978 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-24 20:27:58,004 - DEBUG - openmart - Registering search router
+2025-07-24 20:27:58,008 - DEBUG - openmart - Registering products router
+2025-07-24 20:27:58,019 - DEBUG - openmart - Registering users router
+2025-07-24 20:27:58,021 - DEBUG - openmart - Registering vendors router
+2025-07-24 23:28:40,191 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-24 23:28:40,225 - DEBUG - openmart - Registering search router
+2025-07-24 23:28:40,231 - DEBUG - openmart - Registering products router
+2025-07-24 23:28:40,251 - DEBUG - openmart - Registering users router
+2025-07-24 23:28:40,254 - DEBUG - openmart - Registering vendors router
+2025-07-25 01:16:37,804 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-25 01:16:37,852 - DEBUG - openmart - Registering search router
+2025-07-25 01:16:37,855 - DEBUG - openmart - Registering products router
+2025-07-25 01:16:37,864 - DEBUG - openmart - Registering users router
+2025-07-25 01:16:37,866 - DEBUG - openmart - Registering vendors router
+2025-07-25 12:03:57,034 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-25 12:03:57,076 - DEBUG - openmart - Registering search router
+2025-07-25 12:03:57,086 - DEBUG - openmart - Registering products router
+2025-07-25 12:03:57,101 - DEBUG - openmart - Registering users router
+2025-07-25 12:03:57,105 - DEBUG - openmart - Registering vendors router
+2025-07-25 22:02:31,239 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-25 22:02:31,294 - DEBUG - openmart - Registering search router
+2025-07-25 22:02:31,306 - DEBUG - openmart - Registering products router
+2025-07-25 22:02:31,336 - DEBUG - openmart - Registering users router
+2025-07-25 22:02:31,337 - DEBUG - openmart - Registering vendors router
+2025-07-25 16:14:28,462 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-25 16:14:28,516 - DEBUG - openmart - Registering search router
+2025-07-25 16:14:28,523 - DEBUG - openmart - Registering products router
+2025-07-25 16:14:28,532 - DEBUG - openmart - Registering users router
+2025-07-25 16:14:28,535 - DEBUG - openmart - Registering vendors router
+2025-07-26 12:01:32,025 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-26 12:01:32,067 - DEBUG - openmart - Registering search router
+2025-07-26 12:01:32,075 - DEBUG - openmart - Registering products router
+2025-07-26 12:01:32,089 - DEBUG - openmart - Registering users router
+2025-07-26 12:01:32,091 - DEBUG - openmart - Registering vendors router
+2025-07-28 20:54:33,103 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-28 20:54:33,129 - DEBUG - openmart - Registering search router
+2025-07-28 20:54:33,130 - DEBUG - openmart - Registering products router
+2025-07-28 20:54:33,137 - DEBUG - openmart - Registering users router
+2025-07-28 20:54:33,139 - DEBUG - openmart - Registering vendors router
+2025-07-29 13:26:40,856 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-29 13:26:40,901 - DEBUG - openmart - Registering search router
+2025-07-29 13:26:40,909 - DEBUG - openmart - Registering products router
+2025-07-29 13:26:40,921 - DEBUG - openmart - Registering users router
+2025-07-29 13:26:40,924 - DEBUG - openmart - Registering vendors router
+2025-07-29 13:42:56,633 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-29 13:42:56,659 - DEBUG - openmart - Registering search router
+2025-07-29 13:42:56,661 - DEBUG - openmart - Registering products router
+2025-07-29 13:42:56,670 - DEBUG - openmart - Registering users router
+2025-07-29 13:42:56,674 - DEBUG - openmart - Registering vendors router
+2025-07-29 17:51:10,901 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-29 17:51:10,913 - DEBUG - openmart - Registering search router
+2025-07-29 17:51:10,916 - DEBUG - openmart - Registering products router
+2025-07-29 17:51:10,921 - DEBUG - openmart - Registering users router
+2025-07-29 17:51:10,923 - DEBUG - openmart - Registering vendors router
+2025-07-29 17:51:17,343 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-29 17:51:17,357 - DEBUG - openmart - Registering search router
+2025-07-29 17:51:17,359 - DEBUG - openmart - Registering products router
+2025-07-29 17:51:17,367 - DEBUG - openmart - Registering users router
+2025-07-29 17:51:17,370 - DEBUG - openmart - Registering vendors router
+2025-07-29 17:51:17,373 - DEBUG - openmart - Registering cart router
+2025-07-29 17:54:56,981 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-29 17:54:56,993 - DEBUG - openmart - Registering search router
+2025-07-29 17:54:56,995 - DEBUG - openmart - Registering products router
+2025-07-29 17:54:57,004 - DEBUG - openmart - Registering users router
+2025-07-29 17:54:57,007 - DEBUG - openmart - Registering vendors router
+2025-07-29 17:54:57,011 - DEBUG - openmart - Registering cart router
+2025-07-29 18:30:17,247 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-29 18:30:17,248 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-29 18:30:17,249 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:117]
+2025-07-29 18:30:17,250 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-29 18:30:17,251 - DEBUG - python_multipart.multipart - Calling on_header_field with data[119:131]
+2025-07-29 18:30:17,251 - DEBUG - python_multipart.multipart - Calling on_header_value with data[133:143]
+2025-07-29 18:30:17,252 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-29 18:30:17,252 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-29 18:30:17,253 - DEBUG - python_multipart.multipart - Calling on_part_data with data[147:81920]
+2025-07-29 18:30:17,258 - DEBUG - python_multipart.multipart - Calling on_part_begin with no data
+2025-07-29 18:30:17,259 - DEBUG - python_multipart.multipart - Calling on_header_field with data[42:61]
+2025-07-29 18:30:17,260 - DEBUG - python_multipart.multipart - Calling on_header_value with data[63:110]
+2025-07-29 18:30:17,261 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-29 18:30:17,262 - DEBUG - python_multipart.multipart - Calling on_header_field with data[112:124]
+2025-07-29 18:30:17,263 - DEBUG - python_multipart.multipart - Calling on_header_value with data[126:136]
+2025-07-29 18:30:17,263 - DEBUG - python_multipart.multipart - Calling on_header_end with no data
+2025-07-29 18:30:17,264 - DEBUG - python_multipart.multipart - Calling on_headers_finished with no data
+2025-07-29 18:30:17,265 - DEBUG - python_multipart.multipart - Calling on_part_data with data[140:114688]
+2025-07-29 18:30:17,267 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:209216]
+2025-07-29 18:30:17,269 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-29 18:30:17,269 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-29 18:30:17,302 - DEBUG - python_multipart.multipart - Calling on_part_data with data[0:172209]
+2025-07-29 18:30:17,303 - DEBUG - python_multipart.multipart - Calling on_part_end with no data
+2025-07-29 18:30:17,303 - DEBUG - python_multipart.multipart - Calling on_end with no data
+2025-07-29 18:51:21,501 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-29 18:51:22,265 - DEBUG - openmart - Registering search router
+2025-07-29 18:51:22,270 - DEBUG - openmart - Registering products router
+2025-07-29 18:51:22,291 - DEBUG - openmart - Registering users router
+2025-07-29 18:51:22,293 - DEBUG - openmart - Registering vendors router
+2025-07-29 18:51:22,297 - DEBUG - openmart - Registering cart router
+2025-07-29 22:25:14,078 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-07-29 22:25:14,130 - DEBUG - openmart - Registering search router
+2025-07-29 22:25:14,136 - DEBUG - openmart - Registering products router
+2025-07-29 22:25:14,148 - DEBUG - openmart - Registering users router
+2025-07-29 22:25:14,151 - DEBUG - openmart - Registering vendors router
+2025-07-29 22:25:14,157 - DEBUG - openmart - Registering cart router
+2025-08-01 04:18:01,350 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-08-01 04:18:01,402 - DEBUG - openmart - Registering search router
+2025-08-01 04:18:01,418 - DEBUG - openmart - Registering products router
+2025-08-01 04:18:01,437 - DEBUG - openmart - Registering users router
+2025-08-01 04:18:01,441 - DEBUG - openmart - Registering vendors router
+2025-08-01 04:18:01,446 - DEBUG - openmart - Registering cart router
+2025-08-02 17:31:56,480 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-08-02 17:31:56,486 - DEBUG - openmart - Registering search router
+2025-08-02 17:31:56,488 - DEBUG - openmart - Registering products router
+2025-08-02 17:31:56,492 - DEBUG - openmart - Registering users router
+2025-08-02 17:31:56,495 - DEBUG - openmart - Registering vendors router
+2025-08-02 17:31:56,497 - DEBUG - openmart - Registering cart router
+2025-08-02 17:32:17,020 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-08-02 17:32:17,040 - DEBUG - openmart - Registering search router
+2025-08-02 17:32:17,044 - DEBUG - openmart - Registering products router
+2025-08-02 17:32:17,054 - DEBUG - openmart - Registering users router
+2025-08-02 17:32:17,056 - DEBUG - openmart - Registering vendors router
+2025-08-02 17:32:17,059 - DEBUG - openmart - Registering cart router
+2025-08-02 17:39:48,708 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-08-02 17:39:48,725 - DEBUG - openmart - Registering search router
+2025-08-02 17:39:48,726 - DEBUG - openmart - Registering products router
+2025-08-02 17:39:48,732 - DEBUG - openmart - Registering users router
+2025-08-02 17:39:48,735 - DEBUG - openmart - Registering vendors router
+2025-08-02 17:39:48,737 - DEBUG - openmart - Registering cart router
+2025-08-02 17:39:54,111 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-08-02 17:39:54,127 - DEBUG - openmart - Registering search router
+2025-08-02 17:39:54,130 - DEBUG - openmart - Registering products router
+2025-08-02 17:39:54,136 - DEBUG - openmart - Registering users router
+2025-08-02 17:39:54,140 - DEBUG - openmart - Registering vendors router
+2025-08-02 17:39:54,142 - DEBUG - openmart - Registering cart router
+2025-08-02 18:02:49,637 - ERROR - openmart - Request to http://localhost:8000/api/cart/add failed: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type uuid: "demo-user-id"
+LINE 3: WHERE users.id = 'demo-user-id'::UUID 
+                         ^
+
+[SQL: SELECT users.id AS users_id, users.email AS users_email, users.full_name AS users_full_name, users.avatar_url AS users_avatar_url, users.google_id AS users_google_id, users.created_at AS users_created_at, users.updated_at AS users_updated_at, users.last_login AS users_last_login 
+FROM users 
+WHERE users.id = %(id_1)s::UUID 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': 'demo-user-id', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.InvalidTextRepresentation: invalid input syntax for type uuid: "demo-user-id"
+LINE 3: WHERE users.id = 'demo-user-id'::UUID 
+                         ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\cart.py", line 27, in add_to_cart
+    user = db.query(User).filter(User.id == item.user_id).first()
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2759, in first
+    return self.limit(1)._iter().first()  # type: ignore
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 2857, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+        params,
+        ^^^^^^^
+        execution_options={"_sa_orm_load_options": self.load_options},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1415, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1637, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1842, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1982, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2351, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.DataError: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type uuid: "demo-user-id"
+LINE 3: WHERE users.id = 'demo-user-id'::UUID 
+                         ^
+
+[SQL: SELECT users.id AS users_id, users.email AS users_email, users.full_name AS users_full_name, users.avatar_url AS users_avatar_url, users.google_id AS users_google_id, users.created_at AS users_created_at, users.updated_at AS users_updated_at, users.last_login AS users_last_login 
+FROM users 
+WHERE users.id = %(id_1)s::UUID 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': 'demo-user-id', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-08-02 18:34:02,991 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-08-02 18:34:03,012 - DEBUG - openmart - Registering search router
+2025-08-02 18:34:03,014 - DEBUG - openmart - Registering products router
+2025-08-02 18:34:03,020 - DEBUG - openmart - Registering users router
+2025-08-02 18:34:03,022 - DEBUG - openmart - Registering vendors router
+2025-08-02 18:34:03,027 - DEBUG - openmart - Registering cart router
+2025-08-02 18:35:01,775 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-08-02 18:35:01,787 - DEBUG - openmart - Registering search router
+2025-08-02 18:35:01,789 - DEBUG - openmart - Registering products router
+2025-08-02 18:35:01,794 - DEBUG - openmart - Registering users router
+2025-08-02 18:35:01,795 - DEBUG - openmart - Registering vendors router
+2025-08-02 18:35:01,797 - DEBUG - openmart - Registering cart router
+2025-08-02 18:36:10,279 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-08-02 18:36:10,343 - DEBUG - openmart - Registering search router
+2025-08-02 18:36:10,367 - DEBUG - openmart - Registering products router
+2025-08-02 18:36:10,501 - DEBUG - openmart - Registering users router
+2025-08-02 18:36:10,540 - DEBUG - openmart - Registering vendors router
+2025-08-02 18:36:10,589 - DEBUG - openmart - Registering cart router
+2025-08-02 18:36:17,123 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-08-02 18:36:17,136 - DEBUG - openmart - Registering search router
+2025-08-02 18:36:17,138 - DEBUG - openmart - Registering products router
+2025-08-02 18:36:17,145 - DEBUG - openmart - Registering users router
+2025-08-02 18:36:17,147 - DEBUG - openmart - Registering vendors router
+2025-08-02 18:36:17,149 - DEBUG - openmart - Registering cart router
+2025-08-02 18:36:27,203 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-08-02 18:36:27,227 - DEBUG - openmart - Registering search router
+2025-08-02 18:36:27,229 - DEBUG - openmart - Registering products router
+2025-08-02 18:36:27,235 - DEBUG - openmart - Registering users router
+2025-08-02 18:36:27,237 - DEBUG - openmart - Registering vendors router
+2025-08-02 18:36:27,243 - DEBUG - openmart - Registering cart router
+2025-08-02 18:40:16,162 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-08-02 18:40:16,184 - DEBUG - openmart - Registering search router
+2025-08-02 18:40:16,186 - DEBUG - openmart - Registering products router
+2025-08-02 18:40:16,193 - DEBUG - openmart - Registering users router
+2025-08-02 18:40:16,196 - DEBUG - openmart - Registering vendors router
+2025-08-02 18:40:16,199 - DEBUG - openmart - Registering cart router
+2025-08-02 18:41:29,377 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-08-02 18:41:29,390 - DEBUG - openmart - Registering search router
+2025-08-02 18:41:29,391 - DEBUG - openmart - Registering products router
+2025-08-02 18:41:29,397 - DEBUG - openmart - Registering users router
+2025-08-02 18:41:29,399 - DEBUG - openmart - Registering vendors router
+2025-08-02 18:41:29,400 - DEBUG - openmart - Registering cart router
+2025-08-02 18:41:43,277 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-08-02 18:41:43,295 - DEBUG - openmart - Registering search router
+2025-08-02 18:41:43,297 - DEBUG - openmart - Registering products router
+2025-08-02 18:41:43,308 - DEBUG - openmart - Registering users router
+2025-08-02 18:41:43,312 - DEBUG - openmart - Registering vendors router
+2025-08-02 18:41:43,321 - DEBUG - openmart - Registering cart router
+2025-08-02 18:41:55,335 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-08-02 18:41:55,353 - DEBUG - openmart - Registering search router
+2025-08-02 18:41:55,355 - DEBUG - openmart - Registering products router
+2025-08-02 18:41:55,377 - DEBUG - openmart - Registering users router
+2025-08-02 18:41:55,380 - DEBUG - openmart - Registering vendors router
+2025-08-02 18:41:55,385 - DEBUG - openmart - Registering cart router
+2025-08-02 18:44:11,962 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-08-02 18:44:11,973 - DEBUG - openmart - Registering search router
+2025-08-02 18:44:11,975 - DEBUG - openmart - Registering products router
+2025-08-02 18:44:11,983 - DEBUG - openmart - Registering users router
+2025-08-02 18:44:11,987 - DEBUG - openmart - Registering vendors router
+2025-08-02 18:44:11,990 - DEBUG - openmart - Registering cart router
+2025-08-02 18:46:26,989 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-08-02 18:46:27,000 - DEBUG - openmart - Registering search router
+2025-08-02 18:46:27,001 - DEBUG - openmart - Registering products router
+2025-08-02 18:46:27,008 - DEBUG - openmart - Registering users router
+2025-08-02 18:46:27,009 - DEBUG - openmart - Registering vendors router
+2025-08-02 18:46:27,011 - DEBUG - openmart - Registering cart router
+2025-08-02 18:46:30,697 - ERROR - openmart - Request to http://localhost:8000/api/users/google-login failed: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\clsregistry.py", line 516, in _resolve_name
+    rval = d[token]
+           ~^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\util\_collections.py", line 345, in __missing__
+    self[key] = val = self.creator(key)
+                      ~~~~~~~~~~~~^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\clsregistry.py", line 484, in _access_cls
+    return self.fallback[key]
+           ~~~~~~~~~~~~~^^^^^
+KeyError: 'VendorAddress'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\users.py", line 28, in google_login
+    user = upsert_user(db, email=payload.email, full_name=payload.full_name, avatar_url=payload.avatar_url, google_id=payload.google_id)
+  File "C:\Users\hp\Desktop\openmart\app\crud\user.py", line 9, in upsert_user
+    user = db.query(User).filter((User.google_id == google_id) | (User.email == email)).first()
+           ~~~~~~~~^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\coercions.py", line 388, in expect
+    insp._post_inspect
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2724, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2401, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4214, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4255, in _do_configure_registries
+    mapper._post_configure_properties()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2418, in _post_configure_properties
+    prop.init()
+    ~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\interfaces.py", line 589, in init
+    self.do_init()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\relationships.py", line 1656, in do_init
+    self._setup_entity()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\relationships.py", line 1866, in _setup_entity
+    self._clsregistry_resolve_name(argument)(),
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\clsregistry.py", line 520, in _resolve_name
+    self._raise_for_name(name, err)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\clsregistry.py", line 501, in _raise_for_name
+    raise exc.InvalidRequestError(
+    ...<5 lines>...
+    ) from err
+sqlalchemy.exc.InvalidRequestError: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+2025-08-02 18:46:32,444 - ERROR - openmart - Request to http://localhost:8000/api/users/google-login failed: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\users.py", line 28, in google_login
+    user = upsert_user(db, email=payload.email, full_name=payload.full_name, avatar_url=payload.avatar_url, google_id=payload.google_id)
+  File "C:\Users\hp\Desktop\openmart\app\crud\user.py", line 9, in upsert_user
+    user = db.query(User).filter((User.google_id == google_id) | (User.email == email)).first()
+           ~~~~~~~~^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\coercions.py", line 388, in expect
+    insp._post_inspect
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2724, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2401, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4214, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4251, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+2025-08-02 18:46:35,687 - ERROR - openmart - Request to http://localhost:8000/api/users/google-login failed: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\users.py", line 28, in google_login
+    user = upsert_user(db, email=payload.email, full_name=payload.full_name, avatar_url=payload.avatar_url, google_id=payload.google_id)
+  File "C:\Users\hp\Desktop\openmart\app\crud\user.py", line 9, in upsert_user
+    user = db.query(User).filter((User.google_id == google_id) | (User.email == email)).first()
+           ~~~~~~~~^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\coercions.py", line 388, in expect
+    insp._post_inspect
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2724, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2401, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4214, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4251, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+2025-08-02 18:46:37,585 - ERROR - openmart - Request to http://localhost:8000/api/vendors/by-user?email=info.samuelstanley%40gmail.com failed: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\vendors.py", line 57, in get_vendor_by_user
+    user = db.query(User).filter(User.email == email).first()
+           ~~~~~~~~^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\coercions.py", line 388, in expect
+    insp._post_inspect
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2724, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2401, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4214, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4251, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+2025-08-02 18:46:37,927 - ERROR - openmart - Request to http://localhost:8000/api/users/google-login failed: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\users.py", line 28, in google_login
+    user = upsert_user(db, email=payload.email, full_name=payload.full_name, avatar_url=payload.avatar_url, google_id=payload.google_id)
+  File "C:\Users\hp\Desktop\openmart\app\crud\user.py", line 9, in upsert_user
+    user = db.query(User).filter((User.google_id == google_id) | (User.email == email)).first()
+           ~~~~~~~~^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\coercions.py", line 388, in expect
+    insp._post_inspect
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2724, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2401, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4214, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4251, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+2025-08-02 18:46:38,099 - ERROR - openmart - Request to http://localhost:8000/api/vendors/by-user?email=info.samuelstanley%40gmail.com failed: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\vendors.py", line 57, in get_vendor_by_user
+    user = db.query(User).filter(User.email == email).first()
+           ~~~~~~~~^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\coercions.py", line 388, in expect
+    insp._post_inspect
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2724, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2401, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4214, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4251, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+2025-08-02 18:46:39,016 - ERROR - openmart - Request to http://localhost:8000/api/products/ failed: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\products.py", line 195, in get_products
+    query = db.query(ProductModel)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\coercions.py", line 388, in expect
+    insp._post_inspect
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2724, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2401, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4214, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4251, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+2025-08-02 18:46:39,109 - ERROR - openmart - Request to http://localhost:8000/api/products/ failed: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\products.py", line 195, in get_products
+    query = db.query(ProductModel)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\coercions.py", line 388, in expect
+    insp._post_inspect
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2724, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2401, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4214, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4251, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+2025-08-02 18:46:44,741 - ERROR - openmart - Request to http://localhost:8000/api/products/ failed: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\products.py", line 195, in get_products
+    query = db.query(ProductModel)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\coercions.py", line 388, in expect
+    insp._post_inspect
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2724, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2401, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4214, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4251, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+2025-08-02 18:46:45,193 - ERROR - openmart - Request to http://localhost:8000/api/users/google-login failed: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\users.py", line 28, in google_login
+    user = upsert_user(db, email=payload.email, full_name=payload.full_name, avatar_url=payload.avatar_url, google_id=payload.google_id)
+  File "C:\Users\hp\Desktop\openmart\app\crud\user.py", line 9, in upsert_user
+    user = db.query(User).filter((User.google_id == google_id) | (User.email == email)).first()
+           ~~~~~~~~^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\coercions.py", line 388, in expect
+    insp._post_inspect
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2724, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2401, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4214, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4251, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+2025-08-02 18:46:45,910 - ERROR - openmart - Request to http://localhost:8000/api/users/google-login failed: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\users.py", line 28, in google_login
+    user = upsert_user(db, email=payload.email, full_name=payload.full_name, avatar_url=payload.avatar_url, google_id=payload.google_id)
+  File "C:\Users\hp\Desktop\openmart\app\crud\user.py", line 9, in upsert_user
+    user = db.query(User).filter((User.google_id == google_id) | (User.email == email)).first()
+           ~~~~~~~~^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\coercions.py", line 388, in expect
+    insp._post_inspect
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2724, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2401, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4214, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4251, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+2025-08-02 18:46:46,558 - ERROR - openmart - Request to http://localhost:8000/api/vendors/by-user?email=info.samuelstanley%40gmail.com failed: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\vendors.py", line 57, in get_vendor_by_user
+    user = db.query(User).filter(User.email == email).first()
+           ~~~~~~~~^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\coercions.py", line 388, in expect
+    insp._post_inspect
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2724, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2401, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4214, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4251, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+2025-08-02 18:47:32,187 - ERROR - openmart - Request to http://localhost:8000/api/users/google-login failed: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\users.py", line 28, in google_login
+    user = upsert_user(db, email=payload.email, full_name=payload.full_name, avatar_url=payload.avatar_url, google_id=payload.google_id)
+  File "C:\Users\hp\Desktop\openmart\app\crud\user.py", line 9, in upsert_user
+    user = db.query(User).filter((User.google_id == google_id) | (User.email == email)).first()
+           ~~~~~~~~^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\coercions.py", line 388, in expect
+    insp._post_inspect
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2724, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2401, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4214, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4251, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+2025-08-02 18:47:32,662 - ERROR - openmart - Request to http://localhost:8000/api/users/google-login failed: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\users.py", line 28, in google_login
+    user = upsert_user(db, email=payload.email, full_name=payload.full_name, avatar_url=payload.avatar_url, google_id=payload.google_id)
+  File "C:\Users\hp\Desktop\openmart\app\crud\user.py", line 9, in upsert_user
+    user = db.query(User).filter((User.google_id == google_id) | (User.email == email)).first()
+           ~~~~~~~~^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\coercions.py", line 388, in expect
+    insp._post_inspect
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2724, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2401, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4214, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4251, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+2025-08-02 18:47:33,174 - ERROR - openmart - Request to http://localhost:8000/api/vendors/by-user?email=info.samuelstanley%40gmail.com failed: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\vendors.py", line 57, in get_vendor_by_user
+    user = db.query(User).filter(User.email == email).first()
+           ~~~~~~~~^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\coercions.py", line 388, in expect
+    insp._post_inspect
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2724, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2401, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4214, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4251, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+2025-08-02 18:48:08,191 - ERROR - openmart - Request to http://localhost:8000/api/users/google-login failed: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\users.py", line 28, in google_login
+    user = upsert_user(db, email=payload.email, full_name=payload.full_name, avatar_url=payload.avatar_url, google_id=payload.google_id)
+  File "C:\Users\hp\Desktop\openmart\app\crud\user.py", line 9, in upsert_user
+    user = db.query(User).filter((User.google_id == google_id) | (User.email == email)).first()
+           ~~~~~~~~^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\coercions.py", line 388, in expect
+    insp._post_inspect
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2724, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2401, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4214, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4251, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+2025-08-02 18:48:08,539 - ERROR - openmart - Request to http://localhost:8000/api/users/google-login failed: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\users.py", line 28, in google_login
+    user = upsert_user(db, email=payload.email, full_name=payload.full_name, avatar_url=payload.avatar_url, google_id=payload.google_id)
+  File "C:\Users\hp\Desktop\openmart\app\crud\user.py", line 9, in upsert_user
+    user = db.query(User).filter((User.google_id == google_id) | (User.email == email)).first()
+           ~~~~~~~~^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\coercions.py", line 388, in expect
+    insp._post_inspect
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2724, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2401, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4214, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4251, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+2025-08-02 18:48:08,661 - ERROR - openmart - Request to http://localhost:8000/api/vendors/by-user?email=info.samuelstanley%40gmail.com failed: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\vendors.py", line 57, in get_vendor_by_user
+    user = db.query(User).filter(User.email == email).first()
+           ~~~~~~~~^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\coercions.py", line 388, in expect
+    insp._post_inspect
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2724, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2401, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4214, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4251, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+2025-08-02 18:48:10,460 - ERROR - openmart - Request to http://localhost:8000/api/users/google-login failed: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\users.py", line 28, in google_login
+    user = upsert_user(db, email=payload.email, full_name=payload.full_name, avatar_url=payload.avatar_url, google_id=payload.google_id)
+  File "C:\Users\hp\Desktop\openmart\app\crud\user.py", line 9, in upsert_user
+    user = db.query(User).filter((User.google_id == google_id) | (User.email == email)).first()
+           ~~~~~~~~^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\coercions.py", line 388, in expect
+    insp._post_inspect
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2724, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2401, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4214, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4251, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+2025-08-02 18:48:10,988 - ERROR - openmart - Request to http://localhost:8000/api/users/google-login failed: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\users.py", line 28, in google_login
+    user = upsert_user(db, email=payload.email, full_name=payload.full_name, avatar_url=payload.avatar_url, google_id=payload.google_id)
+  File "C:\Users\hp\Desktop\openmart\app\crud\user.py", line 9, in upsert_user
+    user = db.query(User).filter((User.google_id == google_id) | (User.email == email)).first()
+           ~~~~~~~~^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\coercions.py", line 388, in expect
+    insp._post_inspect
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2724, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2401, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4214, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4251, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+2025-08-02 18:48:11,185 - ERROR - openmart - Request to http://localhost:8000/api/vendors/by-user?email=info.samuelstanley%40gmail.com failed: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 148, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\openmart\app\main.py", line 40, in error_handling
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 156, in call_next
+    raise app_exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\base.py", line 141, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\fastapi\routing.py", line 214, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\starlette\concurrency.py", line 37, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\hp\Desktop\openmart\app\api\routes\vendors.py", line 57, in get_vendor_by_user
+    user = db.query(User).filter(User.email == email).first()
+           ~~~~~~~~^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2955, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\sql\coercions.py", line 388, in expect
+    insp._post_inspect
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1338, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2724, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2401, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4214, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\openmart\.venv\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4251, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[Vendor(vendors)]'. Original exception was: When initializing mapper Mapper[Vendor(vendors)], expression 'VendorAddress' failed to locate a name ('VendorAddress'). If this is a class name, consider adding this relationship() to the <class 'app.models.vendor.Vendor'> class after both dependent classes have been defined.
+2025-08-02 19:54:55,671 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-08-02 19:54:55,682 - DEBUG - openmart - Registering search router
+2025-08-02 19:54:55,684 - DEBUG - openmart - Registering products router
+2025-08-02 19:54:55,688 - DEBUG - openmart - Registering users router
+2025-08-02 19:54:55,689 - DEBUG - openmart - Registering vendors router
+2025-08-02 19:54:55,694 - DEBUG - openmart - Registering cart router
+2025-08-02 19:55:03,598 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-08-02 19:55:03,612 - DEBUG - openmart - Registering search router
+2025-08-02 19:55:03,613 - DEBUG - openmart - Registering products router
+2025-08-02 19:55:03,619 - DEBUG - openmart - Registering users router
+2025-08-02 19:55:03,621 - DEBUG - openmart - Registering vendors router
+2025-08-02 19:55:03,625 - DEBUG - openmart - Registering cart router
+2025-08-02 19:55:08,585 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-08-02 19:55:08,599 - DEBUG - openmart - Registering search router
+2025-08-02 19:55:08,600 - DEBUG - openmart - Registering products router
+2025-08-02 19:55:08,608 - DEBUG - openmart - Registering users router
+2025-08-02 19:55:08,609 - DEBUG - openmart - Registering vendors router
+2025-08-02 19:55:08,611 - DEBUG - openmart - Registering cart router
+2025-08-02 19:55:15,579 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-08-02 19:55:15,589 - DEBUG - openmart - Registering search router
+2025-08-02 19:55:15,591 - DEBUG - openmart - Registering products router
+2025-08-02 19:55:15,597 - DEBUG - openmart - Registering users router
+2025-08-02 19:55:15,599 - DEBUG - openmart - Registering vendors router
+2025-08-02 19:55:15,601 - DEBUG - openmart - Registering cart router
+2025-08-02 19:55:27,319 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-08-02 19:55:27,336 - DEBUG - openmart - Registering search router
+2025-08-02 19:55:27,340 - DEBUG - openmart - Registering products router
+2025-08-02 19:55:27,349 - DEBUG - openmart - Registering users router
+2025-08-02 19:55:27,351 - DEBUG - openmart - Registering vendors router
+2025-08-02 19:55:27,356 - DEBUG - openmart - Registering cart router
+2025-08-02 19:55:37,194 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-08-02 19:55:37,209 - DEBUG - openmart - Registering search router
+2025-08-02 19:55:37,211 - DEBUG - openmart - Registering products router
+2025-08-02 19:55:37,221 - DEBUG - openmart - Registering users router
+2025-08-02 19:55:37,224 - DEBUG - openmart - Registering vendors router
+2025-08-02 19:55:37,226 - DEBUG - openmart - Registering cart router
+2025-08-02 19:55:48,348 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-08-02 19:55:48,359 - DEBUG - openmart - Registering search router
+2025-08-02 19:55:48,361 - DEBUG - openmart - Registering products router
+2025-08-02 19:55:48,365 - DEBUG - openmart - Registering users router
+2025-08-02 19:55:48,369 - DEBUG - openmart - Registering vendors router
+2025-08-02 19:55:48,371 - DEBUG - openmart - Registering cart router
+2025-08-02 20:00:05,979 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-08-02 20:00:06,000 - DEBUG - openmart - Registering search router
+2025-08-02 20:00:06,003 - DEBUG - openmart - Registering products router
+2025-08-02 20:00:06,013 - DEBUG - openmart - Registering users router
+2025-08-02 20:00:06,016 - DEBUG - openmart - Registering vendors router
+2025-08-02 20:00:06,019 - DEBUG - openmart - Registering cart router
+2025-08-02 20:02:57,465 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-08-02 20:02:57,486 - DEBUG - openmart - Registering search router
+2025-08-02 20:02:57,490 - DEBUG - openmart - Registering products router
+2025-08-02 20:02:57,500 - DEBUG - openmart - Registering users router
+2025-08-02 20:02:57,503 - DEBUG - openmart - Registering vendors router
+2025-08-02 20:02:57,507 - DEBUG - openmart - Registering cart router
+2025-08-02 20:24:13,454 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-08-02 20:24:13,496 - DEBUG - openmart - Registering search router
+2025-08-02 20:24:13,499 - DEBUG - openmart - Registering products router
+2025-08-02 20:24:13,507 - DEBUG - openmart - Registering users router
+2025-08-02 20:24:13,516 - DEBUG - openmart - Registering vendors router
+2025-08-02 20:24:13,520 - DEBUG - openmart - Registering cart router
+2025-08-02 20:26:08,731 - INFO - openmart.vendors - VENDORS ROUTER LOADED: /vendors/onboard endpoint should be active.
+2025-08-02 20:26:08,741 - DEBUG - openmart - Registering search router
+2025-08-02 20:26:08,742 - DEBUG - openmart - Registering products router
+2025-08-02 20:26:08,748 - DEBUG - openmart - Registering users router
+2025-08-02 20:26:08,749 - DEBUG - openmart - Registering vendors router
+2025-08-02 20:26:08,751 - DEBUG - openmart - Registering cart router

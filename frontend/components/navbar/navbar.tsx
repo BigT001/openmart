@@ -120,13 +120,13 @@ export function Navbar() {
           {/* Search Icon */}
           <motion.div variants={itemVariants}>
             <button
-              className="p-2 rounded-full hover:bg-indigo-100 dark:hover:bg-indigo-950 transition-colors duration-200 focus:outline-none"
+              className="p-2 rounded-full hover:bg-[#ede7f6] dark:hover:bg-[#b39ddb]/20 transition-colors duration-200 focus:outline-none"
               aria-label="Search businesses"
               onClick={() => setSearchOpen(true)}
             >
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6 text-indigo-600">
-                <circle cx="11" cy="11" r="8" stroke="currentColor" strokeWidth="2" fill="none" />
-                <line x1="21" y1="21" x2="16.65" y2="16.65" stroke="currentColor" strokeWidth="2" />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="#b39ddb" className="w-6 h-6">
+                <circle cx="11" cy="11" r="8" stroke="#b39ddb" strokeWidth="2" fill="none" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" stroke="#b39ddb" strokeWidth="2" />
               </svg>
             </button>
           </motion.div>
@@ -185,8 +185,8 @@ export function Navbar() {
                 )}
               </button>
               {menuOpen && (
-                <div ref={menuRef} className="absolute right-0 mt-2 w-48 bg-white dark:bg-gray-900 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 py-2 z-50 animate-fade-in">
-                  <Link href="/profile" className="block px-4 py-2 text-gray-700 dark:text-gray-200 hover:bg-indigo-50 dark:hover:bg-gray-800 transition-colors rounded-t-lg">
+                <div ref={menuRef} className="absolute right-0 top-full mt-2 w-48 bg-white dark:bg-gray-900 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 py-2 z-50 animate-fade-in">
+                  <Link href="/dashboard/users" className="block px-4 py-2 text-gray-700 dark:text-gray-200 hover:bg-indigo-50 dark:hover:bg-gray-800 transition-colors rounded-t-lg">
                     Profile
                   </Link>
                   <Link href="/settings" className="block px-4 py-2 text-gray-700 dark:text-gray-200 hover:bg-indigo-50 dark:hover:bg-gray-800 transition-colors">
@@ -218,7 +218,7 @@ export function Navbar() {
                   <line x1="6" y1="18" x2="18" y2="6" stroke="currentColor" strokeWidth="2" />
                 </svg>
               </button>
-              <h2 className="text-md font-bold mb-4 text-black">Search Businesses by Name</h2>
+              <h2 className="text-xl font-bold mb-4 text-indigo-700">Search Businesses by Name</h2>
               {/* VendorSearch component from search */}
               <React.Suspense fallback={<div>Loading...</div>}>
                 {React.createElement(require("../search/VendorSearch").default)}

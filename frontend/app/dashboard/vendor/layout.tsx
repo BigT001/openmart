@@ -1,4 +1,4 @@
-import DashboardLayout from "@/components/vendors-dashboard/DashboardLayout";
+import DashboardLayout from "@/components/vendor/vendors-dashboard/DashboardLayout";
 
 interface VendorLayoutProps {
   children: React.ReactNode;

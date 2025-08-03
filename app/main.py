@@ -12,7 +12,7 @@ from fastapi.staticfiles import StaticFiles
 logger = pylogging.getLogger("openmart")
 
 from app.api.routes import search, products, users
-from app.api.routes import vendors
+from app.api.routes import vendors, cart
 
 # Create FastAPI application
 app = FastAPI(
@@ -63,3 +63,6 @@ app.include_router(users.router, prefix="/api")
 
 logger.debug("Registering vendors router")
 app.include_router(vendors.router, prefix="/api")
+
+logger.debug("Registering cart router")
+app.include_router(cart.router, prefix="/api")

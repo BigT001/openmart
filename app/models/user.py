@@ -1,6 +1,7 @@
 from sqlalchemy import Column, String, TIMESTAMP, func
 from sqlalchemy.dialects.postgresql import UUID
 from app.db import Base
+from sqlalchemy.orm import relationship
 import uuid
 
 class User(Base):
@@ -13,3 +14,7 @@ class User(Base):
     created_at = Column(TIMESTAMP, server_default=func.now())
     updated_at = Column(TIMESTAMP, server_default=func.now(), onupdate=func.now())
     last_login = Column(TIMESTAMP, server_default=func.now())
+    addresses = relationship("UserAddress", cascade="all, delete-orphan")
+    payments = relationship("UserPayment", cascade="all, delete-orphan")
+    likes_shares = relationship("UserLikeShare", cascade="all, delete-orphan")
+    settings = relationship("UserSettings", uselist=False, cascade="all, delete-orphan")

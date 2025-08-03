@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState, useCallback } from "react";
-import ViewProduct from "../../vendors-dashboard/products/view-product";
+import ViewProduct from "../../vendor/vendors-dashboard/products/view-product";
 import LikeButton from "../../ui/LikeButton";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
